@@ -24,25 +24,25 @@ const ServicesS = () => {
                             data-aos="fade-up"
                             data-aos-delay="0"
                             >
-              <a href="/XRG-App/services "  target="_blank"><IoMdPeople  className=' text-4xl text-secondary' /></a>
+              <a href="/services "><IoMdPeople  className=' text-4xl text-secondary' /></a>
               <h1 className='font-custom text-4xl text-secondary'>Advising</h1>
             </div>
             <div className='flex flex-1 flex-col gap-5 space-y-3 bg-zinc-200 p-5 rounded-md'
                             data-aos="fade-up"
                             data-aos-delay="200">
-              <a href="/XRG-App/services"  target="_blank"><FaChalkboardTeacher className=' text-4xl text-secondary' /></a>
+              <a href="/services" ><FaChalkboardTeacher className=' text-4xl text-secondary' /></a>
               <h1 className='font-custom text-4xl text-secondary'>Educating</h1>
             </div>
             <div className='flex flex-1 flex-col gap-5 space-y-3 bg-zinc-200 p-5 rounded-md'
                             data-aos="fade-up"
                             data-aos-delay="400">
-              <a href="/XRG-App/services"  target="_blank"><RiSpeakFill className=' text-4xl text-secondary' /></a>
+              <a href="/services"  ><RiSpeakFill className=' text-4xl text-secondary' /></a>
               <h1 className='font-custom text-4xl text-secondary'>Speaking</h1>
             </div>
             <div className='relative flex flex-1 space-y-3 '
                             data-aos="fade-up"
                             data-aos-delay="600">
-              <a href="/XRG-App/services"   className='flex absolute bottom-5 justify-start items-center'><PiArrowElbowDownRight className=' text-5xl text-primary  ' /> <span className='text-primary text-lg' >Learn more</span></a> 
+              <a href="/services"   className='flex absolute bottom-5 justify-start items-center'><PiArrowElbowDownRight className=' text-5xl text-primary  ' /> <span className='text-primary text-lg' >Learn more</span></a> 
               
             </div>
         </div>
