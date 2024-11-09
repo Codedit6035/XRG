@@ -1,8 +1,16 @@
 import React from 'react'
+import Banner from '../components/About/Banner'
+import Ghazi from '../components/About/Ghazi/Ghazi'
 
-const AboutPage = () => {
+const AboutPage = ({titreColor}) => {
   return (
-    <div>AboutPage</div>
+    <div>
+      <Banner titreColor={titreColor}/>
+      <Ghazi/>
+
+
+
+    </div>
   )
 }
 
