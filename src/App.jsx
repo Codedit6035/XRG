@@ -7,6 +7,7 @@ import AboutPage from './pages/AboutPage';
 import Footer from './components/Footer';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Navbar from './components/Navbar';
 
 
 
