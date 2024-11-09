@@ -71,7 +71,7 @@ const Hero = ({ handleOrderPopup }) => {
         ))}
       </Fade>
             {/* bg Overlay */}
-            <div className='absolute left-0 top-0 w-100 h-100 inset-0 bg-primary/50 z-10 flex items-center justify-start'>
+            <div className='absolute left-0 top-0 w-100 h-100 inset-0 z-10 flex items-center justify-start'>
       </div>
       {/* Content Overlay */}
       <div className=" container absolute inset-0 flex items-center justify-start z-10 ">
