@@ -6,22 +6,22 @@ const Menu = [
   {
     id: 1,
     name: "Home ",
-    link: "/XRG-App/",
+    link: "/",
   },
   {
     id: 2,
     name: "About ",
-    link: "/XRG-App/about",
+    link: "/about",
   },
     {
       id: 3,
       name: "Services",
-      link: "/XRG-App/services",
+      link: "/services",
     },
     {
       id: 4,
       name: "Get In Touch",
-      link: "/XRG-App/get in touch",
+      link: "/get in touch",
     },
 
   ];
