@@ -4,6 +4,9 @@ import Separation from '../components/Home/Separation'
 import AboutS from '../components/Home/AboutS'
 import SeparationAb from '../components/Home/SeparationAb'
 import ServicesS from '../components/Home/ServicesS'
+import IndustriesS from '../components/Home/IndustriesS'
+import ContactS from '../components/Home/ContactS'
+import PartnersS from '../components/Home/PartnersS'
 
 
 const HomePage = () => {
@@ -14,6 +17,9 @@ const HomePage = () => {
       <AboutS/>
       <SeparationAb/>
       <ServicesS/>
+      <IndustriesS/>
+      <PartnersS/>
+      <ContactS/>
     </div>
   )
 }

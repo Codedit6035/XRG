@@ -35,7 +35,7 @@ const Navbar = ({titreColor}) => {
             <div className=" flex justify-between items-center ">
                 {/* logo */}
                 <div className="flex  items-center g">
-                    <a href="/XRG-App/" className="font-bold text-2xl sm:text-3xl flex gap-2">
+                    <a href="/" className="font-bold text-2xl sm:text-3xl flex gap-2">
                     <img src={Logo} alt="Logo" className="w-40  "  />
                     </a>
                 </div>

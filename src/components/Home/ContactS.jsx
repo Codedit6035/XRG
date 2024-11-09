@@ -1,0 +1,35 @@
+import React from 'react'
+import { CiLinkedin } from "react-icons/ci";
+import { CiInstagram } from "react-icons/ci";
+import { FaXTwitter } from "react-icons/fa6";
+const ContactS = () => {
+  return (
+    <div>
+    <div className='pt-14 pb-12  '>
+
+         {/* body */}  
+         <div>
+
+         <div className=" container flex  flex-col items-center justify-center  gap-10    ">
+            <a href="/XRG-App/get in touch"><button className='bg-primary text-white border-2 border-gray-400 text-xl px-10 py-2 hover:bg-blue-600 '>Contact</button></a>
+            {/* Contact */}
+            <div className='flex items-center text-gray-900 '>
+                <h1 className='pr-5 border-r-2 border-gray-400 font-Raleway font-semibold'>Follow us</h1>
+                <div>
+                   <ul className='flex gap-5 pl-3 text-2xl '>
+                      <CiLinkedin />
+                      <CiInstagram />
+                      <FaXTwitter />              
+                    </ul>
+                </div>
+            </div> 
+         </div>       
+         </div>
+
+
+    </div>
+    </div>
+  )
+}
+
+export default ContactS
