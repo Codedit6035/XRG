@@ -32,7 +32,7 @@ const Banner = () => {
         <div className=' relative w-[500px] z-5 '>
             <img src={banner} alt="" />     
                   {/* bg Overlay */}
-      <div className='absolute inset-0 bg-primary/50 z-10 '>
+      <div className='absolute inset-0  z-10 '>
       </div>       
         </div>
       </div>
