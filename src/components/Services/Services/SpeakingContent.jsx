@@ -1,5 +1,5 @@
 import React from 'react'
-import Adivising from "../../../assets/advising.jpg"
+import Speaking from "../../../assets/talking.jpg"
 
 const SpeakingContent = () => {
   return (
@@ -8,11 +8,11 @@ const SpeakingContent = () => {
                 <div className='flex justify-center items-center my-20 gap-20'>
                    {/* image*/}
                    <div  className='flex-1'>
-                      <img src={Adivising } alt=""  className='h-[400px] w-auto'/>
+                      <img src={Speaking} alt=""  className='h-[400px] w-auto'/>
                    </div>
                 {/* text*/}
                    <div className='flex-1 text-primary font-raleway'>
-                       <h1 className='text-6xl font-bold  '>Talking</h1>
+                       <h1 className='text-6xl font-bold  '>Speaking</h1>
                        <p className='pt-5 pb-10 '>When done well, digital architecture creates value by delivering business insight, ensuring consistency, and accelerating decision-making. <br/> We help you plan and shape your digital transformation efforts.</p>
                        {/* buttons*/}
                        <div className='flex  gap-5'>
