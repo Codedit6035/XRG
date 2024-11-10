@@ -39,7 +39,7 @@ const Banner = () => {
             Learn more about the services we offer.
           </p>
         </div>
-        <div className="relative w-[520px] ">
+        <div className="relative w-[520px] overflow-hidden ">
           {/* Fixed Background Image */}
           <img
             src={banner}
