@@ -28,7 +28,6 @@ const Menu = [
   
 
 const Navbar = ({titreColor}) => {
-
   return (
     <div className="bg-transparent  duration-200 relative z-999">
         {/* lower Navbar */}

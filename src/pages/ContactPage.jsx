@@ -1,13 +1,12 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Contact from '../components/Contact/Contact'
+import Banner from '../components/Contact/Banner'
 
 const ContactPage = () => {
   return (
     <div>
-      <div className="  top-0 left-0 w-full z-20 bg-primary ">
-        <Navbar titreColor={'white'}/> {/* This is your existing Navbar component */}
-      </div>
+      <Banner/>
       <Contact/>
     </div>
   )

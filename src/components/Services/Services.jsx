@@ -5,7 +5,7 @@ import Speaking from './Services/Speaking'
 
 const Services = () => {
   return (
-    <div className='bg-primary/90 py-20'>
+    <div className='py-20'>
 
                 <Advising/>
                 <Speaking/>

@@ -17,7 +17,7 @@ const Speaking = () => {
        {/* Tab Container container for the rest of the border */}
        <div className='flex'>
       {/* Tab Container */}
-      <div className="flex text-white ">
+      <div className="flex text-primary ">
         <button
           onClick={() => setActiveTab('advising')}
           className={`tab-item pb-2 px-4 border-l-2 text-lg font-semibold transition-colors duration-300 ${
