@@ -1,5 +1,5 @@
 import React from 'react'
-import Adivising from "../../../assets/advising.jpg"
+import Adivising from "../../../assets/talking.jpg"
 
 const EducatingContent = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import Speaking from "../../../assets/talking.jpg"
+import Speaking from "../../../assets/advising.jpg"
 
 const SpeakingContent = () => {
   return (
