@@ -45,8 +45,8 @@ export default {
       },
       animation: {
         slideInFromLeft: 'slideInFromLeft 1s ease-out forwards',
-        maskReveal: 'maskReveal 1.5s ease-out forwards', // Adjust duration as needed
-        zoomOut: 'zoomOut 1.5s ease-out forwards',       // Match duration with maskReveal
+        maskReveal: 'maskReveal 2.5s ease-out forwards', // Adjust duration as needed
+        zoomOut: 'zoomOut 2.5s ease-out forwards',       // Match duration with maskReveal
 
       },
     },
