@@ -5,7 +5,7 @@ import { IoMdPeople } from "react-icons/io";
 import { PiArrowElbowDownRight } from "react-icons/pi";
 const ServicesS = () => {
   return (
-    <div className='pt-10 pb-12  '>
+    <div className='pt-10 pb-12  font-Raleway'>
         {/* Header section */}
         <div className="mb-10  bg-white  animate-slideInFromLeft w-full pl-20   text-black">
           <h1 className="text-left   text-3xl font-Raleway ">
@@ -25,19 +25,19 @@ const ServicesS = () => {
                             data-aos-delay="0"
                             >
               <a href="/services "><IoMdPeople  className=' text-4xl text-secondary' /></a>
-              <h1 className='font-custom text-4xl text-secondary'>Advising</h1>
+              <h1 className=' text-4xl text-secondary'>Advising</h1>
             </div>
             <div className='flex flex-1 flex-col gap-5 space-y-3 bg-zinc-200 p-5 rounded-md'
                             data-aos="fade-up"
                             data-aos-delay="200">
               <a href="/services" ><FaChalkboardTeacher className=' text-4xl text-secondary' /></a>
-              <h1 className='font-custom text-4xl text-secondary'>Educating</h1>
+              <h1 className=' text-4xl text-secondary'>Educating</h1>
             </div>
             <div className='flex flex-1 flex-col gap-5 space-y-3 bg-zinc-200 p-5 rounded-md'
                             data-aos="fade-up"
                             data-aos-delay="400">
               <a href="/services"  ><RiSpeakFill className=' text-4xl text-secondary' /></a>
-              <h1 className='font-custom text-4xl text-secondary'>Speaking</h1>
+              <h1 className='text-4xl text-secondary'>Speaking</h1>
             </div>
             <div className='relative flex flex-1 space-y-3 '
                             data-aos="fade-up"

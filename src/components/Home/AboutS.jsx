@@ -1,15 +1,14 @@
 import React from "react";
 import BannerImg from "../../assets/aboutph.png";
 import GhasiImg from "../../assets/ghasi.jpeg";
-import { IoMenuOutline } from "react-icons/io5";
 
 const AboutS = () => {
   return (
-    <div className="pt-10 pb-12 " >
+    <div className="pt-10 pb-12 font-Raleway " >
 
         {/* Header section */}
         <div  className="   mb-10 animate-slideInFromLeft w-full pl-20  text-black">
-        <h1 className="text-left  text-3xl font-Raleway">
+        <h1 className="text-left  text-3xl ">
             About
         </h1>
         </div>

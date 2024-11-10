@@ -8,7 +8,7 @@ import Hitachi from '../../assets/Hitachi.png'
 
 const PartnersS = () => {
   return (
-    <div className='pt-14 pb-12  '>
+    <div className='pt-14 pb-12 font-Raleway '>
         {/* Header section */}
         <div className="mb-10  bg-white  animate-slideInFromLeft w-full pl-20   text-black">
           <h1 className="text-left   text-3xl font-Raleway ">
