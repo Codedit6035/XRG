@@ -67,6 +67,7 @@ const Hero = ({ handleOrderPopup }) => {
             key={index}
             className="h-screen w-full bg-cover bg-center animate-zoom "
             style={{ backgroundImage: `url(${each})` }}
+            
           ></div>
         ))}
       </Fade>

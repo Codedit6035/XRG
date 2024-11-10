@@ -15,7 +15,7 @@ const AdvisingContent = () => {
                           <button className='h-[45px] rounded-sm  border  px-10 w-fit hidden'>
                             Learn more
                           </button>  
-                          <button className='h-[45px] rounded-sm   px-10 w-fit border-2 border-gray-300 text-primary '>
+                          <button className='h-[45px] rounded-lg  px-10 w-fit border-2 border-gray-300 bg-primary text-white '>
                             Learn more
                           </button>                       
                        </div>

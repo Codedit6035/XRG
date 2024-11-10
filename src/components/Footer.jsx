@@ -1,14 +1,15 @@
 import React from 'react'
+import LogoFooter from'../assets/logofooter.png'
 
 const Footer = () => {
   return (
-    <div className='  bg-primary/90 mt-0.5  py-10'>
+    <div className='  bg-primary mt-0.5  py-10'>
       <div className='container text-white'>
       <div className='flex flex-col border-b  gap-20 pb-5 pt-5 pr-40'>
       {/* Logo & topins & services */}
       <div className='flex  justify-between '>
         <div>
-          <h1 className='text-4xl'> XRG </h1>
+          <img src={LogoFooter}alt="" className='w-20'/>
         </div>
         <div>
           <h1 className='text-2xl pb-5'>Topics</h1>

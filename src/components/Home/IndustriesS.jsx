@@ -29,30 +29,7 @@ const IndustriesData = [
       color: "brown",
       aosDelay: "400",
     },
-    {
-        id: 4,
-        img: Img3,
-        title: "Standardization & Regulatory bodies",
-        description:"Standardization & Regulatory Bodies play a crucial role in setting frameworks that ensure quality, safety, and ethical practices across industries.",
-        color: "brown",
-        aosDelay: "400",
-      },
-      {
-        id: 5,
-        img: Img3,
-        title: "Meetings & Conferences",
-        description:"Meetings & Conferences are vital for knowledge sharing, networking, and advancing industry agendas.",
-        color: "brown",
-        aosDelay: "400",
-      },
-      {
-        id: 6,
-        img: Img3,
-        title: "Universities & Business Schools",
-        description:"Universities & Business Schools shape the leaders of tomorrow. ",
-        color: "brown",
-        aosDelay: "400",
-      },
+
   
   ];
 
@@ -76,12 +53,12 @@ const IndustriesS = () => {
                 data-aos="fade-up"
                 data-aos-delay={data.aosDelay}
                 key={data.id}
-                className="   h-[500px] w-[300px] bg-blue-950 "
+                className="   h-[320px] w-[280px] bg-primary "
               >
                 <img
                   src={data.img}
                   alt=""
-                  className="h-[220px] w-full "
+                  className="h-[120px] w-full "
                 />                   
                 <h2 className="font-bold text-white hover:underline py-3 pl-5 pr-3 bg-gray-400/40 w-3/4 ">{data.title}</h2>
                 <p className='text-white p-5  '> {data.description}</p>  
