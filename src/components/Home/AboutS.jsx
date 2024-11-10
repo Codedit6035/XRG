@@ -8,9 +8,11 @@ const AboutS = () => {
 
         {/* Header section */}
         <div  className="   mb-10 animate-slideInFromLeft w-full pl-20  text-black">
-        <h1 className="text-left  text-3xl ">
+        <h1 className="text-left  text-3xl text-primary ">
             About
         </h1>
+          {/* Blue line */}
+          <div className="w-16 h-1 bg-blue-500 mb-4"></div>        
         </div>
         {/* Body section */}
         <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-screen">

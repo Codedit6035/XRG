@@ -62,9 +62,11 @@ const IndustriesS = () => {
         <div className="pt-14 pb-12 font-Raleway">
         {/* header section */}
         <div className="mb-10  bg-white  animate-slideInFromLeft w-full pl-20   text-black">
-          <h1 className="text-left   text-3xl  ">
+          <h1 className="text-left   text-3xl  text-primary">
             Industries
           </h1>
+          {/* Blue line */}
+          <div className="w-16 h-1 bg-blue-500 mb-4"></div>
         </div>  
         {/* Industries cards */}      
         <div className='container   '>

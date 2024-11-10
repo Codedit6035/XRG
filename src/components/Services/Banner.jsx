@@ -1,12 +1,13 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState  } from 'react';
 import Navbar from '../Navbar';
 import banner from "../../assets/banner.jpg";
 
 const Banner = () => {
+  const [startAnimation, setStartAnimation] = useState(false);
+
   useEffect(() => {
-    // To ensure the animation runs smoothly on component mount
-    const bannerImage = document.querySelector('.banner-image');
-    bannerImage.classList.add('animate-slideInFromRight');
+    // Trigger animation after component mounts
+    setStartAnimation(true);
   }, []);
 
   return (
@@ -38,11 +39,19 @@ const Banner = () => {
             Learn more about the services we offer.
           </p>
         </div>
-        <div className="relative w-[520px] z-5">
+        <div className="relative w-[520px] ">
+          {/* Fixed Background Image */}
           <img
             src={banner}
-            alt="Banner"
-            className="banner-image w-full h-auto object-cover  animate-slideInFromRight"
+            alt="Revealing"
+            className={`inset-0 w-full h-full object-cover transition-transform ${
+              startAnimation ? 'animate-zoomOut' : ''
+            }`}
+          />
+
+          {/* Animated Mask Layer */}
+          <div
+            className={`absolute inset-0 bg-primary transition-transform ${startAnimation ? 'animate-maskReveal' : ''}`}
           />
         </div>
       </div>
