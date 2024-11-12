@@ -60,7 +60,7 @@ const Banner = () => {
     </div>
         {/* down circle */}
         <div className='absolute  z-10  flex w-[70px] h-[70px]  left-[50%] -ml-[35px] -mt-[35px]  '>
-           <a href="#next-section" className="flex items-center rounded-full w-[70px] h-[70px] border-2 border-white bg-blue-500 text-white justify-center"><FaArrowDown  /></a>
+           <a href="#nextservices" className="flex items-center rounded-full w-[70px] h-[70px] border-2 border-white bg-blue-500 text-white justify-center"><FaArrowDown  /></a>
     </div>
     </div>
     
