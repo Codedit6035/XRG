@@ -13,10 +13,10 @@ const  Expertise = () => {
         <div className='flex gap-10 border-b border-b-gray-500 pb-10'>
           {/* title + Blue line */}
           <div className='w-2/6'>
-          <h1 className='  text-xl text-primary mb-4'>
+          <h1 className='  text-xl text-shade1 mb-4 font-semibold'>
           Leadership Proficiencies
           </h1>
-          <div className="w-16 h-1 bg-orange-500 mb-4"></div>
+          <div className="w-16 h-1 bg-shade5 mb-4 "></div>
           </div>
           {/* content */}
           <div className='w-4/6'>
@@ -35,10 +35,10 @@ const  Expertise = () => {
         <div className='flex gap-10 border-b border-b-gray-500 pb-10'>
           {/* title + Blue line */}
           <div className='w-2/6'>
-          <h1 className='  text-xl text-primary mb-4'>
+          <h1 className='  text-xl text-shade1 mb-4 font-semibold'>
           Professional Expertise
           </h1>
-          <div className="w-16 h-1 bg-orange-500  mb-4"></div>
+          <div className="w-16 h-1 bg-shade5 mb-4"></div>
           </div>
           {/* content */}
           <div className='w-4/6'>
@@ -55,10 +55,10 @@ const  Expertise = () => {
         <div className='flex gap-10'>
           {/* title + Blue line */}
           <div className='w-2/6'>
-          <h1 className='  text-xl text-primary mb-4'>
-          Certifications and Professional Development incl.: 
+          <h1 className='  text-xl text-shade1 font-semibold mb-4'>
+          Certifications & Professional Development incl.: 
           </h1>
-          <div className="w-16 h-1 bg-orange-500 mb-4"></div>
+          <div className="w-16 h-1 bg-shade5 mb-4"></div>
           </div>
           {/* content */}
           <div className='w-4/6'>
