@@ -47,11 +47,16 @@ export default {
           '0%': { transform: 'scale(1.1)' },          // Slightly zoomed in
           '100%': { transform: 'scale(1)' },          // Zooms out to normal size
         },
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
       },
       animation: {
         slideInFromLeft: 'slideInFromLeft 1s ease-out forwards',
         maskReveal: 'maskReveal 2.5s ease-out forwards', // Adjust duration as needed
         zoomOut: 'zoomOut 2.5s ease-out forwards',       // Match duration with maskReveal
+        float: 'float 2s ease-in-out infinite',
 
       },
     },

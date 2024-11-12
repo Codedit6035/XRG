@@ -4,7 +4,7 @@ import Image2 from "../../assets/buildings.jpg";
 import Image3 from "../../assets/flou.jpg";
 import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'; // Import default styles
-import { FaArrowDown } from "react-icons/fa6";
+import { FaAnglesDown } from "react-icons/fa6";
 const images = [
     Image1,
     Image2,
@@ -12,7 +12,6 @@ const images = [
   ];
 
 import Navbar from '../Navbar'
-import { div } from "framer-motion/client";
 const ImageList = [
   {
     id: 1,
@@ -53,9 +52,10 @@ const Hero = ({ handleOrderPopup }) => {
 
   return (
 
+
     <div className="relative  ">
     {/* blue part */}
-    <div className="  w-full "  style={{ height: "calc(100vh - 35px)" }}>
+    <div className=" h-screen w-full ">
       {/* Navbar Component */}
       <div className=" absolute top-0 left-0 w-full z-20  ">
         <Navbar titreColor={'white'}/> {/* This is your existing Navbar component */}
@@ -65,8 +65,8 @@ const Hero = ({ handleOrderPopup }) => {
         {images.map((each, index) => (
           <div        
             key={index}
-            className=" w-full bg-cover bg-center animate-zoom "
-            style={{ backgroundImage: `url(${each})` ,  height: "calc(100vh - 35px)"}} 
+            className="h-screen w-full bg-cover bg-center animate-zoom "
+            style={{ backgroundImage: `url(${each})` }}
             
           ></div>
         ))}
@@ -108,8 +108,8 @@ const Hero = ({ handleOrderPopup }) => {
     
     </div>
     {/* down circle */}
-    <div className='absolute  z-10  flex w-[70px] h-[70px]  left-[50%] -ml-[35px] -mt-[35px]  '>
-           <a href="#next-section" className="flex items-center rounded-full w-[70px] h-[70px] border-2 border-white bg-blue-500 text-white justify-center"><FaArrowDown  /></a>
+    <div className='absolute  z-10  flex w-[70px] h-[70px]  left-[50%] -ml-[35px] -mt-[70px] animate-float '>
+           <a href="#next-section" className="flex items-center  w-[70px] h-[70px]   text-shade2 justify-center"><FaAnglesDown  /></a>
     </div>
     </div>
 
