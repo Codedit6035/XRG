@@ -108,8 +108,8 @@ const Hero = ({ handleOrderPopup }) => {
     
     </div>
     {/* down circle */}
-    <div className='absolute  z-10  flex w-[70px] h-[70px]  left-[50%] -ml-[35px] -mt-[70px] animate-float '>
-           <a href="#next-section" className="flex items-center  w-[70px] h-[70px]   text-shade2 justify-center"><FaAnglesDown  /></a>
+    <div className='container absolute  z-10  flex w-[70px] h-[70px]  right-6rem -ml-[35px] -mt-[70px] animate-float '>
+           <a href="#next-section" className="flex items-center  w-[70px] h-[70px] text-4xl  text-shade2 justify-center"><FaAnglesDown  /></a>
     </div>
     </div>
 

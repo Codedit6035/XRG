@@ -1,6 +1,7 @@
 import React, { useEffect, useState  } from 'react';
 import Navbar from '../Navbar';
 import banner from "../../assets/banner.jpg";
+import { FaAnglesDown } from "react-icons/fa6";
 
 const Banner = () => {
   const [startAnimation, setStartAnimation] = useState(false);
@@ -11,7 +12,8 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="relative h-screen w-full overflow-hidden">
+    <div className='relative'>
+    <div className=" h-screen w-full overflow-hidden">
       {/* Navbar Component */}
       <div className="absolute top-0 left-0 w-full z-20">
         <Navbar titreColor={'white'} />
@@ -54,7 +56,12 @@ const Banner = () => {
           />
         </div>
       </div>
-      
+          {/* down circle */}
+    <div className='absolute  z-10  flex w-[70px] h-[70px]  left-[50%] -ml-[35px] -mt-[70px] animate-float '>
+           <a href="#next-section" className="flex items-center  w-[70px] h-[70px] text-4xl  text-shade2 justify-center"><FaAnglesDown  /></a>
+    </div>
+    
+    </div> 
     </div>
     
   );

@@ -1,9 +1,11 @@
 import React from 'react'
 import BannerImg from "../../assets/BannerAb.jpg";
 import Navbar from '../Navbar';
+import { FaAnglesDown } from "react-icons/fa6";
 
 const Banner = () => {
   return (
+
     <div className=" relative h-screen w-full">
       {/* Navbar Component */}
       <div className=" absolute top-0 left-0 w-full z-20  ">
@@ -21,7 +23,10 @@ const Banner = () => {
         <h1  className="text-3xl md:text-5xl lg:text-6xl font-bold  mb-2">Clear Advice for Complex Challenges</h1>
         <p>Solutions That Drive Results</p>
       </div>
-
+          {/* down circle */}
+          <div className='absolute  z-10  flex w-[70px] h-[70px]  left-[50%] -ml-[35px] -mt-[70px] animate-float '>
+           <a href="#next-section" className="flex items-center  w-[70px] h-[70px] text-4xl  text-shade2 justify-center"><FaAnglesDown  /></a>
+    </div>
     </div>
   )
 }

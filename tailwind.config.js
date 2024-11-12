@@ -15,6 +15,9 @@ export default {
         
         secondary: "#041525",
       },
+      spacing: {
+        '6rem': '9rem', // Adds a custom spacing utility
+      },
       container: {
         center: true,
         padding: {
