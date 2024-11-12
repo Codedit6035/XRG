@@ -4,7 +4,7 @@ import Image from '../../../assets/expertiseph.jpg'
 const  Expertise = () => {
   return (
     <div>
-      <div className='container flex flex-col gap-10 py-20 bg-slate-950 text-white'>
+      <div className='container flex flex-col gap-10 py-20  '>
         {/*Img*/}
         <div>
           <img src={Image} alt="" className='w-fit' />
