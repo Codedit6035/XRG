@@ -1,6 +1,7 @@
 import React, { useEffect, useState  } from 'react';
 import Navbar from '../Navbar';
 import banner from "../../assets/banner.jpg";
+import { FaArrowDown } from "react-icons/fa6";
 
 const Banner = () => {
   const [startAnimation, setStartAnimation] = useState(false);
@@ -11,7 +12,8 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="relative h-screen w-full overflow-hidden">
+    <div className='relative' >
+    <div className="w-full overflow-hidden " style={{ height: "calc(100vh - 35px)" }}>
       {/* Navbar Component */}
       <div className="absolute top-0 left-0 w-full z-20">
         <Navbar titreColor={'white'} />
@@ -19,7 +21,6 @@ const Banner = () => {
 
       {/* Background pattern */}
       <div className="h-screen w-full bg-cover bg-center  bg-primary/90">
-        {/* This is the background pattern */}
       </div>
 
       {/* Content Overlay */}
@@ -39,12 +40,12 @@ const Banner = () => {
             Learn more about the services we offer.
           </p>
         </div>
-        <div className="relative w-[520px] overflow-hidden ">
+        <div className="relative w-[520px] overflow-hidden h-full ">
           {/* Fixed Background Image */}
           <img
             src={banner}
             alt="Revealing"
-            className={`inset-0 w-full h-full object-cover transition-transform ${
+            className={`inset-0 w-full h-full object-cover  transition-transform ${
               startAnimation ? 'animate-zoomOut' : ''
             }`}
           />
@@ -55,7 +56,14 @@ const Banner = () => {
           />
         </div>
       </div>
+      
     </div>
+        {/* down circle */}
+        <div className='absolute  z-10  flex w-[70px] h-[70px]  left-[50%] -ml-[35px] -mt-[35px]  '>
+           <a href="#next-section" className="flex items-center rounded-full w-[70px] h-[70px] border-2 border-white bg-blue-500 text-white justify-center"><FaArrowDown  /></a>
+    </div>
+    </div>
+    
   );
 };
 

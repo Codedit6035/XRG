@@ -12,6 +12,7 @@ const images = [
   ];
 
 import Navbar from '../Navbar'
+import { div } from "framer-motion/client";
 const ImageList = [
   {
     id: 1,
@@ -52,10 +53,9 @@ const Hero = ({ handleOrderPopup }) => {
 
   return (
 
-
     <div className="relative  ">
     {/* blue part */}
-    <div className=" h-screen w-full ">
+    <div className="  w-full "  style={{ height: "calc(100vh - 35px)" }}>
       {/* Navbar Component */}
       <div className=" absolute top-0 left-0 w-full z-20  ">
         <Navbar titreColor={'white'}/> {/* This is your existing Navbar component */}
@@ -65,8 +65,8 @@ const Hero = ({ handleOrderPopup }) => {
         {images.map((each, index) => (
           <div        
             key={index}
-            className="h-screen w-full bg-cover bg-center animate-zoom "
-            style={{ backgroundImage: `url(${each})` }}
+            className=" w-full bg-cover bg-center animate-zoom "
+            style={{ backgroundImage: `url(${each})` ,  height: "calc(100vh - 35px)"}} 
             
           ></div>
         ))}
