@@ -1,6 +1,6 @@
 import React from "react";
-import BannerImg from "../../assets/aboutph.png";
-import GhasiImg from "../../assets/ghasi.jpeg";
+import BannerImg from "../../assets/aboutph.jpg";
+import GhasiImg from "../../assets/ghazi.jpg";
 
 const AboutS = () => {
   return (
@@ -23,28 +23,27 @@ const AboutS = () => {
           <div className="flex h-3/6 bg-black/5 ">
           <div data-aos="fade-up" className=" sm:h-auto   pt-10 rounded-md   " >
             <h1 className="font-bold text-3xl text-primary bg-white/50 mb-2 pl-2">Who We Are</h1>
+            <div>
             <p className="p-5   w-full text-justify   sm:text-xl bg-white/50">
-            Kinetic is a Strategic Consulting Group that partners with ambitious companies and leading international organisations. Our definition of success is enabling our clients to create sustainable business impact and achieve better results, faster.
+            Welcome! I’m Dr. Ghazi Kablouti, founder of XRG Impact Management Advisory. Our mission is to help more sustainable businesses become more successful by managing sustainability beyond traditional ESG (Environmental, Social, and Governance) frameworks.
             </p>
+            </div>
           </div>
           </div>
           </div>
           {/* Ghasi*/}
-          <div style={{ backgroundImage: `url(${GhasiImg})`  }} className=" flex sm:h-auto sm:flex-1 bg-cover bg-right bg-no-repeat items-end">
+          <div style={{ backgroundImage: `url(${GhasiImg})`  }} className=" flex sm:h-auto sm:flex-1 bg-cover bg-left bg-no-repeat items-end">
           <div className="flex h-3/6 ">
           <div data-aos="fade-up" className="  px-10 pt-10 rounded-md text-white " >
-            <h1 className="font-bold text-3xl  bg-secondary/50 hover:bg-secondary transition-all mb-2 pl-2">Dr. Ghazi Kablouti</h1>
+            <h1 className="font-bold text-3xl  bg-secondary/50 hover:bg-secondary transition-all mb-2 pl-2">Dr. Ghazi Kablouti <span className="font-bold text-lg  text-gray-200 pl-2">Envision. Lead. Inspire</span></h1>
+            
             <p className="p-5    w-full text-justify  bg-secondary/50 ">
-            Ghasi is the visionary founder of XRG Impact Management Advisory. With years of experience in sustainable strategy and impactful advisory, Ghasi partners with organizations to drive long-term growth and positive change. His approach integrates innovative thinking, expert guidance, and a commitment to measurable results. Through XRG, he works closely with global enterprises, fostering growth that resonates with the world’s most pressing challenges and opportunities.
+            With over 25 years of professional experience, I bridge cultures, disciplines, and the worlds of academia and business. I have held senior roles across consulting, energy infrastructure, and industrial manufacturing with world-leading corporations. As a versatile advisor, senior lecturer, and corporate sustainability leader, I have a proven track record of navigating complexity and delivering resilient, impactful strategies and solutions in a business environment marked by unprecedented social and environmental challenges, growing competition, and disruptive risks.
             </p>
           </div>
           </div>
           </div>
         
-
-
-
-
         </div>
 
     </div>

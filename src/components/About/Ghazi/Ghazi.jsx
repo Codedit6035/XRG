@@ -1,16 +1,18 @@
 // GhaziSection.jsx
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import Introduction from './Introduction';
-import Formation from './Formation';
-import Experience from './Experience';
-import Awards from './Awards';
+import Bio from './Bio';
+import Academic from './Academic';
+import  Expertise from './Expertise';
+import Testimonials from './Testimonials';
+import Clients from './Clients';
 
 const tabs = [
-  { name: 'Introduction', component: Introduction },
-  { name: 'Formation', component: Formation },
-  { name: 'Experience', component: Experience },
-  { name: 'Awards', component: Awards },
+  { name: 'Short bio', component: Bio },
+  { name: 'Expertise', component: Expertise},
+  { name: 'Academic', component: Academic },
+  { name: 'Testimonials', component: Testimonials },
+  { name: 'Employers&Clients', component: Clients },
 ];
 export default function Ghazi() {
   const [activeTab, setActiveTab] = useState(0);
