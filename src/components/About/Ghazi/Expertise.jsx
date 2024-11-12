@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from '../../../assets/expertiseph.jpg'
 
 const  Expertise = () => {
   return (
@@ -6,7 +7,7 @@ const  Expertise = () => {
       <div className='container flex flex-col gap-10 py-20'>
         {/*Img*/}
         <div>
-          <img src="" alt="" />
+          <img src={Image} alt="" className='w-fit' />
         </div>
         {/*Expert1*/}
         <div className='flex gap-10'>
@@ -19,7 +20,7 @@ const  Expertise = () => {
           </div>
           {/* content */}
           <div className='w-4/6'>
-            <ul className='flex flex-col gap-5'>
+            <ul className='flex flex-col gap-5 list-disc'>
               <li>Thought leadership</li>
               <li>Strategic and operational sustainability management</li>
               <li>Advocacy and Stakeholder Engagements</li>
@@ -41,7 +42,7 @@ const  Expertise = () => {
           </div>
           {/* content */}
           <div className='w-4/6'>
-            <ul className='flex flex-col gap-5'>
+            <ul className='flex flex-col gap-5 list-disc'>
               <li>	Academic Lectures & Training: Designed and delivered academic courses focused on "Business & Society," with an emphasis on combining legal and management approaches</li>
               <li>	Sustainability in Energy Technologies (power generation, transmission, and distribution)</li>
               <li>	Product-level environmental impact assessment methodologies: Product Carbon Footprint (PCF) and Life Cycle Assessment (LCA) according to ISO 14040, ISO 14044, and ISO 14067, as well as sector-specific methodologies across industries like Metals, Chemicals, and Oil & Gas</li>
