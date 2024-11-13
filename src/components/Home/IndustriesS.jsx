@@ -47,7 +47,7 @@ const IndustriesS = () => {
         </div>  
         {/* Industries cards */}      
         <div className='container   '>
-        <div className=' flex  justify-center  gap-20 flex-wrap pb-20'>
+        <div className=' flex  justify-center  gap-10 flex-wrap pb-20'>
         {IndustriesData.map((data) => (
               <div
                 data-aos="fade-up"

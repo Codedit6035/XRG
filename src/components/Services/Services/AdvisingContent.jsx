@@ -9,7 +9,7 @@ const AdvisingContent = () => {
                 {/* text*/}
                    <div className='flex-1 text-primary font-raleway'>
                        <h1 className='text-6xl font-bold '>Advising</h1>
-                       <p className='pt-5 pb-10 text-primary'>When done well, digital architecture creates value by delivering business insight, ensuring consistency, and accelerating decision-making. <br/> We help you plan and shape your digital transformation efforts.</p>
+                       <p className='pt-5 pb-10 text-primary'>Empowering businesses to leverage their systemic strengths for long-term value and impact</p>
                        {/* buttons*/}
                        <div className='flex  gap-5'>
                           <button className='h-[45px] rounded-sm  border  px-10 w-fit hidden'>

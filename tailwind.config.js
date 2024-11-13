@@ -16,7 +16,7 @@ export default {
         secondary: "#041525",
       },
       spacing: {
-        '6rem': '9rem', // Adds a custom spacing utility
+        '9rem': '9rem', // Adds a custom spacing utility
       },
       container: {
         center: true,
@@ -54,12 +54,18 @@ export default {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-10px)' },
         },
+        zoomInAb: {
+          '0%, 100%': { transform: 'scale(1)' },          // Slightly zoomed in
+          '50%': { transform: 'scale(1.1)' },          // Zooms out to normal size
+        },
       },
       animation: {
         slideInFromLeft: 'slideInFromLeft 1s ease-out forwards',
         maskReveal: 'maskReveal 2.5s ease-out forwards', // Adjust duration as needed
         zoomOut: 'zoomOut 2.5s ease-out forwards',       // Match duration with maskReveal
         float: 'float 2s ease-in-out infinite',
+        zoomInAb: 'zoomInAb 8s ease-in-out  infinite',       // Match duration with maskReveal
+
 
       },
     },

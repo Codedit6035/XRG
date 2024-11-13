@@ -12,11 +12,11 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className='relative'>
-    <div className=" h-screen w-full overflow-hidden">
+    <div className='relative overflow-hidden'>
+    <div className=" h-screen w-full ">
       {/* Navbar Component */}
       <div className="absolute top-0 left-0 w-full z-20">
-        <Navbar titreColor={'white'} />
+        <Navbar />
       </div>
 
       {/* Background pattern */}
@@ -24,10 +24,10 @@ const Banner = () => {
       </div>
 
       {/* Content Overlay */}
-      <div className="pl-20 absolute inset-0 flex items-center justify-between">
+      <div className="pl-9rem absolute inset-0 flex items-center justify-between">
         <div className="text-white max-w-lg z-10">
           {/* Title */}
-          <h1 className="text-6xl font-bold mb-4 font-ibm">
+          <h1 className="text-5xl font-bold mb-4 font-ibm">
             Better IT <br /> <span className="text-secondary">services</span> , <span className="italic"> for <br /> everyone </span>
           </h1>
 
@@ -45,7 +45,7 @@ const Banner = () => {
           <img
             src={banner}
             alt="Revealing"
-            className={`inset-0 w-full h-full object-cover transition-transform ${
+            className={`inset-0 w-full h-full object-cover transition-transform  ${
               startAnimation ? 'animate-zoomOut' : ''
             }`}
           />
@@ -58,9 +58,9 @@ const Banner = () => {
       </div>
           {/* down circle */}
     <div className='absolute  z-10  flex w-[70px] h-[70px]  left-[50%] -ml-[35px] -mt-[70px] animate-float '>
-           <a href="#next-section" className="flex items-center  w-[70px] h-[70px] text-4xl  text-shade2 justify-center"><FaAnglesDown  /></a>
+           <a href="#nextservices" className="flex items-center  w-[70px] h-[70px] text-4xl  text-shade2 justify-center"><FaAnglesDown  /></a>
     </div>
-    
+
     </div> 
     </div>
     

@@ -15,7 +15,7 @@ const AboutDropdown = [
   { id: 2, name: "About Me", link: "/about#about-me" },
 ];
 
-const Navbar = ({ titreColor }) => {
+const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
@@ -24,21 +24,21 @@ const Navbar = ({ titreColor }) => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <a href="/" className="font-bold text-2xl sm:text-3xl flex gap-2">
-              <img src={Logo} alt="Logo" className="w-40" />
+            <a href="/" className=" flex gap-2">
+              <img src={Logo} alt="Logo" className="w-44" />
             </a>
           </div>
 
           {/* Links */}
           <div > 
-            <ul className="sm:flex hidden gap-10">
+            <ul className="sm:flex hidden gap-3  ">
               {Menu.map((item) => (
                 <li key={item.id} className="relative ">
                   {item.name === "About" ? (
                     <button
-                      onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                      className="text-xl font-bold hover:text-blue-500 transition duration-200 flex items-center"
-                      style={{ color: titreColor }}
+                       onMouseEnter={() => setIsDropdownOpen(!isDropdownOpen)}
+                      className="text-base font-raleway bg-shade5/50 px-2   flex items-center text-white  hover:bg-white hover:text-primary"
+
                     >
                       {item.name}
                       <IoIosArrowDown className="ml-1" />
@@ -46,8 +46,8 @@ const Navbar = ({ titreColor }) => {
                   ) : (
                     <a
                       href={item.link}
-                      className="text-xl font-bold hover:text-blue-500 transition duration-200"
-                      style={{ color: titreColor }}
+                      className="text-base font-raleway  bg-shade5/40 px-2 py-0.5 text-white hover:bg-white hover:text-primary"
+
                     >
                       {item.name}
                     </a>
@@ -55,12 +55,12 @@ const Navbar = ({ titreColor }) => {
 
                   {/* Dropdown Menu */}
                   {item.name === "About" && isDropdownOpen && (
-                    <ul className="absolute top-full left-0 mt-2 bg-white/50  shadow-lg py-2 rounded-md w-40  ">
+                    <ul className="absolute top-full left-0 mt-2 bg-white/50  shadow-lg py-2  w-28  " onMouseLeave={() => setIsDropdownOpen(!isDropdownOpen)}>
                       {AboutDropdown.map((subItem) => (
                         <li key={subItem.id} className=''>
                           <a
                             href={subItem.link}
-                            className="block px-4 py-2 hover:bg-blue-100 text-white"
+                            className="block px-4 py-2 text-sm hover:bg-blue-100 text-white"
                           >
                             {subItem.name}
                           </a>

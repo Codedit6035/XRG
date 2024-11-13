@@ -1,6 +1,7 @@
 // GhaziSection.jsx
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import XrgStory from './XrgStory';
 import Bio from './Bio';
 import Academic from './Academic';
 import  Expertise from './Expertise';
@@ -8,8 +9,9 @@ import Testimonials from './Testimonials';
 import Clients from './Clients';
 
 const tabs = [
+  { name: 'XRG Story', component: XrgStory },
   { name: 'Short bio', component: Bio },
-  { name: 'Expertise', component: Expertise},
+  { name: 'Career', component: Expertise},
   { name: 'Academic', component: Academic },
   { name: 'Testimonials', component: Testimonials },
   { name: 'Employers&Clients', component: Clients },

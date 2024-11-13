@@ -8,11 +8,11 @@ const ServicesS = () => {
     <div className='pt-10 pb-12  font-Raleway'>
         {/* Header section */}
         <div className="mb-10  bg-white  animate-slideInFromLeft w-full pl-20   text-black">
-          <h1 className="text-left   text-3xl font-Raleway text-primary ">
+          <h1 className="text-left  text-3xl text-primary  hover:bg-shade1 hover:text-white w-fit pr-5 pl-1">
             Services
           </h1>
           {/* Blue line */}
-          <div className="w-16 h-1 bg-blue-500 mb-4"></div>
+          <div className="w-16 h-1 bg-teal-500 mb-4"></div>
         </div>
         <div>
         <p data-aos="fade-up" className=" max-w-[800px]  text-xl font-semibold text-primary text-center  mx-auto mb-10">
