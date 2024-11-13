@@ -29,10 +29,10 @@ const SpeakingContent = () => {
                    {/* image*/}
                    <motion.div
                       className="flex-1"
-                      initial={{ x: '40%', opacity: 0 }}
+                      initial={{ x: '30%', opacity: 0 }}
                       whileInView={{ x: 0, opacity: 1 }}
                       transition={{ duration: 1.1, ease: "easeInOut" }}
-                      viewport={{ once: false}}>
+                      viewport={{ once: true}}>
                       <img src={Speaking } alt=""  className='h-fit w-fit'/>
                       </motion.div>
                 </div>   

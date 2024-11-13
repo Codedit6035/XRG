@@ -35,18 +35,21 @@ const AdvisingContent = () => {
                    {/* image*/}
                    <motion.div
                       className="flex-1"
-                      initial={{ x: '40%', opacity: 0 }}
+                      initial={{ x: '30%', opacity: 0 }}
                       whileInView={{ x: 0, opacity: 1 }}
                       transition={{ duration: 1.1, ease: "easeInOut" }}
-                      viewport={{ once: false}}
-                     >
+                      viewport={{ once: true}}>
                       <img src={Adivising } alt=""  className='h-[600px] w-full'/>
                    </motion.div>
                 </div>   
                 {/* part 2*/}
                 <div className='flex justify-center  my-20 gap-20 bg-shade5'>
                    {/* text*/}
-                   <div className='flex-1 font-raleway space-y-14 bg-shade5  p-10   '>   
+                   <motion.div className='flex-1 font-raleway space-y-14 bg-shade5  p-10   '
+                                        initial={{ x: '-100%', opacity: 0 }}
+                                       whileInView={{ x: 0, opacity: 1 }}
+                                       transition={{ duration: 1.1, ease: "easeInOut" }}
+                                       viewport={{ once: true }}>    
                          {/*Financial Services:*/}
                          <div className='space-y-7'>
                          <h1 className='text-xl font-semibold underline text-white '>Financial Services: </h1>
@@ -62,9 +65,13 @@ const AdvisingContent = () => {
                            </li>
                          </ul>
                         </div> 
-                   </div>
+                   </motion.div>
                    {/* text*/}
-                   <div className='flex-1 font-raleway space-y-14 bg-shade1   p-10  '>   
+                   <motion.div className='flex-1 font-raleway space-y-14 bg-shade1   p-10  '
+                                       initial={{ x: '100%', opacity: 0 }}
+                                       whileInView={{ x: 0, opacity: 1 }}
+                                       transition={{ duration: 1.1, ease: "easeInOut" }}
+                                       viewport={{ once: true }}>   
                        {/*Policy and Standards Makers:*/}
                        <div className='space-y-10'>
                         <h1 className='text-xl font-semibold underline text-white '>Policy and Standards Makers:</h1>
@@ -77,7 +84,7 @@ const AdvisingContent = () => {
                           </li>
                         </ul>
                        </div>
-                   </div>
+                   </motion.div>
                 </div>   
              
     </div>
