@@ -1,5 +1,6 @@
 import React from 'react'
 import Speaking from "../../../assets/speaking.jpg"
+import { motion } from 'framer-motion';
 
 const SpeakingContent = () => {
   return (
@@ -26,9 +27,14 @@ const SpeakingContent = () => {
                        </div>                  
                    </div>
                    {/* image*/}
-                   <div  className='flex-1 '>
+                   <motion.div
+                      className="flex-1"
+                      initial={{ x: '40%', opacity: 0 }}
+                      whileInView={{ x: 0, opacity: 1 }}
+                      transition={{ duration: 1.1, ease: "easeInOut" }}
+                      viewport={{ once: false}}>
                       <img src={Speaking } alt=""  className='h-fit w-fit'/>
-                   </div>
+                      </motion.div>
                 </div>   
     </div>
   )

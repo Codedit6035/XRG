@@ -1,7 +1,7 @@
 import React from 'react'
 import Adivising from "../../../assets/talking.jpg"
-import FinanceImg from "../../../assets/finance.jpeg"
-import PoliciesImg from "../../../assets/policies.jpeg"
+
+import { motion } from 'framer-motion';
 
 const AdvisingContent = () => {
   return (
@@ -33,9 +33,15 @@ const AdvisingContent = () => {
                        </div>                  
                    </div>
                    {/* image*/}
-                   <div  className='flex-1 '>
+                   <motion.div
+                      className="flex-1"
+                      initial={{ x: '40%', opacity: 0 }}
+                      whileInView={{ x: 0, opacity: 1 }}
+                      transition={{ duration: 1.1, ease: "easeInOut" }}
+                      viewport={{ once: false}}
+                     >
                       <img src={Adivising } alt=""  className='h-[600px] w-full'/>
-                   </div>
+                   </motion.div>
                 </div>   
                 {/* part 2*/}
                 <div className='flex justify-center  my-20 gap-20 bg-shade5'>
