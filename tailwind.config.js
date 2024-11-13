@@ -10,9 +10,9 @@ export default {
         primary: "#1b4358",
         shade1: "#1c445c",
         shade2: "#c9d4d8",
+        shade3: "#8ca4ac",
         shade5: "#547484",
-        
-        
+        shade6: "#8c9cac",    
         secondary: "#041525",
       },
       spacing: {
