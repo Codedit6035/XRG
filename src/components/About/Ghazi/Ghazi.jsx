@@ -22,9 +22,9 @@ export default function Ghazi() {
   const ActiveComponent = tabs[activeTab].component;
 
   return (
-    <div id="about-me" className=" container  py-20 ">
+    <div id="about-me" className="  py-20 ">
       {/* Tab List Container */}
-      <div className=" flex gap-2 justify-center">
+      <div className=" flex gap-2 justify-center container ">
         {tabs.map((tab, index) => (
           <motion.div
             key={index}
@@ -54,7 +54,7 @@ export default function Ghazi() {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -20 }}
         transition={{ duration: 0.4 }}
-        className="mt-4 text-gray-700"
+        className="mt-4 text-gray-700  "
       >
         <ActiveComponent />
       </motion.div>

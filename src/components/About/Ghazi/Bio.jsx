@@ -4,8 +4,8 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Bio = () => {
   return (
-    <div className=' '>
-        <div className='container flex gap-10 py-20'>
+    <div className='container '>
+        <div className=' flex gap-10 py-20'>
             {/* image */}
             <div className='flex-1  '>
                 <img src={GhaziImg} alt="img"  className=' h-fit w-fit '  />
