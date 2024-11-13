@@ -12,8 +12,8 @@ const Banner = () => {
       <div className=" absolute top-0 left-0 w-full z-20  ">
         <Navbar/> {/* This is your existing Navbar component */}
       </div>
-      {/* background pattern */}
-      
+
+      {/* background pattern */}      
       <div style={{ backgroundImage: `url(${BannerImg})` }} 
            className="h-screen w-full bg-cover bg-center animate-zoomInAb ">
       </div>
@@ -26,7 +26,7 @@ const Banner = () => {
       </div>
           {/* down circle */}
           <div className='absolute  z-10  flex w-[70px] h-[70px]  left-[50%] -ml-[35px] -mt-[70px] animate-float '>
-           <a href="#next-section" className="flex items-center  w-[70px] h-[70px] text-4xl  text-shade2 justify-center"><FaAnglesDown  /></a>
+           <a href="#about-me" className="flex items-center  w-[70px] h-[70px] text-4xl  text-shade2 justify-center"><FaAnglesDown  /></a>
     </div>
     </div>
   )

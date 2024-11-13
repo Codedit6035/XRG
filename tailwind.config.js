@@ -65,6 +65,7 @@ export default {
         zoomOut: 'zoomOut 2.5s ease-out forwards',       // Match duration with maskReveal
         float: 'float 2s ease-in-out infinite',
         zoomInAb: 'zoomInAb 8s ease-in-out  infinite',       // Match duration with maskReveal
+        'spin-slow': 'spin 3s linear infinite',  // Slower 3-second rotation
 
 
       },
