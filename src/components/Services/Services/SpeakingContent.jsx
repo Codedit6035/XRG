@@ -1,5 +1,5 @@
 import React from 'react'
-import Speaking from "../../../assets/advising.jpg"
+import Speaking from "../../../assets/speaking.jpg"
 
 const SpeakingContent = () => {
   return (
@@ -8,11 +8,11 @@ const SpeakingContent = () => {
                    {/* text*/}
                    <div className='flex-1 font-raleway space-y-14'>
                        {/*advising + p*/}
-                       <h1 className='text-5xl  bg-shade1 text-white w-fit px-1'>Speaking</h1>
-                       <p className='text-primary'>Connecting, inspiring, and engaging to drive societal progress</p>
+                       <h1 className='text-4xl  bg-shade1 text-white w-fit pb-1 px-2'>Speaking</h1>
+                       <p className='text-primary text-sm'>Connecting, inspiring, and engaging to drive societal progress</p>
                        {/*corporations*/}
                        <div className='space-y-7'>
-                        <ul className='list-disc space-y-3'>
+                        <ul className='list-disc space-y-3 text-sm'>
                           <li>
                             <span className='font-semibold'>Delivering Presentations, Keynotes, and Panel Discussions– </span>offering insights and perspectives to inspire and drive meaningful dialogue.
                           </li>

@@ -1,18 +1,22 @@
 import React from 'react'
-import Adivising from "../../../assets/talking.jpg"
+import Adivising from "../../../assets/educating2.jpeg"
 
 const EducatingContent = () => {
   return (
     <div>
                 <div className='flex justify-center  my-20 gap-20 '>
+                   {/* image*/}
+                   <div  className='flex-1  '>
+                      <img src={Adivising } alt=""  className='h-[450px] w-full '/>
+                   </div>
                    {/* text*/}
                    <div className='flex-1 font-raleway space-y-14'>
                        {/*advising + p*/}
-                       <h1 className='text-5xl  bg-shade1 text-white w-fit px-1'>Educating</h1>
-                       <p className='text-primary'>Shaping the next generation of leaders with a vision and sense of urgency for change.</p>
+                       <h1 className='text-4xl  bg-shade1 text-white w-fit pb-1 px-2'>Educating</h1>
+                       <p className='text-primary text-sm'>Shaping the next generation of leaders with a vision and sense of urgency for change.</p>
                        {/*corporations*/}
                        <div className='space-y-7'>
-                        <ul className='list-disc space-y-3'>
+                        <ul className='list-disc space-y-3 text-sm'>
                           <li>
                             <span className='font-semibold'>Collaborating with Academic Program Directors–  </span>partnering with engineering and business schools to design innovative, impactful curricula focused on Business & Society.
                           </li>
@@ -30,10 +34,6 @@ const EducatingContent = () => {
                           </li>
                         </ul>
                        </div>                  
-                   </div>
-                   {/* image*/}
-                   <div  className='flex-1 '>
-                      <img src={Adivising } alt=""  className='h-fit w-fit'/>
                    </div>
                 </div>   
     </div>
