@@ -42,7 +42,7 @@ const  Expertise = () => {
           </div>
           {/* content */}
           <div className='w-4/6'>
-            <ul className='flex flex-col gap-5 custom-list'>
+            <ul className='flex flex-col gap-5 custom-circle-list'>
               <li>Academic Lectures & Training: Designed and delivered academic courses focused on "Business & Society," with an emphasis on combining legal and management approaches</li>
               <li>Sustainability in Energy Technologies (power generation, transmission, and distribution)</li>
               <li>Product-level environmental impact assessment methodologies: Product Carbon Footprint (PCF) and Life Cycle Assessment (LCA) according to ISO 14040, ISO 14044, and ISO 14067, as well as sector-specific methodologies across industries like Metals, Chemicals, and Oil & Gas</li>
@@ -62,7 +62,7 @@ const  Expertise = () => {
           </div>
           {/* content */}
           <div className='w-4/6'>
-            <ul className='flex flex-col gap-5 custom-list'>
+            <ul className='flex flex-col gap-5 custom-circle-list'>
               <li>Business & Human Rights (Council of Europe, 2022)</li>
               <li>Foundations in Responsible Investments (UN PRI Academy, 2020)</li>
               <li>Photovoltaic Solar Energy (École Polytechnique Paris, 2020)</li>

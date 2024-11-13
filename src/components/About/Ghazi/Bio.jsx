@@ -7,12 +7,12 @@ const Bio = () => {
     <div className='container '>
         <div className=' flex gap-10 py-20'>
             {/* image */}
-            <div className='flex-1  '>
+            <div className='flex-1  pt-2'>
                 <img src={GhaziImg} alt="img"  className=' h-fit w-fit '  />
             </div>
             {/* text */}
-            <div className='flex flex-1 flex-col  w-4/6  px-10'>
-                <h1 className='text-4xl text-cyan-700 mb-4 '> Dr. Ghazi Balkouti </h1>
+            <div className='flex flex-1 flex-col  w-4/6  px-10 '>
+                <h1 className='text-4xl text-cyan-700 mb-4  '> Dr. Ghazi Balkouti </h1>
                 {/* Blue line */}
                 <div className="flex justify-center w-16 h-1 bg-cyan-700 mb-4 "></div>   
                 <p className='text-justify '>
