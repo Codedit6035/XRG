@@ -25,7 +25,9 @@
   .custom-circle-list li::before {
     content: '';
     @apply absolute left-0 top-3 transform -translate-y-1/2;
-    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23547484" viewBox="0 0 24 24"%3E%3Ccircle cx="12" cy="12" r="12" fill="%23547484"/%3E%3Cpath d="M11 16l-3-3 1.414-1.414L11 13.172l5.293-5.293L18 9l-7 7z" fill="%23547484"/%3E%3C/svg%3E');
-    width: 0.75em;
-    height: 0.751em;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"%3E%3Cpath d="M448 256c0-106-86-192-192-192l0 384c106 0 192-86 192-192zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z" fill="%231c445c"%3E%3C/path%3E%3C/svg%3E');
+    width: 1em; /* Adjust size as needed */
+    height: 1em;
+    background-size: contain; /* Ensure it scales to fit */
+    background-repeat: no-repeat;
   }

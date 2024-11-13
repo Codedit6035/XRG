@@ -20,7 +20,7 @@ const  Expertise = () => {
           </div>
           {/* content */}
           <div className='w-4/6'>
-            <ul className='flex flex-col gap-5 custom-list'>
+            <ul className='flex flex-col gap-5 custom-circle-list'>
               <li>Thought leadership</li>
               <li>Strategic and operational sustainability management</li>
               <li>Advocacy and Stakeholder Engagements</li>
