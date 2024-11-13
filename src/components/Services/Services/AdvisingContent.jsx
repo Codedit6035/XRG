@@ -58,13 +58,7 @@ const AdvisingContent = () => {
                             <span className='font-semibold'>	Defining and Guiding Transformation Needs–  </span>identifying essential transformation requirements for portfolio companies and supporting the implementation process
                           </li>
                         </ul>
-                       </div>     
-                   </div>
-                </div>   
-                {/* part 3 */}
-                <div className='flex justify-center  my-20 gap-20 '>
-                   {/* text*/}
-                   <div className='flex-1 font-raleway space-y-14'>
+                       </div> 
                        {/*Policy and Standards Makers:*/}
                        <div className='space-y-10'>
                         <h1 className='text-2xl font-bold underline text-primary '>Policy and Standards Makers:</h1>
@@ -76,13 +70,10 @@ const AdvisingContent = () => {
                             <span className='font-semibold'>Advising Standardization Bodies on Sustainability Standards– </span> pinpointing gaps and recommending new standards at corporate and product levels to support an impact-driven economy.
                           </li>
                         </ul>
-                       </div>         
+                       </div>      
                    </div>
-                   {/* image*/}
-                   <div  className='flex-1 '>
-                      <img src={Adivising } alt=""  className='h-[600px] w-fit'/>
-                   </div>
-                </div>             
+                </div>   
+             
     </div>
   )
 }
