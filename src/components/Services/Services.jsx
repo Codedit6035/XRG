@@ -8,9 +8,8 @@ const Services = () => {
     <div id='nextservices' className='py-20 '>
 
                 <Advising/>
-                <Speaking/>
                 <Educating/> 
-
+                <Speaking/>
     </div>
   )
 }

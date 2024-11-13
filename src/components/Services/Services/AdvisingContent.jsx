@@ -1,10 +1,10 @@
 import React from 'react'
 import Adivising from "../../../assets/talking.jpg"
+import FinanceImg from "../../../assets/finance2.jpeg"
 
 const AdvisingContent = () => {
   return (
     <div>
-                {/* part 1 */}
                 <div className='flex justify-center  my-20 gap-20 '>
                    {/* text*/}
                    <div className='flex-1 font-raleway space-y-14'>
@@ -40,7 +40,7 @@ const AdvisingContent = () => {
                 <div className='flex justify-center  my-20 gap-20 '>
                    {/* image*/}
                    <div  className='flex-1 '>
-                      <img src={Adivising } alt=""  className='h-[600px] w-fit'/>
+                      <img src={FinanceImg } alt=""  className='h-fit w-fit'/>
                    </div>
                    {/* text*/}
                    <div className='flex-1 font-raleway space-y-14'>   

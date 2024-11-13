@@ -4,26 +4,30 @@ import Speaking from "../../../assets/advising.jpg"
 const SpeakingContent = () => {
   return (
     <div>
-                {/* service2 */}
-                <div className='flex justify-center items-center my-20 gap-20'>
-                   {/* image*/}
-                   <div  className='flex-1'>
-                      <img src={Speaking} alt=""  className='h-[400px] w-auto'/>
+                <div className='flex justify-center  my-20 gap-20 '>
+                   {/* text*/}
+                   <div className='flex-1 font-raleway space-y-14'>
+                       {/*advising + p*/}
+                       <h1 className='text-5xl  bg-shade1 text-white w-fit px-1'>Speaking</h1>
+                       <p className='text-primary'>Connecting, inspiring, and engaging to drive societal progress</p>
+                       {/*corporations*/}
+                       <div className='space-y-7'>
+                        <ul className='list-disc space-y-3'>
+                          <li>
+                            <span className='font-semibold'>Delivering Presentations, Keynotes, and Panel Discussions– </span>offering insights and perspectives to inspire and drive meaningful dialogue.
+                          </li>
+                          <li>
+                            <span className='font-semibold'>Moderating Conferences and Corporate Events–  </span>facilitating impactful discussions with stakeholders to foster engagement and alignment.
+                          </li>
+                          <li>
+                            <span className='font-semibold'>Advising on Conference Program Design– </span>shaping event agendas to ensure relevance, innovation, and alignment with audience needs.
+                          </li>
+                        </ul>
+                       </div>                  
                    </div>
-                {/* text*/}
-                   <div className='flex-1 text-primary font-raleway'>
-                       <h1 className='text-6xl font-bold  '>Speaking</h1>
-                       <p className='pt-5 pb-10 '>When done well, digital architecture creates value by delivering business insight, ensuring consistency, and accelerating decision-making. <br/> We help you plan and shape your digital transformation efforts.</p>
-                       {/* buttons*/}
-                       <div className='flex  gap-5'>
-                          <button className='h-[45px] rounded-sm  border px-10 w-fit hidden'>
-                            Learn more
-                          </button>  
-                          <button className='h-[45px] rounded-lg  px-10 w-fit border-2 border-gray-300 bg-primary text-white '>
-                          Learn more
-                          </button>                       
-                       </div>
-
+                   {/* image*/}
+                   <div  className='flex-1 '>
+                      <img src={Speaking } alt=""  className='h-fit w-fit'/>
                    </div>
                 </div>   
     </div>
