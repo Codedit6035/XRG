@@ -42,6 +42,11 @@ export default {
           '0%': { transform: 'translateX(-400px)', opacity: '0' },
           '100%': { transform: 'translateX(0)', opacity: '1' },
         },
+        slideInFromRight: {
+          '0%': { transform: 'translateX(100%)', opacity: '0' },
+          '30%': { transform: 'translateX(100%)', opacity: '0' },
+          '100%': { transform: 'translateX(0%)', opacity: '1' },
+        },
         maskReveal: {
           '0%': { transform: 'translateX(0%)' },      // Mask fully covers the image
           '100%': { transform: 'translateX(100%)' }, // Mask moves off-screen to the left
@@ -65,6 +70,7 @@ export default {
       },
       animation: {
         slideInFromLeft: 'slideInFromLeft 1s ease-out forwards',
+        slideInFromRight: 'slideInFromRight 1.5s ease-out forwards',
         maskReveal: 'maskReveal 2.5s ease-out forwards', // Adjust duration as needed
         maskRevealBio: 'maskRevealBio 2.5s ease-out forwards', // Adjust duration as needed
         zoomOut: 'zoomOut 2.5s ease-out forwards',       // Match duration with maskReveal

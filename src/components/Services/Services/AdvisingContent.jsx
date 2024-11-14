@@ -33,14 +33,9 @@ const AdvisingContent = () => {
                        </div>                  
                    </div>
                    {/* image*/}
-                   <motion.div
-                      className="flex-1"
-                      initial={{ x: '30%', opacity: 0 }}
-                      whileInView={{ x: 0, opacity: 1 }}
-                      transition={{ duration: 1.1, ease: "easeInOut" }}
-                      viewport={{ once: true}}>
-                      <img src={Adivising } alt=""  className='h-[600px] w-full'/>
-                   </motion.div>
+                   <div  className="flex-1 ">
+                      <img src={Adivising } alt=""  className='h-[600px] w-full animate-slideInFromRight'  style={{ animationDelay: '500ms' }}/>
+                   </div>
                 </div>   
                 {/* part 2*/}
                 <div className='flex justify-center  my-20 gap-20 bg-shade5'>
