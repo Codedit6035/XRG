@@ -1,14 +1,31 @@
-import React from 'react'
+import React, { useEffect, useState  } from 'react';
 import GhaziImg from"../../../assets/GhaziPh2.jpg"
 import { FaLinkedin } from "react-icons/fa";
 
 const Bio = () => {
+  const [startAnimation, setStartAnimation] = useState(false);
+
+  useEffect(() => {
+    // Trigger animation after component mounts
+    setStartAnimation(true);
+  }, []);
+
   return (
     <div className='container '>
         <div className=' flex gap-10 py-20'>
             {/* image */}
-            <div className='flex-1  pt-2'>
-                <img src={GhaziImg} alt="img"  className=' h-fit w-fit '  />
+            <div className='flex-1  mt-2 relative overflow-hidden '>
+                {/* Fixed Background Image */}
+                <img src={GhaziImg}   
+                           alt="img"
+                           className={`inset-0 h-fit w-fit object-cover transition-transform  ${
+                             startAnimation ? 'animate-zoomOut' : ''
+                           }`}
+                />
+                {/* Animated Mask Layer */}
+                <div
+                 className={`absolute inset-0 bg-white transition-transform ${startAnimation ? 'animate-maskRevealBio' : ''}`}
+                />
             </div>
             {/* text */}
             <div className='flex flex-1 flex-col  w-4/6  px-10 '>

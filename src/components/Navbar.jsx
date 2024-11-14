@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Logo from "../assets/logo.png";
+import LogoText from "../assets/logotext.png";
 import { IoMenuOutline } from "react-icons/io5";
 import { IoIosArrowDown } from "react-icons/io"; // Add this icon for the arrow
 
@@ -23,11 +24,12 @@ const Navbar = () => {
       <div className="container bg-transparent py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <div className="flex items-center">
-            <a href="/" className=" flex gap-2">
-              <img src={Logo} alt="Logo" className="w-44" />
-            </a>
+          <a href="/"  >
+          <div className="flex items-center  w-44 ">
+              <img src={Logo} alt="Logo" className=" h-20 animate-spin-slow" />
+              <img src={LogoText} alt="Logo" className=" h-20" />
           </div>
+          </a>
 
           {/* Links */}
           <div > 
