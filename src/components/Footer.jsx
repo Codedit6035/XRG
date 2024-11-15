@@ -15,7 +15,6 @@ const Footer = () => {
           <h1 className='text-2xl pb-5'>Topics</h1>
           <ul>
             <li>Services</li>
-            <li>Industries</li>
             <li>Partnerships</li>
             <li>Accomplishments</li>
             <li>About</li>

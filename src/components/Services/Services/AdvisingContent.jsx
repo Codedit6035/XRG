@@ -1,5 +1,5 @@
 import React from 'react'
-import Adivising from "../../../assets/talking.jpg"
+import Adivising from "../../../assets/talkingresized.jpg"
 
 import { motion } from 'framer-motion';
 
@@ -8,7 +8,12 @@ const AdvisingContent = () => {
     <div>
                 <div className='flex justify-center  my-20 gap-20 '>
                    {/* text*/}
-                   <div className='flex-1 font-raleway space-y-14'>
+                   <motion.div className='flex-1 font-raleway space-y-14'
+                           initial={{ x: '-100%', opacity: 0 }}
+                           whileInView={{ x: 0, opacity: 1 }}
+                           transition={{ duration: 1.1, ease: "easeInOut" }}
+                           viewport={{ once: true }}
+                   >
                        {/*advising + p*/}
                        <h1 className='text-4xl  bg-shade1 text-white w-fit pb-1 px-2'>Advising</h1>
                        <p className=' text-primary'>Empowering businesses to leverage their systemic strengths for long-term value and impact</p>
@@ -31,11 +36,15 @@ const AdvisingContent = () => {
                           </li>
                         </ul>
                        </div>                  
-                   </div>
+                   </motion.div>
                    {/* image*/}
-                   <div  className="flex-1 ">
-                      <img src={Adivising } alt=""  className='h-[600px] w-full animate-slideInFromRight'  style={{ animationDelay: '500ms' }}/>
-                   </div>
+                   <motion.div  className="flex-1 "
+                           initial={{ x: '100%', opacity: 0 }}
+                           whileInView={{ x: 0, opacity: 1 }}
+                           transition={{ duration: 1.1, ease: "easeInOut" }}
+                           viewport={{ once: true }}>
+                      <img src={Adivising } alt=""  className='h-[600px] w-full ' />
+                   </motion.div>
                 </div>   
                 {/* part 2*/}
                 <div className='flex justify-center  my-20 gap-20 bg-shade5'>
@@ -88,16 +97,3 @@ const AdvisingContent = () => {
 
 export default AdvisingContent
 
-
-                       {/*Policy and Standards Makers:*/}
-                       <div className='space-y-10'>
-                        <h1 className='text-xl font-semibold underline text-primary '>Policy and Standards Makers:</h1>
-                        <ul className='list-disc space-y-3 text-sm'>
-                          <li>
-                            <span className='font-semibold'>Providing Data-Driven Insights to Policymakers–  </span>identifying critical levers to craft effective policies that drive meaningful change.
-                          </li>
-                          <li>
-                            <span className='font-semibold'>Advising Standardization Bodies on Sustainability Standards– </span> pinpointing gaps and recommending new standards at corporate and product levels to support an impact-driven economy.
-                          </li>
-                        </ul>
-                       </div> 

@@ -1,5 +1,8 @@
 import React from 'react'
 import Schema from '../../../../assets/schema.png'
+import SchemaOne from '../../../../assets/schemaone.png'
+import SchemaTwo from '../../../../assets/schematwo.png'
+import SchemaThree from '../../../../assets/schemathree.png'
 
 const StoryC = () => {
   return (
@@ -31,14 +34,34 @@ const StoryC = () => {
         </div>
         </div>
         {/* schema*/}
-        <div className='bg '>
+        <div className=' '>
            <h1 className='  text-xl text-shade1 font-semibold mb-5 text-center'>
             From ESG to XRG 
            </h1>
            <img src={Schema} alt="" />
         </div>
-        {/* schema*/}
-        <div className='bg '>
+        {/* schema2*/}
+        <div className=' p-10 '>
+           <h1 className='  text-xl text-shade1 font-semibold mb-5 text-center'>
+            From ESG to XRG 
+           </h1>
+           <div className='flex  items-center justify-center '>
+            <div className='w-2/5 animate-slideInFromLeft  '>
+              <img src={SchemaOne} alt=""  />
+            </div>
+            <div className='relative w-2/12  flex justify-center  overflow-hidden '>
+            <img src={SchemaTwo} alt="" className='inset-0  ' />
+            <div
+            className='absolute inset-0 bg-white transition-transform animate-maskRevealSche'
+          />
+            </div>
+            <div  className='w-2/5  animate-fadeIn ' >
+            <img src={SchemaThree} alt=""/>
+            </div>
+           </div>
+        </div>
+        {/*text*/}
+        <div className='text-center '>
             <p>The world has the knowledge, technology, and resources to build a more resilient and better economy—one that respects planetary boundaries and fosters true societal prosperity. Markets are the best vehicles to deliver this change, and XRG Advisory is your partner on designing your transformative path to economic success through impactful solutions.</p>
         </div>
 

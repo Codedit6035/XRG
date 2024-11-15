@@ -1,5 +1,5 @@
 import React from 'react'
-import Speaking from "../../../assets/speaking.jpg"
+import Speaking from "../../../assets/speakingresized.jpg"
 import { motion } from 'framer-motion';
 
 const SpeakingContent = () => {
@@ -7,7 +7,11 @@ const SpeakingContent = () => {
     <div>
                 <div className='flex justify-center  my-20 gap-20 '>
                    {/* text*/}
-                   <div className='flex-1 font-raleway space-y-14'>
+                   <motion.div className='flex-1 font-raleway space-y-14'
+                                              initial={{ x: '-100%', opacity: 0 }}
+                                              whileInView={{ x: 0, opacity: 1 }}
+                                              transition={{ duration: 1.1, ease: "easeInOut" }}
+                                              viewport={{ once: true }}>
                        {/*advising + p*/}
                        <h1 className='text-4xl  bg-shade1 text-white w-fit pb-1 px-2'>Speaking</h1>
                        <p className='text-primary text-sm'>Connecting, inspiring, and engaging to drive societal progress</p>
@@ -25,16 +29,16 @@ const SpeakingContent = () => {
                           </li>
                         </ul>
                        </div>                  
-                   </div>
+                   </motion.div>
                    {/* image*/}
                    <motion.div
                       className="flex-1"
-                      initial={{ x: '30%', opacity: 0 }}
+                      initial={{ x: '100%', opacity: 0 }}
                       whileInView={{ x: 0, opacity: 1 }}
                       transition={{ duration: 1.1, ease: "easeInOut" }}
                       viewport={{ once: true}}>
                       <img src={Speaking } alt=""  className='h-fit w-fit'/>
-                      </motion.div>
+                   </motion.div>
                 </div>   
     </div>
   )
