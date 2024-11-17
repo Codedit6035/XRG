@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <a href="/"  >
-          <div className="flex items-center  w-44 ">
+          <div className="flex items-center  w-46 ">
               <img src={Logo} alt="Logo" className=" h-20 animate-spin-slow" />
               <img src={LogoText} alt="Logo" className=" h-20" />
           </div>
