@@ -33,18 +33,8 @@ const StoryC = () => {
           </ul>
         </div>
         </div>
-        {/* schema*/}
-        <div className=' '>
-           <h1 className='  text-xl text-shade1 font-semibold mb-5 text-center'>
-            From ESG to XRG 
-           </h1>
-           <img src={Schema} alt="" />
-        </div>
         {/* schema2*/}
         <div className=' p-10 '>
-           <h1 className='  text-xl text-shade1 font-semibold mb-5 text-center'>
-            From ESG to XRG 
-           </h1>
            <div className='flex  items-center justify-center '>
             <div className='w-2/5 animate-slideInFromLeft  '>
               <img src={SchemaOne} alt=""  />

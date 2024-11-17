@@ -7,14 +7,16 @@ import Academic from './Academic';
 import  Expertise from './Expertise';
 import Testimonials from './Testimonials';
 import Clients from './Clients';
+import Leadership from './Leadership.jsx'
 
 const tabs = [
   { name: 'XRG Story', component: XrgStory },
   { name: 'Short bio', component: Bio },
-  { name: 'Career', component: Expertise},
+  { name: 'Expertise', component: Expertise},
   { name: 'Academic', component: Academic },
-  { name: 'Testimonials', component: Testimonials },
+  { name: 'Leadership', component: Leadership},
   { name: 'Partners', component: Clients },
+  { name: 'Testimonials', component: Testimonials },
 ];
 export default function Ghazi() {
   const [activeTab, setActiveTab] = useState(0);
