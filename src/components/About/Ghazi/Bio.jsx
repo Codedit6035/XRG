@@ -28,6 +28,7 @@ const Bio = () => {
                 <div
                  className={`absolute inset-0 bg-white transition-transform ${startAnimation ? 'animate-maskRevealBio' : ''}`}
                 />
+
             </div>
             {/* text */}
             <div className='flex flex-1 flex-col  w-4/6  px-10 '>
@@ -59,6 +60,7 @@ const Bio = () => {
             </div>
 
         </div>
+        {/* certificates*/}
     </div>
   )
 }

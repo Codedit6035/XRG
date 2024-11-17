@@ -5,7 +5,7 @@ const Awards = () => {
   return (
     <div>
       <h1 className="text-xl text-shade1 mb-4 font-semibold">Awards</h1>
-      <div className="w-16 h-1 bg-shade5 mb-4"></div>
+      <div className="w-16 h-1 bg-shade5 mb-8"></div>
       
       <div className="container flex gap-10 justify-center">
         
