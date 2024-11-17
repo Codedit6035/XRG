@@ -18,7 +18,7 @@ const XrgS = () => {
         <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-screen bg-shade2/30">
           {/*Image Ghasi*/}
           <div className="flex  sm:flex-1  overflow-hidden">
-          <div style={{ backgroundImage: `url(${GhasiImg})`  }} className="w-full bg-cover bg-left bg-no-repeat items-end animate-zoomInAb">
+          <div style={{ backgroundImage: `url(${BannerImg})`  }} className="w-full bg-cover bg-left bg-no-repeat items-end animate-zoomInAb">
           </div>  
           </div>
           {/* text */}

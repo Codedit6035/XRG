@@ -5,15 +5,15 @@ import { IoMenuOutline } from "react-icons/io5";
 import { IoIosArrowDown } from "react-icons/io"; // Add this icon for the arrow
 
 const Menu = [
-  { id: 1, name: "Home", link: "/" },
-  { id: 2, name: "About", link: "/about" },
-  { id: 3, name: "Services", link: "/services" },
-  { id: 4, name: "Get In Touch", link: "/get in touch" },
+  { id: 1, name: "Home", link: "/", bg:"bg-white"  },
+  { id: 2, name: "Explore", link: "/Explore", bg:"bg-white" },
+  { id: 3, name: "Services", link: "/services", bg:"bg-black"  },
+  { id: 4, name: "Get In Touch", link: "/get in touch", bg:"bg-green-500" },
 ];
 
 const AboutDropdown = [
-  { id: 1, name: "XRG Story", link: "/about#xrg-story" },
-  { id: 2, name: "About Me", link: "/about#about-me" },
+  { id: 1, name: "XRG Approach", link: "/explore#xrg-story" },
+  { id: 2, name: "Dr.Ghazi Kablouti", link: "/explore#about-me" },
 ];
 
 const Navbar = () => {
@@ -36,7 +36,7 @@ const Navbar = () => {
             <ul className="sm:flex hidden gap-3  ">
               {Menu.map((item) => (
                 <li key={item.id} className="relative ">
-                  {item.name === "About" ? (
+                  {item.name === "Explore" ? (
                     <button
                        onMouseEnter={() => setIsDropdownOpen(!isDropdownOpen)}
                       className="text-base font-raleway bg-shade5/50 px-2   flex items-center text-white  hover:bg-white hover:text-primary"
@@ -48,7 +48,7 @@ const Navbar = () => {
                   ) : (
                     <a
                       href={item.link}
-                      className="text-base font-raleway  bg-shade5/40 px-2 py-0.5 text-white hover:bg-white hover:text-primary"
+                      className={`text-base font-raleway  bg-shade5/40 px-2 py-0.5 text-white hover:${item.bg} hover:text-primary`}
 
                     >
                       {item.name}
@@ -56,8 +56,8 @@ const Navbar = () => {
                   )}
 
                   {/* Dropdown Menu */}
-                  {item.name === "About" && isDropdownOpen && (
-                    <ul className="absolute top-full left-0 mt-2 bg-white/50  shadow-lg py-2  w-28  " onMouseLeave={() => setIsDropdownOpen(!isDropdownOpen)}>
+                  {item.name === "Explore" && isDropdownOpen && (
+                    <ul className="absolute top-full left-0 mt-2 bg-white/50  shadow-lg py-2 min-w-36" onMouseLeave={() => setIsDropdownOpen(!isDropdownOpen)}>
                       {AboutDropdown.map((subItem) => (
                         <li key={subItem.id} className=''>
                           <a

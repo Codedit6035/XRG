@@ -14,9 +14,11 @@ export default {
         shade5: "#547484",
         shade6: "#8c9cac",    
         secondary: "#041525",
+        shade7:"#3584ad",
       },
       spacing: {
         '9rem': '9rem', // Adds a custom spacing utility
+        '3rem': '3rem', // Adds a custom spacing utility
       },
       container: {
         center: true,

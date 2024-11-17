@@ -1,6 +1,6 @@
 import React from "react";
-import BannerImg from "../../assets/aboutph.jpg";
 import GhasiImg from "../../assets/ghazi.jpg";
+import { motion } from 'framer-motion';
 
 const FounderS = () => {
   return (
@@ -15,12 +15,12 @@ const FounderS = () => {
           <div className="w-16 h-1 bg-teal-500 mb-4 "></div>        
         </div>
         {/* Body section */}
-        <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-screen bg-shade2/30">
+        <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-screen bg-shade7">
           {/* text */}
-          <div className="flex sm:flex-1 flex-col ml-20   ">
+          <div className="flex sm:flex-1 flex-col pl-3rem  py-7  ">
           <div data-aos="fade-up" className="  px-5 rounded-md text-white " >
-            <h1 className="font-medium text-3xl  bg-shade1/70 hover:bg-secondary transition-all mb-3 pl-2">Dr. Ghazi Kablouti <span className="font-bold text-lg  text-gray-200 pl-2">Envision. Lead. Inspire</span></h1>
-            <div className="p-5    w-full text-justify bg-shade1/70 flex flex-col gap-3 ">
+            <h1 className="font-medium text-3xl  bg-shade1/70 hover:bg-secondary transition-all   pl-2">Dr. Ghazi Kablouti <span className="font-bold text-lg  text-gray-200 pl-2">Envision. Lead. Inspire</span></h1>
+            <div className="py-5   w-full text-justify flex flex-col gap-3 ">
             <p >
             I am a pioneer and seasoned leader in strategic and operational sustainability management with
 over 25 years of experience in consulting, energy infrastructure, and industrial manufacturing,
@@ -50,10 +50,14 @@ Excellence Award.
           </div>
 
           {/*Image Ghasi*/}
-          <div className="flex  sm:flex-1  overflow-hidden">
-          <div style={{ backgroundImage: `url(${GhasiImg})`  }} className="w-full bg-cover bg-left bg-no-repeat items-end animate-zoomInAb">
+          <motion.div className="flex  sm:flex-1  overflow-hidden"
+                  initial={{ x: '100%', opacity: 0 }}
+                  whileInView={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 1.1, ease: "easeInOut" }}
+                  viewport={{ once: true }}>
+          <div style={{ backgroundImage: `url(${GhasiImg})`  }} className="w-full bg-cover bg-left bg-no-repeat items-end ">
           </div>
-          </div>
+          </motion.div>
         
         </div>
 
