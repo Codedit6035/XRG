@@ -5,10 +5,10 @@ import AchievmentData from "../../../../data/AchievmentData";
 
 const Achievments = () => {
   return (
-    <div className='container'>
+    <div className=''>
       <h1 className="text-xl text-shade1 mb-4 font-semibold">Professional Achievements</h1>
       <div className="w-16 h-1 bg-shade5 mb-8"></div>      
-      <div className='flex gap-10'>
+      <div className=' container flex gap-10'>
         {/* text right */}
         <div className=" flex flex-1 h-100 flex-col">
           {AchievmentData.map((data, index) => (
