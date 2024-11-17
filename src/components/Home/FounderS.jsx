@@ -15,7 +15,7 @@ const FounderS = () => {
           <div className="w-16 h-1 bg-teal-500 mb-4 "></div>        
         </div>
         {/* Body section */}
-        <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-screen bg-shade2">
+        <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-screen bg-shade2/30">
           {/* text */}
           <div className="flex sm:flex-1 flex-col ml-20   ">
           <div data-aos="fade-up" className="  px-5 rounded-md text-white " >

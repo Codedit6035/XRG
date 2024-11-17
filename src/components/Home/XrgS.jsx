@@ -15,17 +15,17 @@ const XrgS = () => {
           <div className="w-16 h-1 bg-teal-500 mb-4 "></div>        
         </div>
         {/* Body section */}
-        <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-screen bg-shade2">
+        <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-screen bg-shade2/30">
           {/*Image Ghasi*/}
           <div className="flex  sm:flex-1  overflow-hidden">
           <div style={{ backgroundImage: `url(${GhasiImg})`  }} className="w-full bg-cover bg-left bg-no-repeat items-end hover:animate-zoomIn">
           </div>  
           </div>
           {/* text */}
-          <div className="flex sm:flex-1 flex-col mr-20 gap-10  ">
+          <div className="flex sm:flex-1 flex-col mr-20 gap-5 items-center justify-center ">
           {/* text1 */}
           <div data-aos="fade-up" className="  px-5 rounded-md text-white " >
-            <h1 className=" pt-5   mb-3 pl-5 text-xl text-shade1 font-semibold ">What we do</h1>
+            <h1 className=" pt-5    pl-5 text-xl text-shade1 font-semibold ">What we do</h1>
             <div className="p-5    w-full text-justify  flex flex-col gap-3  text-primary">
             <p >
             We provide management advisory, educational, and speaking services to help
@@ -35,7 +35,7 @@ const XrgS = () => {
           </div>
           {/* text2 */}
           <div data-aos="fade-up" className="  px-5 rounded-md text-white " >
-            <h1 className="    mb-3 pl-5 text-xl text-shade1 font-semibold ">Why We are Different</h1>
+            <h1 className="    pl-5 text-xl text-shade1 font-semibold ">Why We are Different</h1>
             <div className="p-5    w-full text-justify  flex flex-col gap-3  text-primary">
             <p>
             True business success is difficult to attain in fragile societies and businesses are

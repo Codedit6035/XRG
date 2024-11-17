@@ -85,7 +85,7 @@ const Hero = ({ handleOrderPopup }) => {
 
           {/* Short Paragraph */}
           <p className="text-lg font-Mulish font-medium">
-          Solutions for Managing Business Success Beyond ESG
+          Solutions for Managing Business and Sustainability beyond ESG
           </p>
         </div>
       </div>
