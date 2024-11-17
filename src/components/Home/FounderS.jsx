@@ -50,7 +50,9 @@ Excellence Award.
           </div>
 
           {/*Image Ghasi*/}
-          <div style={{ backgroundImage: `url(${GhasiImg})`  }} className="flex  sm:flex-1 bg-cover bg-left bg-no-repeat items-end">
+          <div className="flex  sm:flex-1  overflow-hidden">
+          <div style={{ backgroundImage: `url(${GhasiImg})`  }} className="w-full bg-cover bg-left bg-no-repeat items-end hover:animate-zoomIn ">
+          </div>
           </div>
         
         </div>

@@ -77,6 +77,10 @@ export default {
           '0%, 100%': { transform: 'scale(1)' },          // Slightly zoomed in
           '50%': { transform: 'scale(1.1)' },          // Zooms out to normal size
         },
+        zoomInAb: {
+          '0%': { transform: 'scale(1)' },          // Slightly zoomed in
+          '100%': { transform: 'scale(1.1)' },          // Zooms out to normal size
+        },
         scroll: {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-100%)' },
@@ -92,6 +96,7 @@ export default {
         fadeIn: 'fadeIn 5s ease-out  forwards',
         float: 'float 2s ease-in-out infinite',
         zoomInAb: 'zoomInAb 8s ease-in-out  infinite',       // Match duration with maskReveal
+        zoomIn: 'zoomIn 5s ease-in-out  ', 
         'spin-slow': 'spin 30s  linear infinite',  // Slower 3-second rotation
         scroll: 'scroll 20s linear infinite', // Animation name and timing
 

@@ -17,8 +17,10 @@ const XrgS = () => {
         {/* Body section */}
         <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-screen bg-shade2">
           {/*Image Ghasi*/}
-          <div style={{ backgroundImage: `url(${GhasiImg})`  }} className="flex  sm:flex-1 bg-cover bg-left bg-no-repeat items-end">
-          </div>          
+          <div className="flex  sm:flex-1  overflow-hidden">
+          <div style={{ backgroundImage: `url(${GhasiImg})`  }} className="w-full bg-cover bg-left bg-no-repeat items-end hover:animate-zoomIn">
+          </div>  
+          </div>
           {/* text */}
           <div className="flex sm:flex-1 flex-col mr-20 gap-10  ">
           {/* text1 */}

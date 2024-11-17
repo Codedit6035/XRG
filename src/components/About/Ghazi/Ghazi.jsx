@@ -14,7 +14,7 @@ const tabs = [
   { name: 'Career', component: Expertise},
   { name: 'Academic', component: Academic },
   { name: 'Testimonials', component: Testimonials },
-  { name: 'Employers&Clients', component: Clients },
+  { name: 'Partners', component: Clients },
 ];
 export default function Ghazi() {
   const [activeTab, setActiveTab] = useState(0);
