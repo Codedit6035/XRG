@@ -46,7 +46,7 @@ const Academic = () => {
             <h1 className='font-semibold text-xl text-shade1'>Academic engagements (incl. south Africa…)  </h1>
             <p className='text-sm'>list of lectures, supervised master’s thesis and publications (for download)</p>
           </div>
-          <a  href="/bio.pdf" 
+          <a  href="/thesis.pdf" 
               download="Dr_Ghazi_List_Of_Publications.pdf" >
             <button>
               <FaDownload className='text-xl text-shade5' />
@@ -59,7 +59,7 @@ const Academic = () => {
             <h1 className='font-semibold text-xl text-shade1'>Focus (main topics) & liste des publications </h1>
             <p className='text-sm'>liste des publications en pdf (download)</p>
           </div>
-          <a  href="/bio.pdf" 
+          <a  href="/publications.pdf" 
               download="Dr_Ghazi_List_Of_Publications_2.pdf" >
             <button>
               <FaDownload className='text-xl text-shade5' />

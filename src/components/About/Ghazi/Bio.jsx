@@ -46,7 +46,7 @@ const Bio = () => {
 
                 {/* buttons links */}
                 <div className='flex gap-5'>
-                  <a  href="/bio.pdf" 
+                  <a  href="/Dr. Ghazi Kablouti.pdf" 
                       download="Dr_Ghazi_Bio.pdf" >
                     <button class="flex gap-2 items-center rounded-md bg-gradient-to-tr from-slate-950 to-shade1 py-2 px-4 border  text-center text-sm text-white t hover:bg-blue-500  " >
                      <FaDownload className=' text-white' />
