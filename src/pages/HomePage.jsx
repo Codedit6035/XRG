@@ -9,6 +9,7 @@ import XrgS from '../components/Home/XrgS'
 import FounderS from '../components/Home/FounderS'
 import SeparationFou from '../components/Home/SeparationFou'
 import SeparationXrg from '../components/Home/SeparationXrg'
+import Testimonials from '../components/Testimonials'
 
 
 const HomePage = () => {

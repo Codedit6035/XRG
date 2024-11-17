@@ -19,81 +19,67 @@ import WbgLogo from '../../assets/partners/wbg.png';
 import WitsLogo from '../../assets/partners/wits.svg';
 import WrfLogo from '../../assets/partners/wrf.png';
 import ZhawLogo from '../../assets/partners/zhaw.png';
+import Marquee from "react-marquee-slider";
 
 const PartnersS = () => {
   const partners = [
-    { img: AlstomLogo, alt: 'AlstomLogo' },
-    { img: BmwLogo, alt: 'BmwLogo' },
-    { img: BoschLogo, alt: 'BoschLogo' },
-    { img: BslLogo, alt: 'BslLogo' },
-    { img: CatenaLogo, alt: 'CatenaLogo' },
-    { img: GeaLogo, alt: 'GeaLogo' },
-    { img: GehLogo, alt: 'GehLogo' },
-    { img: GmLogo, alt: 'GmLogo' },
-    { img: HenkelLogo, alt: 'HenkelLogo' },
-    { img: HitachiLogo, alt: 'HitachiLogo' },
-    { img: MalikLogo, alt: 'MalikLogo' },
-    { img: MercedesLogo, alt: 'MercedesLogo' },
-    { img: MitLogo, alt: 'MitLogo' },
-    { img: TbsLogo, alt: 'TbsLogo' },
-    { img: UpgLogo, alt: 'UpgLogo' },
-    { img: WbcsdLogo, alt: 'WbcsdLogo' },
-    { img: WbgLogo, alt: 'WbgLogo' },
-    { img: WitsLogo, alt: 'WitsLogo' },
-    { img: WrfLogo, alt: 'WrfLogo' },
-    { img: ZhawLogo, alt: 'ZhawLogo' },
+    {id:1, img: AlstomLogo, alt: 'AlstomLogo' },
+    {id:1, img: BmwLogo, alt: 'BmwLogo' },
+    {id:1, img: BoschLogo, alt: 'BoschLogo' },
+    {id:1, img: BslLogo, alt: 'BslLogo' },
+    {id:1, img: CatenaLogo, alt: 'CatenaLogo' },
+    {id:1, img: GeaLogo, alt: 'GeaLogo' },
+    {id:1, img: GehLogo, alt: 'GehLogo' },
+    {id:1, img: GmLogo, alt: 'GmLogo' },
+    {id:1, img: HenkelLogo, alt: 'HenkelLogo' },
+    {id:1, img: HitachiLogo, alt: 'HitachiLogo' },
+    {id:1, img: MalikLogo, alt: 'MalikLogo' },
+    {id:1, img: MercedesLogo, alt: 'MercedesLogo' },
+    {id:1, img: MitLogo, alt: 'MitLogo' },
+    {id:1, img: TbsLogo, alt: 'TbsLogo' },
+    {id:1, img: UpgLogo, alt: 'UpgLogo' },
+    {id:1, img: WbcsdLogo, alt: 'WbcsdLogo' },
+    {id:1, img: WbgLogo, alt: 'WbgLogo' },
+    {id:1, img: WitsLogo, alt: 'WitsLogo' },
+    {id:1, img: WrfLogo, alt: 'WrfLogo' },
+    {id:1, img: ZhawLogo, alt: 'ZhawLogo' },
   ];
 
-  const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Create a duplicated list of partners for infinite scrolling
-  const duplicatedPartners = [...partners, ...partners];
 
-  const nextSlide = () => {
-    setCurrentIndex((prevIndex) => prevIndex + 1);
-  };
-
-  // Reset the slide when reaching the midpoint to create the infinite effect
-  useEffect(() => {
-    const interval = setInterval(nextSlide, 3000);
-    return () => clearInterval(interval); // Cleanup on unmount
-  }, []);
-
-  // Reset the index when it reaches halfway through the duplicated array
-  useEffect(() => {
-    if (currentIndex === partners.length) {
-      setCurrentIndex(0);
-    }
-  }, [currentIndex, partners.length]);
 
   return (
     <div className="pt-14 pb-12 font-Raleway">
       {/* Header section */}
       <div className="mb-10 bg-white w-full pl-20 text-black">
-        <h1 className="text-left text-3xl font-Raleway text-primary">Partners</h1>
+        <h1 className="text-left text-3xl text-primary hover:bg-shade1 hover:text-white w-fit pr-5 pl-1">Partners</h1>
         {/* Blue line */}
-        <div className="w-16 h-1 bg-blue-500 mb-4"></div>
+        <div className="w-16 h-1 bg-teal-500 mb-4"></div>
       </div>
 
       {/* Slider container */}
-      <div className="relative w-full bg-shade2 py-2 overflow-hidden">
+      <div className=" w-full  py-2 ">
         {/* Animated slider */}
-        <div
-          className="flex gap-5 transition-transform duration-500 items-center justify-center"
-          style={{
-            transform: `translateX(-${currentIndex * 200}px)`, // Moves by 200px for each item
-            width: `${duplicatedPartners.length * 200}px`, // Ensure container fits all duplicated items
-          }}
-        >
-          {duplicatedPartners.map((partner, index) => (
-            <div
-              key={index}
-              className="flex-none px-2 py-4  justify-center"
-              style={{ width: "200px" }}
-            >
-              <img src={partner.img} alt={partner.alt} className="w-full h-auto" />
-            </div>
-          ))}
+        <div className="flex  gap-5 items-center" >
+        <Marquee velocity={30} minScale={0.7} resetAfterTries={100}>
+            {partners.map((data) => (
+              <div
+                key={data.id}
+                className="flex justify-center items-center w-[150px] h-[150px]  p-5 mx-4 rounded-md bg-primary/10  ">
+
+                  <img
+                    src={data.img}
+                    alt={data.alt}
+                    className="  w-full h-full object-contain "
+                  />
+
+
+
+              </div>
+            ))}
+          </Marquee>
+
+
         </div>
       </div>
     </div>
