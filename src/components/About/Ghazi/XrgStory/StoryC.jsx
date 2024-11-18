@@ -125,8 +125,8 @@ const StoryC = () => {
             <span>Any thoughts, need for support, </span>
              <a href="/get in touch" className='font-bold text-shade7'><span>let’s get in touch</span></a>
           </div>
-          
-        </div>        
+        </div>
+                
       </div>
     </div>
   );

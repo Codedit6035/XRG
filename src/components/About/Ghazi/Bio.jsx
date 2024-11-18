@@ -3,7 +3,7 @@ import GhaziImg from"../../../assets/GhaziPh2.jpg"
 import { FaLinkedin } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa";
 import BioData from "../../../data/BioData";
-
+import { CiLinkedin } from "react-icons/ci";
 const Bio = () => {
   const [startAnimation, setStartAnimation] = useState(false);
 
@@ -13,7 +13,10 @@ const Bio = () => {
   }, []);
 
   return (
-    <div className='container '>
+    <div className='container  font-raleway'>
+        <div className='flex   text-2xl py-10  text-white text-justify justify-center items-center flex-1 '>
+          <p className='px-10 text-secondary font-bold'>Envision. Lead. Inspire</p>
+        </div>
         <div className=' flex gap-10 py-20'>
             {/* image */}
             <div className='flex-1  mt-2 relative overflow-hidden '>
@@ -48,19 +51,26 @@ const Bio = () => {
                 <div className='flex gap-5'>
                   <a  href="/Dr. Ghazi Kablouti.pdf" 
                       download="Dr_Ghazi_Bio.pdf" >
-                    <button class="flex gap-2 items-center rounded-md bg-gradient-to-tr from-slate-950 to-shade1 py-2 px-4 border  text-center text-sm text-white t hover:bg-blue-500  " >
+                    <button class="flex gap-2 items-center bg-primary text-white border-2 border-gray-400 text-xl px-5 py-2 " >
                      <FaDownload className=' text-white' />
  
                      Download Bio
                     </button>
                     </a>
-                    <a href="https://www.linkedin.com/in/ghazikablouti/ "  target="_blank"><FaLinkedin className=' text-4xl text-sky-600' /></a>
+                    <a href="https://www.linkedin.com/in/ghazikablouti/ "  target="_blank"><CiLinkedin className=' text-5xl '/></a>
 
                 </div>
+                             {/* Get in touch link */}
+        <div className=" flex   items-center  mt-10 ">
+          <div className=''>
+            <span>Any thoughts, need for support, </span>
+             <a href="/get in touch" className='font-bold text-shade7'><span>let’s get in touch</span></a>
+          </div>
+        </div>
             </div>
 
         </div>
-        {/* certificates*/}
+
     </div>
   )
 }
