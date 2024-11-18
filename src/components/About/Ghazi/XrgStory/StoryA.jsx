@@ -1,31 +1,50 @@
 import React from 'react'
+import Img from "../../../../assets/Img.jpeg"
+import { motion } from 'framer-motion';
 
 const StoryA = () => {
   return (
-    <div className='container   '>
-      <div className=' container flex flex-col gap-10'>
+    <div className=''>
+      <div className=' flex flex-col gap-10 font-raleway'>
+        {/*quote img*/}
+        <div className='flex gap-1'>
+        <motion.div className='flex   text-2xl py-10  text-white text-justify justify-center items-center flex-1'
+                                   initial={{ x: '-100%', opacity: 0 }}
+                                   whileInView={{ x: 0, opacity: 1 }}
+                                   transition={{ duration: 1.1, ease: "easeInOut" }}
+                                   viewport={{ once: true }}>
+          <p className='px-10 text-secondary font-bold'>“ESG as it stands — grounded in disclosures and voluntary market action — will not deliver the necessary change … We must urgently address the tension between profitability and sustainability” – <br /> <span className='text-lg text-primary'>Cambridge University*</span></p>
+        </motion.div>
+        <motion.div className='flex-1'
+                                   initial={{ x: '100%', opacity: 0 }}
+                                   whileInView={{ x: 0, opacity: 1 }}
+                                   transition={{ duration: 1.1, ease: "easeInOut" }}
+                                   viewport={{ once: true }}>
+          <img src={Img} alt="" className=' size-full' />
+        </motion.div>
+        </div>
         {/* title + Blue line */}
-        <div className=''>
+        <div className='container'>
         <h1 className='  text-xl text-shade1 font-semibold mb-4'>
-        A Paradigm Shift in Business Strategy
+        Redefining Sustainable Business
         </h1>
         <div className="w-16 h-1 bg-shade5 mb-4"></div>
         </div>
         {/* content */}
-        <div className='flex gap-20'>
+        <div className='container flex gap-20'>
         {/* left*/}  
         <div className='flex-1'>
           <ul className='flex flex-col gap-5 list-disc text-justify text-sm'>
-            <li>Companies are the engines of modern society, providing purpose, jobs, and innovations that enhance quality of life and drive prosperity. As societal challenges grow, businesses are increasingly prioritizing sustainability through Environmental, Social, and Governance (ESG) initiatives. </li>
-            <li>Today’s dominant ESG framework seeks to integrate “sustainability thinking” into business operations by quantifying ESG factors that influence shareholder value—specifically, those that pose potential risks to the company.</li>
-            <li>While ESG often focuses on improving sustainability credentials and enhancing scores to attract investment, impact investing emphasizes backing businesses that actively solve specific societal or environmental challenges, even if these efforts do not directly influence financial performance. </li>
+            <li>Companies are the engines of modern society, providing purpose, jobs, and innovations that improve quality of life and drive prosperity. As societal challenges grow, businesses are increasingly prioritizing sustainability through Environmental, Social, and Governance (ESG) initiatives. </li>
+            <li>Today’s dominant ESG framework focuses on integrating “sustainability thinking” into business operations by quantifying ESG factors that influence shareholder value, particularly those that present potential risks to the company.</li>
           </ul>
         </div>
         {/* right*/}
         <div className=' flex-1'>
           <ul className='flex flex-col gap-5 list-disc text-justify text-sm'>
-            <li>Notably, there are many cases of companies performing poorly on ESG metrics while still making a meaningful positive impact on society. There is a real risk that ESG can sometimes foster a sense of complacency or even greenwash business practices, masking the need for deeper, more transformative change.</li>
-            <li>For business leaders, it is essential to understand how their companies generate shareholder value, how ESG initiatives enhance this value, and which public policies could amplify positive impacts. </li>
+            <li>However, while ESG often centers on improving sustainability credentials and boosting scores to attract investment, impact investing takes a different approach. It emphasizes backing businesses that actively address societal or environmental challenges, even when these efforts don’t directly correlate with financial performance. </li>
+            <li>Notably, many companies that perform poorly on ESG metrics still make a significant positive impact on society. This highlights a real risk that ESG can sometimes lead to complacency or greenwashing, masking the need for deeper, more transformative change.</li>
+            <h1 className='text-[12px]  italic text-primary '>*Survival of the Fittest: From ESG to Competitive Sustainability. Cambridge Institute for Sustainability Leadership (2024).</h1>
 
           </ul>
         </div>

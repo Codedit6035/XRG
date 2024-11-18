@@ -12,39 +12,26 @@ const FounderS = () => {
             Founder
         </h1>
           {/* Blue line */}
-          <div className="w-16 h-1 bg-shade8 mb-4 "></div>        
+          <div className="w-16 h-1 bg-shade7 mb-4 "></div>        
         </div>
         {/* Body section */}
         <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-screen bg-shade8">
           {/* text */}
           <div className="flex sm:flex-1 flex-col pl-3rem  py-7  ">
           <div data-aos="fade-up" className="  px-5 rounded-md text-white " >
-            <h1 className="font-medium text-3xl  bg-shade1/70 hover:bg-secondary transition-all   pl-2">Dr. Ghazi Kablouti <span className="font-bold text-lg  text-gray-200 pl-2">Envision. Lead. Inspire</span></h1>
+            <h1 className="font-medium text-3xl  bg-shade1/70 hover:bg-secondary transition-all   pl-2">Dr. Ghazi Kablouti  <span className="font-bold text-lg  text-gray-200 pl-2">– Envision. Lead. Inspire</span></h1>
             <div className="py-5   w-full text-justify flex flex-col gap-3 ">
             <p >
-            I am a pioneer and seasoned leader in strategic and operational sustainability management with
-over 25 years of experience in consulting, energy infrastructure, and industrial manufacturing,
-Since 2022, I have led Global Portfolio Sustainability for Hitachi Energy’s Transformers Business Unit.
-In 2020, I founded XRG Impact Advisory to help multinational companies and private equity firms
-integrate sustainability into their operations. I also represented Henkel AG in the Catena-X project,
-a pioneering digital sustainability platform for the automotive industry.
+            As the Founder of XRG Impact Management Advisory, I bring over 25 years of global leadership experience spanning consulting, energy infrastructure, and industrial manufacturing with world-leading corporations. With a multicultural and interdisciplinary background, I operate at the unique intersection of business, technology, and sustainability, driving transformative outcomes for organizations.
             </p>
             <p>
-            From 2015 to 2020, I served as Senior Manager for GE Corporate’s Global Sustainability Program,
-where I drove sustainability strategy and operations across various GE business units. Earlier, I held
-leadership roles at Alstom Power, including CSR Director, where I oversaw non-financial due
-diligence during the Alstom Power-GE acquisition. I have also provided strategic advisory to major
-institutions such as the World Bank and the World Business Council for Sustainable Development,
-focusing on impact management in the energy sector.
+            Combining a deep sense of purpose with cutting-edge business acumen, I excel as a creative, customer-focused leader and advisor. My proven track record includes delivering results in complex, dynamic environments by fostering business resilience, innovation, growth, and measurable impact. I specialize in turning ambitious visions into actionable and sustainable achievements.
             </p>
             <p>
-            Alongside my business leadership, I am a Senior Lecturer on Business and Society, supervising
-theses at institutions like ZHAW and BSL. I hold a Master’s in Aerospace Engineering, a Ph.D. in
-Management and Strategy, and a postdoctoral scholarship at MIT. Fluent in four languages, I have
-authored over 25 publications and was honored with the 2024 CXO 2.0 Business Leadership
-Excellence Award.
+            As an author and frequent conference speaker, I am deeply passionate about the transformative power of education to inspire change. I actively contribute to shaping the next generation of leaders as a lecturer and mentor at leading business and engineering schools.
             </p>
             </div>
+            <button className='bg-primary text-white border-2 border-gray-400 text-xl px-10 py-2 '>Explore Bio</button>
           </div>
 
           </div>

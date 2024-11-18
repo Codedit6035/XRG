@@ -43,13 +43,13 @@ const StoryC = () => {
           <div className="flex-1">
             <ul className="flex flex-col gap-5 text-justify list-disc">
               <li>
-                The XRG approach represents a strategic framework that integrates
-                "business thinking" into sustainability efforts, aiming to align shareholder
-                value creation with societal progress. By focusing on three core elements
-                that directly contribute to long-term value, the XRG approach helps business
-                leaders understand how their companies can adapt and thrive by driving the
-                systemic change required for greater resilience, profitability, and positive
-                societal impact.
+              We believe that the best response to this situation is not to continue advocating for further integration of sustainability into business strategy, but transforming how companies set goals, design strategy, and create value
+              </li>
+              <li>
+              The XRG approach offers a strategic framework that integrates "business thinking" into sustainability efforts, aligning shareholder value creation with societal progress.
+              </li>
+              <li>
+              By focusing on three core elements that directly contribute to long-term value, the XRG approach helps business leaders understand how their companies can adapt and thrive by driving the systemic change needed for greater resilience, profitability, and positive societal impact.
               </li>
             </ul>
           </div>
@@ -57,17 +57,13 @@ const StoryC = () => {
           <div className="flex-1">
             <ul className="flex flex-col gap-5 list-disc text-justify">
               <li>
-                X-Factor: Achieving financial goals by proactively addressing key societal
-                challenges, and leveraging the unique systemic strengths of the business for
-                long-term impacts.
+               <strong> X-Factor:</strong> Achieving financial goals by proactively addressing key societal challenges, and leveraging the unique systemic strengths of the business to act, enable and influence for long-term impacts.
               </li>
               <li>
-                Resilience: Minimizing negative externalities and reducing the impact of
-                environmental and social risks in the business model.
+               <strong>Resilience:</strong> Adapting to the underlying changes potentially affecting the business, minimizing negative externalities, and reducing the impact of environmental and social risks in the business model.
               </li>
               <li>
-                Governance: Building a purposeful, efficient system that prioritizes doing
-                fewer things exceptionally well for maximum impact.
+              <strong>Governance:</strong> Building a purposeful, viable and efficient system that prioritizes doing fewer things exceptionally well for maximum impact.
               </li>
             </ul>
           </div>
@@ -113,9 +109,24 @@ const StoryC = () => {
         {/* Text */}
         <div className="text-center">
           <p>
-            The world has the knowledge, technology, and resources to build a more resilient and better economy—one that respects planetary boundaries and fosters true societal prosperity. Markets are the best vehicles to deliver this change, and XRG Advisory is your partner on designing your transformative path to economic success through impactful solutions.
+           The world possesses the knowledge, technology, and resources needed to build a more resilient and prosperous economy—one that respects planetary boundaries and fosters genuine societal well-being. Markets are the most effective vehicles to drive this transformation, and XRG Advisory is your trusted partner in designing a transformative path to economic success through impactful, sustainable solutions 
           </p>
         </div>
+        {/* services link */}
+        <div className="text-center justify-center items-center space-y-5 bg-shade2 p-5">
+          <h1 className='text-2xl'>
+          Explore our Services
+          </h1>
+          <button className='bg-primary text-white border-2 border-gray-400 text-xl px-10 py-2'>Services</button>
+        </div>
+        {/* Get in touch link */}
+        <div className=" flex  justify-center items-center  gap-10 ">
+          <div className=''>
+            <span>Any thoughts, need for support, </span>
+             <a href="/get in touch" className='font-bold text-shade7'><span>let’s get in touch</span></a>
+          </div>
+          
+        </div>        
       </div>
     </div>
   );

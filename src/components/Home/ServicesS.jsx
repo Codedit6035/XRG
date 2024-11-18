@@ -45,18 +45,18 @@ const ServicesS = () => {
           Services
         </h1>
         {/* Blue line */}
-        <div className="w-16 h-1 bg-teal-500 mb-4"></div>
+        <div className="w-16 h-1 bg-shade7 mb-4"></div>
       </div>
   
       {/* body */}  
       <div className='flex justify-center h-screen'>  
-        <div className='flex =  w-full'>
+        <div className='flex gap-1 w-full'>
           <div
-            className='flex flex-1 gap-5 space-y-3 bg-primary p-5 = text-white justify-start text-xl font-semibold'
+            className='flex flex-1 gap-5 space-y-3 bg-shade9 p-5 = text-white justify-start  text-4xl font-semibold'
             data-aos="fade-up"
             data-aos-delay="0"
           >
-We offer management advisory, educational, and speaking services to help businesses create long-term value by achieving their sustainability goals.
+            Management advisory, educational, and speaking services to help economic players achieve their financial goals and create long-term value by reaching their sustainability objectives
 
           </div>
           <div
@@ -67,25 +67,30 @@ We offer management advisory, educational, and speaking services to help busines
             <div>
               <img src={Advising} alt="" />
             </div>
-            <a href="/services"><IoMdPeople className='text-5xl' /></a>
             <h1 className='text-3xl'>Advising</h1>
-            <p>sssssssssssssssssssssssssssssssssssssssssssssss</p>
+            <p> Empowering businesses to leverage their systemic strengths for long-term value and impact </p>
           </div>
           <div
             className='flex flex-1 flex-col gap-5 space-y-3 bg-primary p-5 = text-white'
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <a href="/services"><FaChalkboardTeacher className='text-5xl' /></a>
-            <h1 className='text-3xl'>Educating</h1>
+            <div>
+              <img src={Advising} alt="" />
+            </div>
+            <h1 className='text-3xl'>Lecturing</h1>
+            <p> Shaping the next generation of leaders with a vision and sense of urgency for change  </p>
           </div>
           <div
             className='flex flex-1 flex-col gap-5 space-y-3 bg-primary p-5 = text-white'
             data-aos="fade-up"
             data-aos-delay="600"
           >
-            <a href="/services"><RiSpeakFill className='text-5xl' /></a>
+            <div>
+              <img src={Advising} alt="" />
+            </div>
             <h1 className='text-3xl'>Speaking</h1>
+            <p> Connecting, inspiring, and engaging to drive societal progress  </p>
           </div>
         </div>
       </div>  

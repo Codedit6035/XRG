@@ -10,12 +10,11 @@ import Clients from './Clients';
 import Leadership from './Leadership.jsx'
 
 const tabs = [
-  { name: 'XRG Story', component: XrgStory },
-  { name: 'Short bio', component: Bio },
+  { name: 'XRG Approach', component: XrgStory },
+  { name: 'Biography', component: Bio },
   { name: 'Expertise', component: Expertise},
-  { name: 'Academic', component: Academic },
-  { name: 'Leadership', component: Leadership},
-  { name: 'Partners', component: Clients },
+  { name: 'Achievements', component: Leadership},
+  { name: 'Academia', component: Academic },
   { name: 'Testimonials', component: Testimonials },
 ];
 export default function Ghazi() {
