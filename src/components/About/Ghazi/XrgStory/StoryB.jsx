@@ -3,7 +3,7 @@ import StoryImg from '../../../../assets/storyb.jpg'
 
 const StoryB = () => {
   return (
-    <div className='relative  h-[200px] my-10'>
+    <div className='relative  h-[200px] my-10 font-raleway' >
        {/* background pattern */}      
       <div style={{ backgroundImage: `url(${StoryImg})` }} 
            className="h-full w-full bg-cover bg-center  ">
