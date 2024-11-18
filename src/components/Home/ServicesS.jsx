@@ -3,6 +3,7 @@ import { RiSpeakFill } from "react-icons/ri";
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { IoMdPeople } from "react-icons/io";
 import { PiArrowElbowDownRight } from "react-icons/pi";
+import Advising from '../../assets/advisinghome.jpg'
 
 const ServicesS = () => {
   const [isInView, setIsInView] = useState(false);
@@ -62,7 +63,10 @@ We offer management advisory, educational, and speaking services to help busines
             className='flex flex-1 flex-col gap-5 space-y-3 bg-primary p-5 = text-white'
             data-aos="fade-up"
             data-aos-delay="200"
-          >
+          > 
+            <div>
+              <img src={Advising} alt="" />
+            </div>
             <a href="/services"><IoMdPeople className='text-5xl' /></a>
             <h1 className='text-3xl'>Advising</h1>
             <p>sssssssssssssssssssssssssssssssssssssssssssssss</p>

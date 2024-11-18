@@ -15,6 +15,7 @@ export default {
         shade6: "#8c9cac",    
         secondary: "#041525",
         shade7:"#3584ad",
+        shade8:"#48687c"
       },
       spacing: {
         '9rem': '9rem', // Adds a custom spacing utility

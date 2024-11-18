@@ -12,7 +12,7 @@ const XrgS = () => {
             XRG
         </h1>
           {/* Blue line */}
-          <div className="w-16 h-1 bg-teal-500 mb-4 "></div>        
+          <div className="w-16 h-1 bg-shade8 mb-4 "></div>        
         </div>
         {/* Body section */}
         <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-screen bg-shade2/30">

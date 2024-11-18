@@ -12,10 +12,10 @@ const FounderS = () => {
             Founder
         </h1>
           {/* Blue line */}
-          <div className="w-16 h-1 bg-teal-500 mb-4 "></div>        
+          <div className="w-16 h-1 bg-shade8 mb-4 "></div>        
         </div>
         {/* Body section */}
-        <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-screen bg-shade7">
+        <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-screen bg-shade8">
           {/* text */}
           <div className="flex sm:flex-1 flex-col pl-3rem  py-7  ">
           <div data-aos="fade-up" className="  px-5 rounded-md text-white " >
