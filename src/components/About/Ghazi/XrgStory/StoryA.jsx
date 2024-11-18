@@ -25,7 +25,7 @@ const StoryA = () => {
         </div>
         {/* title + Blue line */}
         <div className='container'>
-        <h1 className='  text-xl text-shade1 font-semibold mb-4'>
+        <h1 className='  text-2xl text-shade1 font-semibold mb-4'>
         Redefining Sustainable Business
         </h1>
         <div className="w-16 h-1 bg-shade5 mb-4"></div>
@@ -34,14 +34,14 @@ const StoryA = () => {
         <div className='container flex gap-20'>
         {/* left*/}  
         <div className='flex-1'>
-          <ul className='flex flex-col gap-5 list-disc text-justify text-sm'>
+          <ul className='flex flex-col gap-5 list-disc text-justify text-base'>
             <li>Companies are the engines of modern society, providing purpose, jobs, and innovations that improve quality of life and drive prosperity. As societal challenges grow, businesses are increasingly prioritizing sustainability through Environmental, Social, and Governance (ESG) initiatives. </li>
             <li>Today’s dominant ESG framework focuses on integrating “sustainability thinking” into business operations by quantifying ESG factors that influence shareholder value, particularly those that present potential risks to the company.</li>
           </ul>
         </div>
         {/* right*/}
         <div className=' flex-1'>
-          <ul className='flex flex-col gap-5 list-disc text-justify text-sm'>
+          <ul className='flex flex-col gap-5 list-disc text-justify text-base'>
             <li>However, while ESG often centers on improving sustainability credentials and boosting scores to attract investment, impact investing takes a different approach. It emphasizes backing businesses that actively address societal or environmental challenges, even when these efforts don’t directly correlate with financial performance. </li>
             <li>Notably, many companies that perform poorly on ESG metrics still make a significant positive impact on society. This highlights a real risk that ESG can sometimes lead to complacency or greenwashing, masking the need for deeper, more transformative change.</li>
             <h1 className='text-[12px]  italic text-primary '>*Survival of the Fittest: From ESG to Competitive Sustainability. Cambridge Institute for Sustainability Leadership (2024).</h1>

@@ -30,10 +30,10 @@ const StoryC = () => {
 
   return (
     <div className="container pt-10">
-      <div className="container flex flex-col gap-10">
+      <div className="container flex flex-col gap-10 font-raleway text-base">
         {/* Title + Blue line */}
         <div>
-          <h1 className="text-xl text-shade1 font-semibold mb-4">The XRG Framework</h1>
+          <h1 className="text-2xl text-shade1 font-semibold mb-4">The XRG Framework</h1>
           <div className="w-16 h-1 bg-shade5 mb-4"></div>
         </div>
 
@@ -41,7 +41,7 @@ const StoryC = () => {
         <div className="flex gap-20">
           {/* Left */}
           <div className="flex-1">
-            <ul className="flex flex-col gap-5 text-justify list-disc">
+            <ul className="flex flex-col gap-5 text-justify list-disc ">
               <li>
               We believe that the best response to this situation is not to continue advocating for further integration of sustainability into business strategy, but transforming how companies set goals, design strategy, and create value
               </li>
@@ -55,7 +55,7 @@ const StoryC = () => {
           </div>
           {/* Right */}
           <div className="flex-1">
-            <ul className="flex flex-col gap-5 list-disc text-justify">
+            <ul className="flex flex-col gap-5 list-disc text-justify ">
               <li>
                <strong> X-Factor:</strong> Achieving financial goals by proactively addressing key societal challenges, and leveraging the unique systemic strengths of the business to act, enable and influence for long-term impacts.
               </li>
@@ -107,7 +107,7 @@ const StoryC = () => {
         </div>
 
         {/* Text */}
-        <div className="text-center">
+        <div className="text-center ">
           <p>
            The world possesses the knowledge, technology, and resources needed to build a more resilient and prosperous economy—one that respects planetary boundaries and fosters genuine societal well-being. Markets are the most effective vehicles to drive this transformation, and XRG Advisory is your trusted partner in designing a transformative path to economic success through impactful, sustainable solutions 
           </p>
