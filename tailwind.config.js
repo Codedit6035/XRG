@@ -94,7 +94,7 @@ export default {
           '100%': { transform: 'rotateY(180deg)' },
         },
         expandWidth: {
-          '0%': { width: '0%' },
+          '0%': { width: '10%' },
           '100%': { width: '100%' },
         },
 
