@@ -4,8 +4,13 @@ import { FaTrophy } from 'react-icons/fa';
 const Awards = () => {
   return (
     <div>
-      <h1 className="text-xl text-shade1 mb-4 font-semibold">Awards</h1>
+      <h1 className="text-xl text-shade1 mb-4 font-semibold">Awards and Recognition</h1>
       <div className="w-16 h-1 bg-shade5 mb-8"></div>
+      <div>
+        <p>
+         	Honored with the Hitachi Energy Appreciation Award (2023), GE “Above & Beyond” Excellence Award, Hitachi GX Growth Leadership Program (2024), and the CXO 2.0 Business Leadership Excellence Award (2024).
+        </p>
+      </div>
       
       <div className="container flex gap-10 justify-center">
         

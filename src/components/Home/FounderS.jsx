@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const FounderS = () => {
   return (
-    <div className="pt-10 pb-12 font-Raleway " >
+    <div className="pt-10 pb-12 font-Raleway text-base " >
 
         {/* Header section */}
         <div  className="   mb-10 animate-slideInFromLeft w-full pl-20  text-black">

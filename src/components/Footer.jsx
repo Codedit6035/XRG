@@ -3,7 +3,7 @@ import LogoFooter from'../assets/logofooter.png'
 
 const Footer = () => {
   return (
-    <div className='  bg-primary mt-0.5  py-10'>
+    <div className='  bg-primary mt-0.5  py-10 font-raleway '>
       <div className='container text-white'>
       <div className='flex flex-col border-b  gap-20 pb-5 pt-5 pr-40'>
       {/* Logo & topins & services */}

@@ -33,7 +33,7 @@ const ServicesS = () => {
   }, []);
 
   return (
-    <div className='pt-10 pb-12 font-Raleway'>
+    <div className='pt-10 pb-12 font-Raleway text-base'>
       {/* Header section */}
       <div
         ref={sectionRef}

@@ -5,7 +5,11 @@ import ExpertiseData from "../../../data/ExpertiseData";
 const  Expertise = () => {
   return (
     <div>
-      <div className='container flex flex-col gap-10 py-20  '>
+      <div className='container flex flex-col gap-10 py-20  font-raleway '>
+         {/*slogan*/}
+      <div className=' text-2xl py-10 text-center  '>
+          <p className='px-10 text-secondary font-bold'>“Mastery is not a question of intelligence, but a question of persistence and resilience” - Anonymous</p>
+        </div>
         {/*Img*/}
         <div>
           <img src={Image} alt="" className='w-fit' />
@@ -27,6 +31,41 @@ const  Expertise = () => {
 
       ))}                  
         </div> 
+                      {/* certificates*/}
+                      <div className='flex-1 '>
+                  <h1 className='text-xl bg-shade1 text-white mb-4 font-semibold py-1 px-2'>Courses and certificates</h1>
+                  {/* Blue line */}
+                  <div className="w-16 h-1 bg-shade5 mb-4  "></div>  
+                  <div className='flex flex-col gap-5'>
+
+                  <div className='bg-shade2/30 rounded-s-sm p-3'>
+                    <h1 className='text-lg'>Business and Human Rights </h1>
+                    <h1 className='text-sm'> Council of Europe, 2022</h1>
+                  </div>
+                  <div className='bg-shade2/30 rounded-s-sm p-3'>
+                    <h1  className='text-lg'>Foundations in Responsible Investments </h1>
+                    <h1 className='text-sm'> UN PRI Academy, 2020</h1>
+                  </div>
+                  <div className='bg-shade2/30 rounded-s-sm p-3'>
+                    <h1  className='text-lg'>Photovoltaic Solar Energy </h1>
+                    <h1 className='text-sm'> École Polytechnique Paris, 2020</h1>
+                  </div>
+                  <div className='bg-shade2/30 rounded-s-sm p-3'>
+                    <h1  className='text-lg'>Smart Cities – Managing Smart Urban Infrastructures</h1>
+                    <h1 className='text-sm'> EPFL, 2019</h1>
+                  </div>
+                  <div className='bg-shade2/30 rounded-s-sm p-3'>
+                    <h1  className='text-lg'>Finance for Non-Finance Managers </h1>
+                    <h1 className='text-sm'>GE University, 2016</h1>
+                  </div>
+                </div>
+                </div>
+                {/* links*/}
+                <div>
+                  <h1>Link (download) Dr. Ghazi Kablouti (Profile document)</h1>
+                  <h1>Link to LinkedIn Profile (https://www.linkedin.com/in/ghazikablouti/)</h1>
+                  <h1>Get in Touch</h1>
+                </div>
 
 
       </div>
