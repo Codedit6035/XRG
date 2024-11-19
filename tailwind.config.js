@@ -93,6 +93,10 @@ export default {
           '0%': { transform: 'rotateY(0deg)' },
           '100%': { transform: 'rotateY(180deg)' },
         },
+        expandWidth: {
+          '0%': { width: '0%' },
+          '100%': { width: '100%' },
+        },
 
       },
       animation: {
@@ -109,6 +113,7 @@ export default {
         'spin-slow': 'spin 30s  linear infinite',  // Slower 3-second rotation
         scroll: 'scroll 20s linear infinite', // Animation name and timing
         rotateY: 'rotateY 0.7s linear', // The new rotateY animation
+        expand: 'expandWidth 1s ease-in-out forwards', // Adjust duration and easi
 
 
       },

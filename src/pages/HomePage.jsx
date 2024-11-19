@@ -10,6 +10,7 @@ import FounderS from '../components/Home/FounderS'
 import SeparationFou from '../components/Home/SeparationFou'
 import SeparationXrg from '../components/Home/SeparationXrg'
 import Testimonials from '../components/About/Ghazi/Testimonials'
+import ExploreXrg from '../components/Home/ExploreXrg'
 
 
 const HomePage = () => {
@@ -18,6 +19,7 @@ const HomePage = () => {
       <Hero/>
       <Separation/>
       <XrgS/>
+      <ExploreXrg/>
       <SeparationXrg/>
       <FounderS/>
       <SeparationFou/>

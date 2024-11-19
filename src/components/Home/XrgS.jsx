@@ -24,7 +24,7 @@ const XrgS = () => {
           {/* text */}
           <div className="flex sm:flex-1 flex-col mr-20 gap-5 items-center justify-center  py-5 ">
           {/* text1 */}
-          <div data-aos="fade-up" className="  px-5 rounded-md text-white " >
+          <div data-aos="fade-down" className="  px-5 rounded-md text-white " >
             <h1 className="text-2xl text-shade1 font-semibold mb-4">What we do</h1>
             <div className="w-full text-justify  flex flex-col gap-3  text-primary   ">
             <p >
@@ -45,10 +45,6 @@ const XrgS = () => {
             <p >
             At the heart of our solutions is systems thinking, inspired by exergy—a thermodynamic principle measuring the maximum useful impact a system can achieve as it aligns with its environment. Applying this principle to management, we empower organizations to focus on fewer, high-impact actions essential to maximizing long-term returns for business and society alike.
             </p>     
-            <div className="flex gap-5 items-center ">
-               <h1>Explore the XRG Approach </h1>
-               <button className='bg-primary text-white border border-gray-400 text-xl px-10 py-2'>Explore Approach</button>
-            </div>
 
             </div>
           </div>
@@ -57,6 +53,7 @@ const XrgS = () => {
 
           </div>
         </div>
+ 
 
     </div>
   )
