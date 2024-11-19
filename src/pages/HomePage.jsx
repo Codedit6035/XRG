@@ -10,7 +10,7 @@ import FounderS from '../components/Home/FounderS'
 import SeparationFou from '../components/Home/SeparationFou'
 import SeparationXrg from '../components/Home/SeparationXrg'
 
-import ExplorXrg from '../components/Home/ExplorXrg'
+
 
 
 const HomePage = () => {
@@ -19,7 +19,6 @@ const HomePage = () => {
       <Hero/>
       <Separation/>
       <XrgS/>
-      <ExplorXrg/>
       <SeparationXrg/>
       <FounderS/>
       <SeparationFou/>
