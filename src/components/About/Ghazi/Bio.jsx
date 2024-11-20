@@ -51,13 +51,13 @@ const Bio = () => {
                 <div className='flex gap-5'>
                   <a  href="/Dr. Ghazi Kablouti.pdf" 
                       download="Dr_Ghazi_Bio.pdf" >
-                    <button class="flex gap-2 items-center bg-primary text-white border-2 border-gray-400 text-xl px-5 py-2 " >
+                    <button class="flex gap-2 items-center bg-shade7 hover:bg-primary font-bold  text-xl text-white border-2 border-gray-400 px-5 py-2 " >
                      <FaDownload className=' text-white' />
  
                      Download Bio
                     </button>
                     </a>
-                    <a href="https://www.linkedin.com/in/ghazikablouti/ "  target="_blank"><CiLinkedin className=' text-5xl '/></a>
+                    <a href="https://www.linkedin.com/in/ghazikablouti/ "  target="_blank"><CiLinkedin className=' text-5xl  text-shade7  hover:text-primary'/></a>
 
                 </div>
                              {/* Get in touch link */}

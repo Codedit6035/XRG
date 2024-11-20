@@ -21,8 +21,8 @@ const Banner = () => {
 
       {/* content Overlay */}
       <div className='container absolute inset-0 flex items-center justify-center flex-col z-10 text-white'>
-        <h1  className="text-3xl md:text-5xl lg:text-6xl font-bold  mb-2">Clear Advice for Complex Challenges</h1>
-        <p>Solutions That Drive Results</p>
+        <h1  className="text-6xl font-bold mb-4 ">Clear Advice for Complex Challenges</h1>
+        <p className='text-lg font-medium'>Solutions That Drive Results</p>
       </div>
           {/* down circle */}
           <div className='absolute  z-10  flex w-[70px] h-[70px]  left-[50%] -ml-[35px] -mt-[70px] animate-float '>

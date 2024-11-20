@@ -117,13 +117,13 @@ const StoryC = () => {
           <h1 className='text-2xl'>
           Explore our Services
           </h1>
-          <button className='bg-primary text-white border-2 border-gray-400 text-xl px-10 py-2'>Services</button>
+          <button className='bg-shade7 hover:bg-primary font-bold  text-xl text-white   px-5 py-2'>Services</button>
         </div>
         {/* Get in touch link */}
         <div className=" flex  justify-center items-center  gap-10 ">
           <div className=''>
             <span>Any thoughts, need for support, </span>
-             <a href="/get in touch" className='font-bold text-shade7'><span>let’s get in touch</span></a>
+             <a href="/get in touch" className='font-bold text-shade7 '><span>let’s get in touch</span></a>
           </div>
         </div>
                 

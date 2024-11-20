@@ -83,7 +83,7 @@ const ServicesS = () => {
           <div
             className='flex flex-col flex-1  space-y-3 bg-shade3  text-white'
             data-aos="fade-up"
-            data-aos-delay="200"
+            data-aos-delay="400"
           > 
             <div>
               <img src={Lecturing} alt="" />
@@ -101,7 +101,7 @@ const ServicesS = () => {
           <div
             className='flex flex-col flex-1  space-y-3 bg-shade3  text-white'
             data-aos="fade-up"
-            data-aos-delay="200"
+            data-aos-delay="600"
           > 
             <div>
               <img src={Speaking} alt="" />

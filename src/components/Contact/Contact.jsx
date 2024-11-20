@@ -36,7 +36,7 @@ const Contact = () => {
                         <label htmlFor="" className='text-sm'>Message</label>
                         <input type="text" className='h-[80px]   bg-neutral-300/30'/>
                     </div>
-                    <button className='h-[35px] text-white   bg-blue-600/70 w-full  hover:bg-secondary'>
+                    <button className='h-[35px] bg-shade7 hover:bg-primary font-bold  text-xl text-white w-full  '>
                         Submit
                     </button>
 
