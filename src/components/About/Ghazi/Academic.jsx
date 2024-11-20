@@ -7,13 +7,13 @@ import AcademiaImg from "../../../assets/academiaimg.jpg"
 
 const Academic = () => {
   return (
-    <div className=' container '> 
+    <div className=' container py-10 '> 
             {/*slogan*/}
             <div className='  py-10  '>
               <img src={AcademiaImg } alt="" />
 
             </div>
-             <div className='flex flex-col gap-10  py-20' >
+             <div className='flex flex-col gap-10  ' >
              {/* text */}
               <div className='flex gap-1' >
                 {/* left*/}

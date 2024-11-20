@@ -13,10 +13,10 @@ const Bio = () => {
   }, []);
 
   return (
-    <div className='container  font-raleway'>
-        <div className='  py-10 flex-1  flex items-center justify-between px-10 text-white  bg-secondary font-bold'>
-          <h1 className=' text-2xl'>Dr. Ghazi Balkouti </h1>
-          <p className=''>Envision. Lead. Inspire</p>
+    <div className='py-10 container  font-raleway'>
+        <div className='   py-10 flex-1  flex items-center gap-10 px-10 text-white  bg-secondary font-bold'>
+          <h1 className=' text-2xl flex-1'>Dr. Ghazi Balkouti </h1>
+          <p className=' flex-1 flex gap-5'><span>Envision. </span> <span>Lead. </span> <span>Inspire</span></p>
         </div>
         <div className=' flex gap-10 py-20'>
             {/* image */}

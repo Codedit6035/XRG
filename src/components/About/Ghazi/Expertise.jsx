@@ -5,9 +5,9 @@ import ExpertiseData from "../../../data/ExpertiseData";
 const  Expertise = () => {
   return (
     <div>
-      <div className='container flex flex-col gap-10 py-20  font-raleway '>
+      <div className='  flex flex-col gap-10 py-10  font-raleway '>
          {/*slogan*/}
-      <div className=' text-2xl py-10 text-center  '>
+      <div className=' text-2xl  text-center py-10  '>
           <p className='px-10 text-secondary font-bold'>“Mastery is not a question of intelligence, but a question of persistence and resilience” - Anonymous</p>
         </div>
         {/*Img*/}
@@ -15,7 +15,7 @@ const  Expertise = () => {
           <img src={Image} alt="" className='w-fit' />
         </div>
         {/* text */}
-        <div className=" flex flex-col gap-10">
+        <div className="container flex flex-col gap-10">
           {ExpertiseData.map((data, index) => (
             <div key={index}  className='flex gap-10 border-b border-b-gray-500 pb-10 '>
               <div className='w-2/6'>

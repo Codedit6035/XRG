@@ -6,7 +6,7 @@ import Achievments from './Leadership/Achievments'
 const  Expertise = () => {
   return (
     <div>
-      <div className='container flex flex-col gap-10 py-20  '>
+      <div className='container flex flex-col gap-10 py-10  '>
         {/*slogan*/}
         <div className=' text-2xl py-10 text-center  '>
           <p className='px-10 text-secondary font-bold'>“If you want to go fast, go alone. If you want to go far, go together” – African Proverb</p>
