@@ -27,15 +27,15 @@ const Banner = () => {
       <div className="pl-9rem absolute inset-0 flex items-center justify-between">
         <div className="text-white max-w-lg z-10">
           {/* Title */}
-          <h1 className="text-5xl font-bold mb-4 ">
-            Better IT <br /> <span className="text-secondary">services</span> , <span className="italic"> for <br /> everyone </span>
+          <h1 className="text-6xl font-bold mb-4  ">
+            Better IT <br /> <span className="text-secondary">services</span> , <span className=""> for <br /> everyone </span>
           </h1>
 
           {/* Blue line */}
           <div className="w-16 h-1 bg-secondary mb-4"></div>
 
           {/* Short Paragraph */}
-          <p className="text-lg">
+          <p className="text-lg font-medium">
             Our goal is to help you build better IT services that propel your business forward.
             Learn more about the services we offer.
           </p>

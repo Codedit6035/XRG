@@ -24,7 +24,7 @@ const XrgS = () => {
       <div className=" flex flex-col justify-center items-center">
       <h1 className='text-6xl font-bold mb-5 text-primary'> Our Approach</h1>
       <a href="/explore" className=''>
-          <div className='bg-shade7 h-10 w-[10%] px-5 hover:animate-expand  flex items-center '>
+          <div className='bg-shade7 h-10 w-[10%] px-5 hover:animate-expand  hover:bg-primary flex items-center '>
              <h1 className=' text-scondary font-bold  text-xl '>Explore</h1>  
           </div> 
      </a> 

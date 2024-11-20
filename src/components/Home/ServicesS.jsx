@@ -4,6 +4,8 @@ import { FaChalkboardTeacher } from "react-icons/fa";
 import { IoMdPeople } from "react-icons/io";
 import { PiArrowElbowDownRight } from "react-icons/pi";
 import Advising from '../../assets/advisinghome.jpg'
+import Lecturing from '../../assets/lecturinghome.jpg'
+import Speaking from '../../assets/speaking.jpg'
 
 const ServicesS = () => {
   const [isInView, setIsInView] = useState(false);
@@ -65,14 +67,14 @@ const ServicesS = () => {
             data-aos-delay="200"
           > 
             <div>
-              <img src={Advising} alt="" />
+              <img src={Advising} alt=""  />
             </div>
             <div className='p-5 flex-1 flex flex-col gap-5'>
               <div className=''>
                 <h1 className='text-3xl '>Advising</h1>
                 <p> Empowering businesses to leverage their systemic strengths for long-term value and impact </p>
               </div>                
-              <a href="/explore" className='px-5 flex items-center bg-shade7  h-10 w-fit mt-auto'>
+              <a href="/services" className='px-5 flex items-center bg-shade7  h-10 w-fit mt-auto hover:bg-primary '>
                 <h1 className=' text-white font-bold  text-xl whitespace-nowrap'>Read more</h1>  
               </a> 
             </div>
@@ -84,14 +86,14 @@ const ServicesS = () => {
             data-aos-delay="200"
           > 
             <div>
-              <img src={Advising} alt="" />
+              <img src={Lecturing} alt="" />
             </div>
             <div className='p-5 flex-1 flex flex-col gap-5'>
               <div className=''>
                 <h1 className='text-3xl '>Lecturing</h1>
                 <p> Shaping the next generation of leaders with a vision and sense of urgency for change </p>
               </div>                
-              <a href="/explore" className='px-5 flex items-center bg-shade7  h-10 w-fit mt-auto'>
+              <a href="/services" className='px-5 flex items-center bg-shade7  h-10 w-fit mt-auto hover:bg-primary '>
                 <h1 className=' text-white font-bold  text-xl whitespace-nowrap'>Read more</h1>  
               </a> 
             </div>
@@ -102,14 +104,14 @@ const ServicesS = () => {
             data-aos-delay="200"
           > 
             <div>
-              <img src={Advising} alt="" />
+              <img src={Speaking} alt="" />
             </div>
             <div className='p-5 flex-1 flex flex-col gap-5'>
               <div className=''>
                 <h1 className='text-3xl '>Speaking</h1>
                 <p> Connecting, inspiring, and engaging to drive societal progress  </p>
               </div>                
-              <a href="/explore" className='px-5 flex items-center bg-shade7  h-10 w-fit mt-auto'>
+              <a href="/services" className='px-5 flex items-center bg-shade7  h-10 w-fit mt-auto hover:bg-primary '>
                 <h1 className=' text-white font-bold  text-xl whitespace-nowrap'>Read more</h1>  
               </a> 
             </div>
