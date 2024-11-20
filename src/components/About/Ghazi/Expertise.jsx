@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from '../../../assets/expertiseph.jpg'
 import ExpertiseData from "../../../data/ExpertiseData";
+import Certificates from './Expertise/Certificates';
 
 const  Expertise = () => {
   return (
@@ -42,7 +43,9 @@ const  Expertise = () => {
                   <h1 className='text-xl bg-shade1 text-white mb-4 font-semibold py-1 px-2'>Courses and certificates</h1>
                   {/* Blue line */}
                   <div className="w-16 h-1 bg-shade5 mb-4  "></div>  
-                  <div className='flex flex-col gap-5'>
+                  <Certificates/>
+
+                  {/* <div className='flex flex-col gap-5'>
 
                   <div className='bg-shade2/30 rounded-s-sm p-3'>
                     <h1 className='text-lg'>Business and Human Rights </h1>
@@ -64,7 +67,7 @@ const  Expertise = () => {
                     <h1  className='text-lg'>Finance for Non-Finance Managers </h1>
                     <h1 className='text-sm'>GE University, 2016</h1>
                   </div>
-                </div>
+                </div> */}
                 </div>
                 {/* links*/}
                 <div className='container'>
