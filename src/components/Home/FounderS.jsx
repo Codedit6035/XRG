@@ -34,7 +34,7 @@ const FounderS = () => {
             </div>
             <a href="/explore" className=''>
           <div className='bg-shade7  h-10 w-[10%] px-5 hover:animate-expand  flex items-center '>
-             <h1 className=' text-primary font-bold  text-xl whitespace-nowrap '>Explore more</h1>  
+             <h1 className=' text-white font-bold  text-xl whitespace-nowrap '>Explore more</h1>  
           </div> 
      </a> 
           </div>

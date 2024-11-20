@@ -25,7 +25,7 @@ const XrgS = () => {
       <h1 className='text-6xl font-bold mb-5 text-primary'> Our Approach</h1>
       <a href="/explore" className=''>
           <div className='bg-shade7 h-10 w-[10%] px-5 hover:animate-expand  flex items-center '>
-             <h1 className=' text-primary font-bold  text-xl '>Explore</h1>  
+             <h1 className=' text-shade6 font-bold  text-xl '>Explore</h1>  
           </div> 
      </a> 
     </div>
