@@ -22,13 +22,11 @@ const  Expertise = () => {
       } `}>
               <div className='w-2/6'>
                 <h1           className={`text-xl mb-4 font-semibold ${
-            index % 2 === 0 ? 'text-shade1' : 'text-white'
+            index % 2 === 0 ? 'text-shade1' : 'text-shade1'
           }`}>
                   {data.title}
                 </h1>
-                <div   className={`w-16 h-1  mb-4 ${
-            index % 2 === 0 ? 'bg-shade5' : 'bg-white'
-          }`}></div>
+                <div   className="w-16 h-1  mb-4 bg-shade5" ></div>
               </div>
               <div           className={`w-4/6 text-justify ${
             index % 2 === 0 ? '' : 'text-shade5'
