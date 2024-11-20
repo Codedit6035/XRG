@@ -5,7 +5,7 @@ import { IoMdPeople } from "react-icons/io";
 import { PiArrowElbowDownRight } from "react-icons/pi";
 import Advising from '../../assets/advisinghome.jpg'
 import Lecturing from '../../assets/lecturinghome.jpg'
-import Speaking from '../../assets/speaking.jpg'
+import Speaking from '../../assets/speaking.png'
 
 const ServicesS = () => {
   const [isInView, setIsInView] = useState(false);

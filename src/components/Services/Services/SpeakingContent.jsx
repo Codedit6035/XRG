@@ -1,5 +1,5 @@
 import React from 'react'
-import Speaking from "../../../assets/speakingresized.jpg"
+import Speaking from "../../../assets/speaking.png"
 import { motion } from 'framer-motion';
 
 const SpeakingContent = () => {

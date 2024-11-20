@@ -6,7 +6,7 @@ import Services from '../components/Services/Services'
 
 const ServicesPage = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Banner/>
       <Services/>
     </div>

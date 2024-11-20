@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const AdvisingContent = () => {
   return (
     <div>
-                <div className='flex justify-center  my-20 gap-20 '>
+                <div className='flex justify-center  my-20 gap-20 over'>
                    {/* text*/}
                    <motion.div className='flex-1 font-raleway space-y-14'
                            initial={{ x: '-100%', opacity: 0 }}
