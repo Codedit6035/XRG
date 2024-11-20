@@ -9,7 +9,10 @@ const Footer = () => {
       {/* Logo & topins & services */}
       <div className='flex  justify-between '>
         <div>
-          <img src={LogoFooter}alt="" className='w-20 animate-spin-slow '/>
+          <a href="/">
+            <img src={LogoFooter}alt="" className='w-20 animate-spin-slow '/>           
+          </a>
+
         </div>
         <div>
           <h1 className='text-2xl pb-5'>Topics</h1>

@@ -3,13 +3,15 @@ import { FaDownload } from "react-icons/fa";
 import AcademiaData from '../../../data/AcademiarightData';
 import AcademialeftData from '../../../data/AcademialeftData';
 import AcademiarightData from '../../../data/AcademiarightData';
+import AcademiaImg from "../../../assets/academiaimg.jpg"
 
 const Academic = () => {
   return (
     <div className=' container '> 
             {/*slogan*/}
-            <div className=' text-2xl py-10 text-center  '>
-             <p className='px-10 text-secondary font-bold'>“Education is the most powerful weapon which you can use to change the world." – Nelson Mandela</p>
+            <div className='  py-10  '>
+              <img src={AcademiaImg } alt="" />
+
             </div>
              <div className='flex flex-col gap-10  py-20' >
              {/* text */}

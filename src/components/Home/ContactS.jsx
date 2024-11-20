@@ -18,7 +18,7 @@ const ContactS = () => {
                 <h1 className='pr-5 border-r-2 border-gray-400  font-semibold'>Follow us</h1>
                 <div>
                    <ul className='flex gap-5 pl-3 text-2xl '>
-                      <CiLinkedin />
+                    <a href="https://www.linkedin.com/in/ghazikablouti/ "  target="_blank"><CiLinkedin /></a>
                       <CiInstagram />
                       <FaXTwitter />              
                     </ul>
