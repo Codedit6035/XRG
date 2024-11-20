@@ -81,7 +81,7 @@ const ServicesS = () => {
           </div>
           
           <div
-            className='flex flex-col flex-1  space-y-3 bg-shade3  text-white'
+            className='flex flex-col flex-1  space-y-3 bg-shade5  text-white'
             data-aos="fade-up"
             data-aos-delay="400"
           > 
@@ -99,7 +99,7 @@ const ServicesS = () => {
             </div>
           </div>
           <div
-            className='flex flex-col flex-1  space-y-3 bg-shade3  text-white'
+            className='flex flex-col flex-1  space-y-3 bg-shade1  text-white'
             data-aos="fade-up"
             data-aos-delay="600"
           > 
