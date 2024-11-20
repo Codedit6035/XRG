@@ -30,16 +30,16 @@ export default function Ghazi() {
           <motion.div
             key={index}
             onClick={() => setActiveTab(index)}
-            className={`flex-1 border-b-2 transition-colors duration-300 ${
-              activeTab === index ? 'border-shade5' : 'border-gray-300'
+            className={`flex-1 border-b-2 py-1 transition-colors duration-300 ${
+              activeTab === index ? 'border-shade7 bg-shade7 pl-2' : 'border-gray-300'
             }`}
             initial={{ opacity: 0 }}
             animate={{ opacity: activeTab === index ? 1 : 0.7 }}
             transition={{ duration: 2 }}
           >
             <button
-              className={`tab-item  py-2 text-gray-600 text-2xl transition-colors duration-300 ${
-                activeTab === index ? 'text-shade1 font-bold' : ''
+              className={`tab-item   text-gray-600 text-2xl transition-colors duration-300 ${
+                activeTab === index ? 'text-white font-bold' : ''
               }`}
             >
               {tab.name}
