@@ -14,8 +14,9 @@ const Bio = () => {
 
   return (
     <div className='container  font-raleway'>
-        <div className='  text-2xl py-10  text-center flex-1 '>
-          <p className='px-10 text-secondary font-bold'>Envision. Lead. Inspire</p>
+        <div className='  py-10 flex-1  flex items-center justify-between px-10 text-white  bg-secondary font-bold'>
+          <h1 className=' text-2xl'>Dr. Ghazi Balkouti </h1>
+          <p className=''>Envision. Lead. Inspire</p>
         </div>
         <div className=' flex gap-10 py-20'>
             {/* image */}
