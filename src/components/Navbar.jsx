@@ -7,8 +7,7 @@ import { IoIosArrowDown } from "react-icons/io"; // Add this icon for the arrow
 const Menu = [
   { id: 1, name: "Home", link: "/", bg:"bg-white"  },
   { id: 2, name: "Explore", link: "/Explore", bg:"bg-white" },
-  { id: 3, name: "Services", link: "/services", bg:"bg-black"  },
-  { id: 4, name: "Get In Touch", link: "/get in touch", bg:"bg-green-500" },
+  { id: 3, name: "Services", link: "/services", bg:"bg-white"  },
 ];
 
 const AboutDropdown = [
@@ -55,6 +54,7 @@ const Navbar = () => {
                     </a>
                   )}
 
+
                   {/* Dropdown Menu */}
                   {item.name === "Explore" && isDropdownOpen && (
                     <ul className="absolute top-full left-0 mt-2 bg-white/50  shadow-lg py-2 min-w-36" onMouseLeave={() => setIsDropdownOpen(!isDropdownOpen)}>
@@ -72,6 +72,15 @@ const Navbar = () => {
                   )}
                 </li>
               ))}
+               <li>
+               <a
+                      href="/get in touch"
+                      className="text-base font-raleway  bg-shade7 px-2 py-0.5 text-white hover:bg-white hover:text-primary"
+
+                    >
+                      Get In Touch
+                    </a>
+                </li>
             </ul>
           </div>
 

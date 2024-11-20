@@ -7,35 +7,27 @@ import AcademiaImg from "../../../assets/academiaimg.jpg"
 
 const Academic = () => {
   return (
-    <div className=' container py-10 '> 
+    <div className=' container py-10  text-base'> 
             {/*slogan*/}
-            <div className='  py-10  '>
+            <div className='  pt-10  '>
               <img src={AcademiaImg } alt="" />
-
             </div>
-             <div className='flex flex-col gap-10  ' >
+         
              {/* text */}
-              <div className='flex gap-1' >
+              <div className='' >
                 {/* left*/}
-                <div className=" ">
+                <div className=" flex flex-col gap-5 text-justify">
                 {AcademialeftData.map((para, index) => (
-                <p key={index} className="text-base mb-4 text-justify">
+                <p key={index} className='bg-shade2/30 rounded-s-sm p-3'>
                     {para}
                 </p>
                 ))}     
                 </div>  
-                 {/* right */}
-                <div className=" ">
-                {AcademiarightData.map((para, index) => (
-                <p key={index} className="text-base mb-4 text-justify">
-                    {para}
-                </p>
-                ))}     
-                </div>            
-                </div>   
+           
+  
 
                 {/*publications*/}
-                <div className='  flex  flex-1 flex-col  '>
+                <div className='  flex  flex-1 flex-col  pt-10 '>
                 <h1 className='text-xl text-shade1 mb-4 font-semibold '>Links to download documents</h1>
                   {/* Blue line */}
                   <div className="w-16 h-1 bg-shade5 mb-4  "></div>
