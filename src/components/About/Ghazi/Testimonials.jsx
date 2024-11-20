@@ -66,7 +66,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className=" py-10 mb-10">
+    <div className=" py-10 ">
       <div className=" bg-primary py-10">
         {/* Header Section */}
         <div data-aos="zoom-in" className=" ">

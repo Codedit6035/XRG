@@ -14,9 +14,9 @@ const Bio = () => {
 
   return (
     <div className='py-10 container  font-raleway'>
-        <div className='   py-10 flex-1  flex items-center gap-10 px-10 text-white  bg-secondary font-bold'>
-          <h1 className=' text-2xl flex-1'>Dr. Ghazi Balkouti </h1>
-          <p className=' flex-1 flex gap-5'><span>Envision. </span> <span>Lead. </span> <span>Inspire</span></p>
+        <div className='   py-10 flex-1  flex items-center gap-10 px-10 text-white  bg-primary font-bold'>
+          <h1 className=' text-4xl flex-1'>Dr. Ghazi Balkouti </h1>
+          <p className=' flex-1 text-lg flex gap-10'><span>Envision. </span> <span>Lead. </span> <span>Inspire</span></p>
         </div>
         <div className=' flex gap-10 py-20'>
             {/* image */}
@@ -36,9 +36,10 @@ const Bio = () => {
             </div>
             {/* text */}
             <div className='flex flex-1 flex-col  w-4/6  px-10 '>
-                <h1 className=' text-xl text-shade1 mb-4 font-semibold '> Dr. Ghazi Balkouti </h1>
-                {/* Blue line */}
-                <div className="w-16 h-1 bg-shade5 mb-4  "></div>  
+                  {/*header */}
+                {/* <h1 className=' text-xl text-shade1 mb-4 font-semibold '> Dr. Ghazi Balkouti </h1>
+
+                <div className="w-16 h-1 bg-shade5 mb-4  "></div>   */}
                 {/* text */}
                 <div className=" ">
                 {BioData.map((para, index) => (
