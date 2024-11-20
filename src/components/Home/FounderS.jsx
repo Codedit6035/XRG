@@ -1,10 +1,11 @@
 import React from "react";
 import GhasiImg from "../../assets/ghazi.jpg";
 import { motion } from 'framer-motion';
+import { FaAnglesDown } from "react-icons/fa6";
 
 const FounderS = () => {
   return (
-    <div className="pt-10 pb-12 font-Raleway text-base " >
+    <div className="pt-10 pb-12 font-Raleway text-base relative" >
 
         {/* Header section */}
         <div  className="   mb-10 animate-slideInFromLeft w-full pl-20  text-black">
@@ -52,6 +53,11 @@ const FounderS = () => {
           </motion.div>
         
         </div>
+
+                         {/* down circle */}
+                         <div className='absolute  z-10  flex w-[70px] h-[70px]  left-[50%] -ml-[35px] -mt-[70px] animate-float '>
+           <a href="#5th" className="flex items-center  w-[70px] h-[70px] text-4xl  text-shade6 justify-center"><FaAnglesDown  /></a>
+    </div>
 
     </div>
   )

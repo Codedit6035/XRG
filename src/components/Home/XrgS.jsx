@@ -34,7 +34,7 @@ const XrgS = () => {
           </div>  
           </div>
           {/* text */}
-          <div className="flex sm:flex-1 flex-col mr-20 gap-5 items-center justify-center  py-5 ">
+          <div className="flex sm:flex-1 flex-col mr-20 gap-5 items-center justify-center  py-5 pl-10 ">
           {/* text1 */}
           <div data-aos="fade-down" className="  px-5 rounded-md text-white " >
             <h1 className="text-2xl text-shade1 font-semibold mb-4">What we do</h1>
@@ -65,8 +65,8 @@ const XrgS = () => {
         </div>
  
                  {/* down circle */}
-                 <div className='absolute  z-10  flex w-[70px] h-[70px]  left-[48%] -ml-[35px] -mt-[70px] animate-float '>
-           <a href="#xrg-section" className="flex items-center  w-[70px] h-[70px] text-4xl  text-shade2 justify-center"><FaAnglesDown  /></a>
+                 <div className='absolute  z-10  flex w-[70px] h-[70px]  left-[50%] -ml-[35px] -mt-[70px] animate-float '>
+           <a href="#4th" className="flex items-center  w-[70px] h-[70px] text-4xl  text-shade2 justify-center"><FaAnglesDown  /></a>
     </div>
 
     </div>

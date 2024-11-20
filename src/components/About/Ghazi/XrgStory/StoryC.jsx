@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import SchemaOne from '../../../../assets/schemaone.png';
 import SchemaTwo from '../../../../assets/schematwo.png';
 import SchemaThree from '../../../../assets/schemathree.png';
+import Name from '../../../../assets/name.png';
 
 const StoryC = () => {
   const [isInView, setIsInView] = useState(false);
@@ -70,7 +71,7 @@ const StoryC = () => {
         </div>
 
         {/* Schema Section */}
-        <div className="p-10" id="schema-section">
+        <div className="p-10 flex flex-col items-center" id="schema-section">
           <div className="flex items-center justify-center">
             {/* Schema 1 */}
             <div
@@ -104,7 +105,14 @@ const StoryC = () => {
               <img src={SchemaThree} alt="Schema 3" />
             </div>
           </div>
+
+
+          <div>
+          <img src={Name} alt="" />
+          </div>
         </div>
+
+
 
         {/* Text */}
         <div className="text-center ">
@@ -112,6 +120,7 @@ const StoryC = () => {
            The world possesses the knowledge, technology, and resources needed to build a more resilient and prosperous economy—one that respects planetary boundaries and fosters genuine societal well-being. Markets are the most effective vehicles to drive this transformation, and XRG Advisory is your trusted partner in designing a transformative path to economic success through impactful, sustainable solutions 
           </p>
         </div>
+
         {/* services link */}
         <div className="text-center justify-center items-center space-y-5 bg-shade2 p-5">
           <h1 className='text-2xl'>
