@@ -66,18 +66,18 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="container py-10 mb-10">
-      <div className="container bg-secondary py-10">
+    <div className=" py-10 mb-10">
+      <div className=" bg-primary py-10">
         {/* Header Section */}
-        <div data-aos="zoom-in">
-          <h1 className="text-3xl font-bold text-shade2 mb-6">
+        <div data-aos="zoom-in" className=" ">
+          <h1 className=" container text-3xl font-bold text-shade2 mb-6">
             Customer’s Reviews & Feedback
           </h1>
 
           {/* Slider Section */}
           <Slider {...settings}>
             {TestimonialData.map((data) => (
-              <div key={data.id} className="flex-shrink-0">
+              <div key={data.id} className=" container  flex-shrink-0">
                 <div className="flex flex-col py-8 px-10 rounded-xl relative">
                   <div className="flex flex-col items-start">
                     <div className="mb-6">
