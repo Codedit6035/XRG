@@ -50,7 +50,7 @@ const Certificates = () => {
       {
         breakpoint: 10000,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
         },
@@ -80,8 +80,8 @@ const Certificates = () => {
           <Slider {...settings}  >
             {CertificatesData.map((data) => (
               <div key={data.id}>
-                <div className="flex flex-col py-8 px-5 rounded-md   mx-10  bg-shade2/30 whitespace-nowrap  justify-center items-center ">
-                    <h1 className='text-lg font-bold'>{data.name}</h1>
+                <div className="flex flex-col py-8 px-5 rounded-md h-[200px]  mx-10  bg-shade2/30  justify-center items-center ">
+                    <h1 className='text--lg font-bold text-center'>{data.name}</h1>
                     <h1 className='text-sm'>{data.uni}</h1>
                 </div>
               </div>
