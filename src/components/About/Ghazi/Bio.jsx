@@ -14,8 +14,8 @@ const Bio = () => {
 
   return (
     <div className='py-10 container  font-raleway'>
-        <div className='   py-10 flex-1  flex items-center gap-10 px-10 text-white  bg-primary font-bold'>
-          <h1 className=' text-4xl flex-1'>Dr. Ghazi Balkouti </h1>
+        <div className='   py-10  flex items-center gap-10 px-10 text-white  bg-primary font-bold'>
+          <h1 className=' text-4xl flex-1'>Dr. Ghazi Kablouti </h1>
           <p className=' flex-1 text-lg flex gap-10'><span>Envision. </span> <span>Lead. </span> <span>Inspire</span></p>
         </div>
         <div className=' flex gap-10 py-20'>
@@ -35,7 +35,7 @@ const Bio = () => {
 
             </div>
             {/* text */}
-            <div className='flex flex-1 flex-col  w-4/6  px-10 '>
+            <div className='flex flex-1 flex-col   w-4/6  pl-10 '>
                   {/*header */}
                 {/* <h1 className=' text-xl text-shade1 mb-4 font-semibold '> Dr. Ghazi Balkouti </h1>
 
