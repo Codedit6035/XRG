@@ -12,7 +12,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className='relative overflow-hidden'>
+    <div className='relative overflow-hidden font-raleway'>
     <div className=" h-screen w-full ">
       {/* Navbar Component */}
       <div className="absolute top-0 left-0 w-full z-20">
@@ -27,7 +27,7 @@ const Banner = () => {
       <div className="pl-9rem absolute inset-0 flex items-center justify-between">
         <div className="text-white max-w-lg z-10">
           {/* Title */}
-          <h1 className="text-5xl font-bold mb-4 font-ibm">
+          <h1 className="text-5xl font-bold mb-4 ">
             Better IT <br /> <span className="text-secondary">services</span> , <span className="italic"> for <br /> everyone </span>
           </h1>
 

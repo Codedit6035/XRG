@@ -62,7 +62,7 @@ const Navbar = () => {
                         <li key={subItem.id} className=''>
                           <a
                             href={subItem.link}
-                            className="block px-4 py-2 text-sm hover:bg-blue-100 text-white"
+                            className="block px-4 py-2 text-sm hover:bg-blue-100 text-white font-raleway"
                           >
                             {subItem.name}
                           </a>
