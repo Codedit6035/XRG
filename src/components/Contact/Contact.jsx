@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className=' text-primary '>
 
-        <div className='container flex flex-col  sm:flex-row pb-20  pt-10' >
+        <div className='container flex flex-col  sm:flex-row pb-20  pt-10 font-raleway' >
             {/* Get In Touch text  bg-slate-950 */}
             <div className=' flex-1   '>
                 <h1 className="font-bold text-4xl text-primary">Get In <span className='text-blue-500 text-5xl'>Touch</span></h1>

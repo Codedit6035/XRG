@@ -33,8 +33,8 @@ const FounderS = () => {
             </p>
             </div>
             <a href="/explore" className=''>
-          <div className='bg-teal-500  h-10 w-[10%] px-5 hover:animate-expand  flex items-center '>
-             <h1 className=' text-primary font-bold  text-xl flex flex-nowrap '>Explore more</h1>  
+          <div className='bg-shade7  h-10 w-[10%] px-5 hover:animate-expand  flex items-center '>
+             <h1 className=' text-primary font-bold  text-xl whitespace-nowrap '>Explore more</h1>  
           </div> 
      </a> 
           </div>

@@ -49,14 +49,14 @@ const ServicesS = () => {
       </div>
   
       {/* body */}  
-      <div className='flex justify-center h-screen'>  
+      <div className='flex justify-center h-fit'>  
         <div className='flex gap-1 w-full'>
           <div
             className='flex flex-1 gap-5 space-y-3  p-5 bg-shade2 text-white justify-start items-center text-3xl font-semibold'
             data-aos="fade-up"
             data-aos-delay="0"
           >
-            <h1>Management advisory, educational, and speaking <span className='text-4xl font-bold text-secondary'>services</span>  to help economic players achieve their financial goals and create long-term value by reaching their sustainability objectives</h1>
+            <h1>Management advisory, educational, and speaking <span className='text-4xl font-bold text-primary'>services</span>  to help economic players achieve their financial goals and create long-term value by reaching their sustainability objectives</h1>
 
           </div>
           <div
@@ -69,6 +69,11 @@ const ServicesS = () => {
             </div>
             <h1 className='text-3xl'>Advising</h1>
             <p> Empowering businesses to leverage their systemic strengths for long-term value and impact </p>
+            <a href="/explore" className=''>
+          <div className='bg-shade7 h-10 w-[10%] px-5 hover:animate-expand  flex items-center '>
+             <h1 className=' text-white font-bold  text-xl whitespace-nowrap'>Read more</h1>  
+          </div> 
+     </a> 
           </div>
           <div
             className='flex flex-1 flex-col gap-5 space-y-3 bg-shade5 p-5 = text-white'

@@ -97,8 +97,9 @@ export default {
         },
         expandWidth: {
           '0%': { width: '10%' },
-          '100%': { width: '100%' },
+          '100%': {  width: 'max-content'  },
         },
+        
 
       },
       animation: {
