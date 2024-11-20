@@ -8,7 +8,7 @@ const AdvisingContent = () => {
     <div>
                 <div className='flex justify-center  my-20 gap-20 over'>
                    {/* text*/}
-                   <motion.div className='flex-1 font-raleway space-y-14'
+                   <motion.div className='flex-1 font-raleway space-y-14 text-base'
                            initial={{ x: '-100%', opacity: 0 }}
                            whileInView={{ x: 0, opacity: 1 }}
                            transition={{ duration: 1.1, ease: "easeInOut" }}
@@ -20,8 +20,8 @@ const AdvisingContent = () => {
                        {/*corporations*/}
                        <div className='space-y-7'>
                         <h1 className='text-xl font-semibold underline text-primary  '>Corporations: </h1>
-                        <p className='text-sm'>with a focus on resource-Intensive Corporations and Start-Ups in Energy & Utilities, Capital Goods Manufacturing, Materials, Chemicals, and Healthcare</p>
-                        <ul className='list-disc space-y-3 text-sm'>
+                        <p className=''>with a focus on resource-Intensive Corporations and Start-Ups in Energy & Utilities, Capital Goods Manufacturing, Materials, Chemicals, and Healthcare</p>
+                        <ul className='list-disc space-y-3 '>
                           <li>
                             <span className='font-semibold'>Serving as a Corporate Board Member or Executive Advisor– </span>offering strategic insights and guidance at the highest levels.
                           </li>
@@ -57,7 +57,7 @@ const AdvisingContent = () => {
                          {/*Financial Services:*/}
                          <div className='space-y-7'>
                          <h1 className='text-xl font-semibold underline text-white '>Financial Services: </h1>
-                         <ul className='list-disc space-y-3 text-sm text-shade2 px-10'>
+                         <ul className='list-disc space-y-3  text-shade2 px-10'>
                            <li>
                              <span className='font-semibold'>	Evaluating Environmental and Social Risks and Opportunities– </span>analyzing portfolio companies' business models to identify critical sustainability risks and growth opportunities.
                            </li>
@@ -79,7 +79,7 @@ const AdvisingContent = () => {
                        {/*Policy and Standards Makers:*/}
                        <div className='space-y-10'>
                         <h1 className='text-xl font-semibold underline text-white '>Policy and Standards Makers:</h1>
-                        <ul className='list-disc space-y-3 text-sm text-shade2  px-10'>
+                        <ul className='list-disc space-y-3  text-shade2  px-10'>
                           <li>
                             <span className='font-semibold'>Providing Data-Driven Insights to Policymakers–  </span>identifying critical levers to craft effective policies that drive meaningful change.
                           </li>

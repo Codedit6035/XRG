@@ -4,7 +4,7 @@ import { FaChalkboardTeacher } from "react-icons/fa";
 import { IoMdPeople } from "react-icons/io";
 import { PiArrowElbowDownRight } from "react-icons/pi";
 import Advising from '../../assets/advisinghome.jpg'
-import Lecturing from '../../assets/lecturinghome.jpg'
+import Lecturing from '../../assets/lecturing.jpeg'
 import Speaking from '../../assets/speaking.png'
 
 const ServicesS = () => {

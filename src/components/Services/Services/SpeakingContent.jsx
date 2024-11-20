@@ -7,17 +7,17 @@ const SpeakingContent = () => {
     <div>
                 <div className='flex justify-center  my-20 gap-20 '>
                    {/* text*/}
-                   <motion.div className='flex-1 font-raleway space-y-14'
+                   <motion.div className='flex-1 font-raleway space-y-14 text-base'
                                               initial={{ x: '-100%', opacity: 0 }}
                                               whileInView={{ x: 0, opacity: 1 }}
                                               transition={{ duration: 1.1, ease: "easeInOut" }}
                                               viewport={{ once: true }}>
                        {/*advising + p*/}
                        <h1 className='text-4xl  bg-shade1 text-white w-fit pb-1 px-2'>Speaking</h1>
-                       <p className='text-primary text-sm'>Connecting, inspiring, and engaging to drive societal progress</p>
+                       <p className='text-primary '>Connecting, inspiring, and engaging to drive societal progress</p>
                        {/*corporations*/}
                        <div className='space-y-7'>
-                        <ul className='list-disc space-y-3 text-sm'>
+                        <ul className='list-disc space-y-3 '>
                           <li>
                             <span className='font-semibold'>Delivering Presentations, Keynotes, and Panel Discussions– </span>offering insights and perspectives to inspire and drive meaningful dialogue.
                           </li>

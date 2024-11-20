@@ -1,10 +1,11 @@
 import React from "react";
 import BannerImg from "../../assets/aboutph.jpg";
 import GhasiImg from "../../assets/xrg.jpg";
+import { FaAnglesDown } from "react-icons/fa6";
 
 const XrgS = () => {
   return (
-    <div id="xrg-section" className="pt-10 pb-12 font-Raleway text-base " >
+    <div id="xrg-section" className="pt-10 pb-12 font-Raleway text-base relative" >
 
         {/* Header section */}
         <div  className="   mb-10 animate-slideInFromLeft w-full pl-20  text-black">
@@ -58,13 +59,15 @@ const XrgS = () => {
             </p>     
 
             </div>
+            
           </div>
-
-
-
           </div>
         </div>
  
+                 {/* down circle */}
+                 <div className='absolute  z-10  flex w-[70px] h-[70px]  left-[48%] -ml-[35px] -mt-[70px] animate-float '>
+           <a href="#xrg-section" className="flex items-center  w-[70px] h-[70px] text-4xl  text-shade2 justify-center"><FaAnglesDown  /></a>
+    </div>
 
     </div>
   )

@@ -20,7 +20,7 @@ const Awards = () => {
             <h1 className="text-lg font-semibold text-shade6">Hitachi</h1>
 
             {/* Hidden award name, takes no space initially */}
-            <h1 className="font-semibold text-white opacity-0 visibility-hidden group-hover:opacity-100 group-hover:visibility-visible transition-all duration-500 max-h-0 group-hover:max-h-20 overflow-hidden transition-all ease-in-out flex justify-center items-center">
+            <h1 className="font-semibold text-white opacity-0 visibility-hidden group-hover:opacity-100 group-hover:visibility-visible  duration-500 max-h-0 group-hover:max-h-20 overflow-hidden transition-all ease-in-out flex justify-center items-center">
               Hitachi Energy Appreciation Award
             </h1>
 
@@ -35,7 +35,7 @@ const Awards = () => {
             <h1 className="text-lg font-bold text-shade6">GE</h1>
 
             {/* Hidden award name, takes no space initially */}
-            <h1 className="font-semibold text-white opacity-0 visibility-hidden group-hover:opacity-100 group-hover:visibility-visible transition-all duration-500 max-h-0 group-hover:max-h-20 overflow-hidden transition-all ease-in-out flex justify-center items-center">
+            <h1 className="font-semibold text-white opacity-0 visibility-hidden group-hover:opacity-100 group-hover:visibility-visible  duration-500 max-h-0 group-hover:max-h-20 overflow-hidden transition-all ease-in-out flex justify-center items-center">
               GE “Above & Beyond” Excellence Award, Hitachi GX Growth Leadership Program
             </h1>
 
@@ -50,7 +50,7 @@ const Awards = () => {
             <h1 className="text-lg font-semibold text-shade6">CXO</h1>
 
             {/* Hidden award name, takes no space initially */}
-            <h1 className="font-semibold text-white opacity-0 visibility-hidden group-hover:opacity-100 group-hover:visibility-visible transition-all duration-500 max-h-0 group-hover:max-h-20 overflow-hidden transition-all ease-in-out flex justify-center items-center">
+            <h1 className="font-semibold text-white opacity-0 visibility-hidden group-hover:opacity-100 group-hover:visibility-visible  duration-500 max-h-0 group-hover:max-h-20 overflow-hidden transition-all ease-in-out flex justify-center items-center">
               CXO 2.0 Business Leadership Excellence Award
             </h1>
 
