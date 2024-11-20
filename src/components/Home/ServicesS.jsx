@@ -60,43 +60,62 @@ const ServicesS = () => {
 
           </div>
           <div
-            className='flex flex-1 flex-col gap-5 space-y-3 bg-shade3 p-5 = text-white'
+            className='flex flex-col flex-1  space-y-3 bg-shade3  text-white'
             data-aos="fade-up"
             data-aos-delay="200"
           > 
             <div>
               <img src={Advising} alt="" />
             </div>
-            <h1 className='text-3xl'>Advising</h1>
-            <p> Empowering businesses to leverage their systemic strengths for long-term value and impact </p>
-            <a href="/explore" className=''>
-          <div className='bg-shade7 h-10 w-[10%] px-5 hover:animate-expand  flex items-center '>
-             <h1 className=' text-white font-bold  text-xl whitespace-nowrap'>Read more</h1>  
-          </div> 
-     </a> 
+            <div className='p-5 flex-1 flex flex-col gap-5'>
+              <div className=''>
+                <h1 className='text-3xl '>Advising</h1>
+                <p> Empowering businesses to leverage their systemic strengths for long-term value and impact </p>
+              </div>                
+              <a href="/explore" className='px-5 flex items-center bg-shade7  h-10 w-fit mt-auto'>
+                <h1 className=' text-white font-bold  text-xl whitespace-nowrap'>Read more</h1>  
+              </a> 
+            </div>
           </div>
+          
           <div
-            className='flex flex-1 flex-col gap-5 space-y-3 bg-shade5 p-5 = text-white'
+            className='flex flex-col flex-1  space-y-3 bg-shade3  text-white'
             data-aos="fade-up"
-            data-aos-delay="400"
-          >
+            data-aos-delay="200"
+          > 
             <div>
               <img src={Advising} alt="" />
             </div>
-            <h1 className='text-3xl'>Lecturing</h1>
-            <p> Shaping the next generation of leaders with a vision and sense of urgency for change  </p>
+            <div className='p-5 flex-1 flex flex-col gap-5'>
+              <div className=''>
+                <h1 className='text-3xl '>Lecturing</h1>
+                <p> Shaping the next generation of leaders with a vision and sense of urgency for change </p>
+              </div>                
+              <a href="/explore" className='px-5 flex items-center bg-shade7  h-10 w-fit mt-auto'>
+                <h1 className=' text-white font-bold  text-xl whitespace-nowrap'>Read more</h1>  
+              </a> 
+            </div>
           </div>
           <div
-            className='flex flex-1 flex-col gap-5 space-y-3 bg-shade1 p-5 = text-white'
+            className='flex flex-col flex-1  space-y-3 bg-shade3  text-white'
             data-aos="fade-up"
-            data-aos-delay="600"
-          >
+            data-aos-delay="200"
+          > 
             <div>
               <img src={Advising} alt="" />
             </div>
-            <h1 className='text-3xl'>Speaking</h1>
-            <p> Connecting, inspiring, and engaging to drive societal progress  </p>
+            <div className='p-5 flex-1 flex flex-col gap-5'>
+              <div className=''>
+                <h1 className='text-3xl '>Speaking</h1>
+                <p> Connecting, inspiring, and engaging to drive societal progress  </p>
+              </div>                
+              <a href="/explore" className='px-5 flex items-center bg-shade7  h-10 w-fit mt-auto'>
+                <h1 className=' text-white font-bold  text-xl whitespace-nowrap'>Read more</h1>  
+              </a> 
+            </div>
           </div>
+
+
         </div>
       </div>  
     </div>
