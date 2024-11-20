@@ -15,16 +15,24 @@ const  Expertise = () => {
           <img src={Image} alt="" className='w-fit' />
         </div>
         {/* text */}
-        <div className="container flex flex-col gap-10">
+        <div className="container flex flex-col ">
           {ExpertiseData.map((data, index) => (
-            <div key={index}  className='flex gap-10 border-b border-b-gray-500 pb-10 '>
+            <div key={index}  className={`flex py-5 gap-10  pb-10 px-5  ${
+        index % 2 === 0 ? '' : 'bg-gray-300'
+      } `}>
               <div className='w-2/6'>
-                <h1 className='  text-xl text-shade1 mb-4 font-semibold'>
+                <h1           className={`text-xl mb-4 font-semibold ${
+            index % 2 === 0 ? 'text-shade1' : 'text-white'
+          }`}>
                   {data.title}
                 </h1>
-                <div className="w-16 h-1 bg-shade5 mb-4 "></div>
+                <div   className={`w-16 h-1  mb-4 ${
+            index % 2 === 0 ? 'bg-shade5' : 'bg-white'
+          }`}></div>
               </div>
-              <div  className='w-4/6 text-justify'>
+              <div           className={`w-4/6 text-justify ${
+            index % 2 === 0 ? '' : 'text-shade5'
+          }`}>
                 <p>{data.text}</p>
               </div>
             </div>
@@ -32,7 +40,7 @@ const  Expertise = () => {
       ))}                  
         </div> 
                       {/* certificates*/}
-                      <div className='flex-1 '>
+                      <div className=' container flex-1 '>
                   <h1 className='text-xl bg-shade1 text-white mb-4 font-semibold py-1 px-2'>Courses and certificates</h1>
                   {/* Blue line */}
                   <div className="w-16 h-1 bg-shade5 mb-4  "></div>  
@@ -61,7 +69,7 @@ const  Expertise = () => {
                 </div>
                 </div>
                 {/* links*/}
-                <div>
+                <div className='container'>
                   <h1>Link (download) Dr. Ghazi Kablouti (Profile document)</h1>
                   <h1>Link to LinkedIn Profile (https://www.linkedin.com/in/ghazikablouti/)</h1>
                   <h1>Get in Touch</h1>
