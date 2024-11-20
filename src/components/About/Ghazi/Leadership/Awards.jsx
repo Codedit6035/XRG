@@ -15,7 +15,7 @@ const Awards = () => {
       <div className="container flex gap-10 justify-center">
         
         {/* Award Card 1 */}
-        <div className="bg-shade1 p-10 flex-1 hover:min-h-60 transform transition-all hover:scale-105 duration-300 ease-in-out group relative">
+        <div className="bg-shade3 p-10 flex-1 hover:min-h-60 transform transition-all hover:scale-105 duration-300 ease-in-out group relative">
           <div className="flex flex-col justify-center items-center text-center">
             <h1 className="text-lg font-semibold text-shade6">Hitachi</h1>
 
@@ -30,7 +30,7 @@ const Awards = () => {
         </div>
 
         {/* Award Card 2 */}
-        <div className="bg-shade1 p-10 flex-1 h-fit hover:min-h-60  transform transition-all hover:scale-105 duration-300 ease-in-out group relative">
+        <div className="bg-shade5 p-10 flex-1 h-fit hover:min-h-60  transform transition-all hover:scale-105 duration-300 ease-in-out group relative">
           <div className="flex flex-col justify-center items-center text-center">
             <h1 className="text-lg font-bold text-shade6">GE</h1>
 
