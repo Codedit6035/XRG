@@ -52,15 +52,15 @@ const ServicesS = () => {
       <div className='flex justify-center h-screen'>  
         <div className='flex gap-1 w-full'>
           <div
-            className='flex flex-1 gap-5 space-y-3 bg-shade9 p-5 = text-white justify-start  text-4xl font-semibold'
+            className='flex flex-1 gap-5 space-y-3  p-5 bg-shade2 text-white justify-start items-center text-3xl font-semibold'
             data-aos="fade-up"
             data-aos-delay="0"
           >
-            Management advisory, educational, and speaking services to help economic players achieve their financial goals and create long-term value by reaching their sustainability objectives
+            <h1>Management advisory, educational, and speaking <span className='text-4xl font-bold text-secondary'>services</span>  to help economic players achieve their financial goals and create long-term value by reaching their sustainability objectives</h1>
 
           </div>
           <div
-            className='flex flex-1 flex-col gap-5 space-y-3 bg-primary p-5 = text-white'
+            className='flex flex-1 flex-col gap-5 space-y-3 bg-shade3 p-5 = text-white'
             data-aos="fade-up"
             data-aos-delay="200"
           > 
@@ -71,7 +71,7 @@ const ServicesS = () => {
             <p> Empowering businesses to leverage their systemic strengths for long-term value and impact </p>
           </div>
           <div
-            className='flex flex-1 flex-col gap-5 space-y-3 bg-primary p-5 = text-white'
+            className='flex flex-1 flex-col gap-5 space-y-3 bg-shade5 p-5 = text-white'
             data-aos="fade-up"
             data-aos-delay="400"
           >
@@ -82,7 +82,7 @@ const ServicesS = () => {
             <p> Shaping the next generation of leaders with a vision and sense of urgency for change  </p>
           </div>
           <div
-            className='flex flex-1 flex-col gap-5 space-y-3 bg-primary p-5 = text-white'
+            className='flex flex-1 flex-col gap-5 space-y-3 bg-shade1 p-5 = text-white'
             data-aos="fade-up"
             data-aos-delay="600"
           >

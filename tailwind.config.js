@@ -11,12 +11,14 @@ export default {
         shade1: "#1c445c",
         shade2: "#c9d4d8",
         shade3: "#8ca4ac",
+        shade4: "#708996",
         shade5: "#547484",
         shade6: "#8c9cac",    
         secondary: "#041525",
         shade7:"#3584ad",
         shade8:"#48687c",
-        shade9:"#8ca4ac"
+        shade9:"#2d4f65",
+        
       },
       spacing: {
         '9rem': '9rem', // Adds a custom spacing utility

@@ -15,11 +15,12 @@ const FounderS = () => {
           <div className="w-16 h-1 bg-shade7 mb-4 "></div>        
         </div>
         {/* Body section */}
-        <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-screen bg-shade8">
+        <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-screen w-full overflow-hidden bg-shade2">
           {/* text */}
-          <div className="flex sm:flex-1 flex-col pl-3rem  py-7  ">
-          <div data-aos="fade-up" className="  px-5 rounded-md text-white " >
-            <h1 className="font-medium text-3xl  bg-shade1/70 hover:bg-secondary transition-all   pl-2">Dr. Ghazi Kablouti  <span className="font-bold text-lg  text-gray-200 pl-2">– Envision. Lead. Inspire</span></h1>
+          <div className="flex sm:flex-1 flex-col pl-3rem  py-7   justify-center">
+          <div data-aos="fade-up" className="  px-5 rounded-md text-secondary  " >
+            <h1 className="font-medium text-4xl  transition-all   pl-2 ">Dr. Ghazi Kablouti  </h1>
+            <span className="font-bold text-xl   pl-2 text-primary">Envision. Lead. Inspire</span>
             <div className="py-5   w-full text-justify flex flex-col gap-3 ">
             <p >
             As the Founder of XRG Impact Management Advisory, I bring over 25 years of global leadership experience spanning consulting, energy infrastructure, and industrial manufacturing with world-leading corporations. With a multicultural and interdisciplinary background, I operate at the unique intersection of business, technology, and sustainability, driving transformative outcomes for organizations.
@@ -31,7 +32,11 @@ const FounderS = () => {
             As an author and frequent conference speaker, I am deeply passionate about the transformative power of education to inspire change. I actively contribute to shaping the next generation of leaders as a lecturer and mentor at leading business and engineering schools.
             </p>
             </div>
-            <button className='bg-primary text-white border-2 border-gray-400 text-xl px-10 py-2 '>Explore Bio</button>
+            <a href="/explore" className=''>
+          <div className='bg-teal-500  h-10 w-[10%] px-5 hover:animate-expand  flex items-center '>
+             <h1 className=' text-primary font-bold  text-xl flex flex-nowrap '>Explore more</h1>  
+          </div> 
+     </a> 
           </div>
 
           </div>
