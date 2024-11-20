@@ -15,7 +15,7 @@ const  Expertise = () => {
           <img src={Image} alt="" className='w-fit' />
         </div>
         {/* text */}
-        <div className="container flex flex-col ">
+        <div className="container flex flex-col text-base ">
           {ExpertiseData.map((data, index) => (
             <div key={index}  className={`flex py-5 gap-10  pb-10 px-5  ${
         index % 2 === 0 ? '' : 'bg-gray-300'
