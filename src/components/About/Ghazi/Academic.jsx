@@ -18,8 +18,9 @@ const Academic = () => {
                 {/* left*/}
                 <div className=" flex flex-col gap-5 text-justify">
                 {AcademialeftData.map((para, index) => (
-                <p key={index} className='bg-shade2/30 rounded-s-sm p-3'>
-                    {para}
+                <p key={index} className=' rounded-s-sm p-3 text-white bg-shade2/40'  style={{ backgroundColor: para.bg }}
+                >
+                    {para.text}
                 </p>
                 ))}     
                 </div>  
@@ -57,6 +58,13 @@ const Academic = () => {
            </a>
         </div>
                         {/* links*/}
+                                                     {/* Get in touch link */}
+        <div className=" flex   items-center  mt-10 ">
+          <div className=''>
+            <span>Any thoughts, need for support, </span>
+             <a href="/get in touch" className='font-bold text-shade7'><span>let’s get in touch</span></a>
+          </div>
+        </div>
                 <div>
                   <h1>Link (download) Dr. Ghazi Kablouti (Profile document)</h1>
                   <h1>Link to LinkedIn Profile (https://www.linkedin.com/in/ghazikablouti/)</h1>

@@ -71,9 +71,16 @@ const  Expertise = () => {
                 </div>
                 {/* links*/}
                 <div className='container'>
+                                                                       {/* Get in touch link */}
+        <div className=" flex   items-center  mt-10 ">
+          <div className=''>
+            <span>Any thoughts, need for support, </span>
+             <a href="/get in touch" className='font-bold text-shade7'><span>let’s get in touch</span></a>
+          </div>
+        </div>
                   <h1>Link (download) Dr. Ghazi Kablouti (Profile document)</h1>
                   <h1>Link to LinkedIn Profile (https://www.linkedin.com/in/ghazikablouti/)</h1>
-                  <h1>Get in Touch</h1>
+
                 </div>
 
 
