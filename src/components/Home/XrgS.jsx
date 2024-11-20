@@ -4,7 +4,7 @@ import GhasiImg from "../../assets/xrg.jpg";
 
 const XrgS = () => {
   return (
-    <div className="pt-10 pb-12 font-Raleway text-base " >
+    <div id="xrg-section" className="pt-10 pb-12 font-Raleway text-base " >
 
         {/* Header section */}
         <div  className="   mb-10 animate-slideInFromLeft w-full pl-20  text-black">
