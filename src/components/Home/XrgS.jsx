@@ -38,7 +38,7 @@ const XrgS = () => {
           {/* text1 */}
           <div data-aos="fade-down" className="  px-5 rounded-md text-white " >
             <h1 className="text-2xl text-shade1 font-semibold mb-4">What we do</h1>
-            <div className="w-full text-justify  flex flex-col gap-3  text-primary   ">
+            <div className="w-full text-justify  flex flex-col gap-3  text-primary  text-base  ">
             <p >
             We offer management advisory, educational, and speaking services to help economic players achieve their financial goals and create long-term value by reaching their sustainability objectives.
             </p>
@@ -47,7 +47,7 @@ const XrgS = () => {
           {/* text2 */}
           <div data-aos="fade-up" className="  px-5 rounded-md text-white " >
             <h1 className="text-2xl text-shade1 font-semibold mb-4">Why managing business and sustainability beyond ESG</h1>
-            <div className="w-full text-justify  flex flex-col gap-3  text-primary">
+            <div className="w-full text-justify  flex flex-col gap-3  text-primary text-base ">
             <p>
             True business success cannot thrive in fragile societies. Businesses are indispensable in building resilient economic models that respect planetary boundaries and foster genuine societal prosperity. However, addressing the world’s most pressing challenges ("Do Good") is only possible for organizations that are also thriving and profitable ("Do Well").
             </p>
