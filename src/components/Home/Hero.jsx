@@ -78,13 +78,13 @@ const Hero = ({ handleOrderPopup }) => {
       <div className=" container absolute inset-0 flex items-center justify-center z-10 font-raleway ">
         <div className="text-white max-w-2xl flex flex-col items-center justify-center">
           {/* Title */}
-          <h1 className="text-6xl font-bold mb-4 text-center "><span className="text-secondary">XRG </span> Impact Management Advisory</h1>
+          <h1 className="text-6xl font-bold mb-4 text-center  "><span className="text-secondary">XRG </span> Impact Management Advisory</h1>
           
           {/* Blue line */}
           <div className="w-2/6 h-1 bg-shade7 mb-4 "></div>
 
           {/* Short Paragraph */}
-          <p className="text-lg font-medium">
+          <p className="text-2xl font-medium whitespace-nowrap">
           Solutions for Managing Business and Sustainability beyond ESG
           </p>
         </div>

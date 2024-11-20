@@ -12,7 +12,7 @@ const Menu = [
 
 const AboutDropdown = [
   { id: 1, name: "XRG Approach", link: "/explore#xrg-story" },
-  { id: 2, name: "Dr.Ghazi Kablouti", link: "/explore#about-me" },
+  { id: 2, name: "Dr. Ghazi Kablouti", link: "/explore#about-me" },
 ];
 
 const Navbar = () => {
@@ -57,7 +57,7 @@ const Navbar = () => {
 
                   {/* Dropdown Menu */}
                   {item.name === "Explore" && isDropdownOpen && (
-                    <ul className="absolute top-full left-0 mt-2 bg-white/50  shadow-lg py-2 min-w-36" onMouseLeave={() => setIsDropdownOpen(!isDropdownOpen)}>
+                    <ul className="absolute top-full left-0 mt-2 bg-white/50  shadow-lg py-2 min-w-40" onMouseLeave={() => setIsDropdownOpen(!isDropdownOpen)}>
                       {AboutDropdown.map((subItem) => (
                         <li key={subItem.id} className=''>
                           <a
