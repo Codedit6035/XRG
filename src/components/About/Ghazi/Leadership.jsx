@@ -11,7 +11,7 @@ const  Expertise = () => {
       <div className='container flex flex-col gap-10 py-10  '>
         {/*slogan*/}
         <div className=' text-2xl py-10 text-center  '>
-          <p className='px-10 text-secondary font-bold'>“If you want to go fast, go alone. If you want to go far, go together” – African Proverb</p>
+          <p className='px-10 text-primary font-bold'>“If you want to go fast, go alone. If you want to go far, go together” <span className="text-lg ">– African Proverb</span> </p>
         </div>
         <Achievments/>
         <Awards/>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import AlstomLogo from '../../assets/partners/alstom.png';
-import BmwLogo from '../../assets/partners/bmw.svg';
+import BmwLogo from '../../assets/partners/bmw.png';
 import BoschLogo from '../../assets/partners/bosch.png';
 import BslLogo from '../../assets/partners/bsl.svg';
 import CatenaLogo from '../../assets/partners/catena.webp';

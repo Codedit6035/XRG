@@ -23,7 +23,7 @@ export default function Ghazi() {
   const ActiveComponent = tabs[activeTab].component;
 
   return (
-    <div id="about-me" className="  py-20 ">
+    <div id="about-me" className="  pt-20 ">
       {/* Tab List Container */}
       <div className=" flex gap-2 justify-center container ">
         {tabs.map((tab, index) => (

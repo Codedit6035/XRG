@@ -11,7 +11,7 @@ const  Expertise = () => {
       <div className='  flex flex-col gap-10 py-10  font-raleway  text-base'>
          {/*slogan*/}
       <div className=' text-2xl  text-center py-10  '>
-          <p className='px-10 text-primary font-bold'>“Mastery is not a question of intelligence, but a question of persistence and resilience” - Anonymous</p>
+          <p className='px-10 text-primary font-bold'>“Mastery is not a question of intelligence, but a question of persistence and resilience” <span className="text-lg ">- Anonymous</span></p>
         </div>
         {/*Img*/}
         <div>
@@ -47,29 +47,6 @@ const  Expertise = () => {
                   <div className="w-16 h-1 bg-shade5 mb-4  "></div>  
                   <Certificates/>
 
-                  {/* <div className='flex flex-col gap-5'>
-
-                  <div className='bg-shade2/30 rounded-s-sm p-3'>
-                    <h1 className='text-lg'>Business and Human Rights </h1>
-                    <h1 className='text-sm'> Council of Europe, 2022</h1>
-                  </div>
-                  <div className='bg-shade2/30 rounded-s-sm p-3'>
-                    <h1  className='text-lg'>Foundations in Responsible Investments </h1>
-                    <h1 className='text-sm'> UN PRI Academy, 2020</h1>
-                  </div>
-                  <div className='bg-shade2/30 rounded-s-sm p-3'>
-                    <h1  className='text-lg'>Photovoltaic Solar Energy </h1>
-                    <h1 className='text-sm'> École Polytechnique Paris, 2020</h1>
-                  </div>
-                  <div className='bg-shade2/30 rounded-s-sm p-3'>
-                    <h1  className='text-lg'>Smart Cities – Managing Smart Urban Infrastructures</h1>
-                    <h1 className='text-sm'> EPFL, 2019</h1>
-                  </div>
-                  <div className='bg-shade2/30 rounded-s-sm p-3'>
-                    <h1  className='text-lg'>Finance for Non-Finance Managers </h1>
-                    <h1 className='text-sm'>GE University, 2016</h1>
-                  </div>
-                </div> */}
                 </div>
                 {/* links*/}
                 <div className='container flex flex-col gap-10'>

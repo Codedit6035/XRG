@@ -4,6 +4,7 @@ import Img3 from "../assets/partners/alstom.png"
 import Img4 from "../assets/partners/zhaw.png"
 import Img5 from "../assets/partners/bsl.svg"
 import Img6 from "../assets/partners/upg.png"
+import Img7 from "../assets/partners/abb.png"
 
 
 
@@ -11,7 +12,7 @@ import Img6 from "../assets/partners/upg.png"
 const TestimonialData = [
     {
       id: 1,
-      name: "Henkel AG &amp; Co. KGaA",
+      name: "Henkel AG & Co. KGaA",
       post: "Director Ecology",
       text: `“G. Kablouti represented our company excellently during the start-up phase of the automotive
 network project. He quickly understood the interests of our company and placed them in the
@@ -23,7 +24,7 @@ phase. In doing so, he created an excellent basis for our company to continue in
     {
       id: 2,
       name: "GE Corporate",
-      post: "Executive – Sustainability Strategy &amp; Operations",
+      post: `Executive – Sustainability Strategy & Operations`,
       text: `“Mr Kablouti possesses remarkable and profound expertise and above-average experience in
       his area of responsibility and in related fields. He manifests a marked sensitivity to business
       and cross-functional aspects. The way he coordinates tasks and projects is highly rational,
@@ -37,7 +38,7 @@ phase. In doing so, he created an excellent basis for our company to continue in
       name: "Alstom Power",
       post: "Senior Vice President Climate Solutions",
       text:`“Mr Kablouti cultivates a goal-oriented style of leadership that regularly produces excellent
-results . Under his leadership, the outstanding contribution was also acknowledged by 3 rd
+results . Under his leadership, the outstanding contribution was also acknowledged by 3rd
 party auditors and international institutions which lauded the innovative approach to
 managing climate impacts as a pioneering way to integrate international standards into our
 industry and corporate operations.”`,
@@ -69,18 +70,19 @@ class”.`,
         text: `“Thank you, Professor Kablouti, for your valuable contribution as instructor to the success of
 the UPG Biashara Learning Journey. We appreciate your knowledge and expertise shared
 with at the Masterclass. By training the Class of 2022, we touched the lives of 350
-entrepreneurs from 70 countries. We are`,
+entrepreneurs from 70 countries. We are thrilled that we could work together to strengthen
+another generation of entrepreneurs.”`,
         img: Img6,
       },
       {
         id: 7,
         name: "ABB",
         post: "Former intern, Asia Business Development Manager",
-        text: `“I had the privilege of working under Ghazi&#39;s leadership during my internship in Alstom
+        text: `“I had the privilege of working under Ghazi's leadership during my internship in Alstom
 Power. He has the blend of great technical expertise and extraordinary management
 capabilities that make him very unique. I Just hope in future assignments as well, I would get
 to work under managers like Ghazi!!”`,
-        img: "",
+        img: Img7,
       },
   ];
   

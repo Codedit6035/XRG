@@ -10,7 +10,7 @@ const Testimonials = () => {
       onClick={onClick}
       className="absolute bottom-[-60px] left-[45%] flex justify-center items-center bg-white w-10 h-10 rounded shadow-lg cursor-pointer"
     >
-      <FaArrowLeft className="text-primary" />
+      <FaArrowLeft className="text-shade6" />
     </div>
   );
 
@@ -20,7 +20,7 @@ const Testimonials = () => {
       onClick={onClick}
       className="absolute bottom-[-60px] left-[50%] flex justify-center items-center bg-white w-10 h-10 rounded shadow-lg cursor-pointer"
     >
-      <FaArrowRight className="text-primary" />
+      <FaArrowRight className="text-shade6" />
     </div>
   );
 
@@ -66,12 +66,16 @@ const Testimonials = () => {
   };
 
   return (
-    <div className=" py-10 ">
-      <div className=" bg-primary py-10">
+    <div className="  flex flex-col gap-10  pt-10 pb-40  font-raleway  text-base  ">
+               {/*slogan*/}
+               <div className=' text-2xl  text-center py-10  '>
+          <p className='px-10 text-primary font-bold'>“Mastery is not a question of intelligence, but a question of persistence and resilience” <span className="text-lg "> - Anonymous</span></p>
+        </div>
+      <div className=" bg-shade6 py-10 ">
         {/* Header Section */}
         <div data-aos="zoom-in" className=" ">
           <h1 className=" container text-3xl font-bold text-shade2 mb-6">
-            Customer’s Reviews & Feedback
+            Partners Feedback
           </h1>
 
           {/* Slider Section */}
@@ -87,13 +91,13 @@ const Testimonials = () => {
                       <img
                         src={data.img}
                         alt={data.name}
-                        className="rounded-full w-[50px] h-[50px]"
+                        className="w-[100px] "
                       />
                       <div>
                         <h1 className="text-xl font-bold text-white">
                           {data.name}
                         </h1>
-                        <h1 className="text-sm text-shade6">{data.post}</h1>
+                        <h1 className="text-sm text-shade2">{data.post}</h1>
                       </div>
                     </div>
                   </div>
