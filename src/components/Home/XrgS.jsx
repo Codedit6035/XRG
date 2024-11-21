@@ -67,10 +67,7 @@ const XrgS = () => {
           </div>
         </div>
  
-                 {/* down circle */}
-                 <div className='absolute  z-10  flex w-[70px] h-[70px]  left-[50%] -ml-[35px] -mt-[70px] animate-float '>
-           <a href="#4th" className="flex items-center  w-[70px] h-[70px] text-4xl  text-shade2 justify-center"><FaAnglesDown  /></a>
-    </div>
+
 
     </div>
   )

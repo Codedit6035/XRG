@@ -17,11 +17,7 @@ const Separation = () => {
           <h1 className='absolute right-0 -bottom-5 text-lg italic '> – Financial Times, <span className='text-base font-light'>September 2024</span></h1>
         </motion.div>
     </div>
-    {/* down circle */}
-    <div className='absolute  z-10  flex w-[70px] h-[70px]  left-[50%] -ml-[35px] -mt-5 animate-float '>
-           <a href="#xrg" className="flex items-center  w-[70px] h-[70px] text-4xl  text-shade2 justify-center"><FaAnglesDown  /></a>
-    </div>
-    
+
     </div>
   )
 }
