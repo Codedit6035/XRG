@@ -59,7 +59,7 @@ const AdvisingContent = () => {
                    </motion.div>
                 </div>   
                 {/* part 2*/}
-                <div className='flex justify-center  my-20 gap-20 bg-shade5'>
+                <div className='flex justify-center  my-20 gap-1 '>
                    {/* text*/}
                    <motion.div className='flex-1 font-raleway space-y-14 bg-shade5  p-10   '
                                         initial={{ x: '-100%', opacity: 0 }}
