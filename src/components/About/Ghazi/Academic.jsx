@@ -1,9 +1,11 @@
 import React from 'react'
-import { FaDownload } from "react-icons/fa";
+
 import AcademiaData from '../../../data/AcademiarightData';
 import AcademialeftData from '../../../data/AcademialeftData';
 import AcademiarightData from '../../../data/AcademiarightData';
 import AcademiaImg from "../../../assets/academiaimg.jpg"
+import { CiLinkedin } from "react-icons/ci";
+import { FaDownload } from "react-icons/fa";
 
 const Academic = () => {
   return (
@@ -57,19 +59,33 @@ const Academic = () => {
             </button>
            </a>
         </div>
-                        {/* links*/}
-                                                     {/* Get in touch link */}
-        <div className=" flex   items-center  mt-10 ">
-          <div className=''>
-            <span>Any thoughts, need for support, </span>
-             <a href="/get in touch" className='font-bold text-shade7'><span>let’s get in touch</span></a>
-          </div>
+ 
+                {/* links*/}
+                <div className='pt-10 flex flex-col gap-10'>
+        {/* Get in touch link */}
+        <div className=" flex flex-col  justify-center items-center  gap-5 ">
+             <a href="/get in touch" className='font-bold text-shade7 '><span>let’s get in touch</span></a>
+             <a href="https://www.linkedin.com/in/ghazikablouti/ "  target="_blank"><CiLinkedin className=' text-5xl  text-shade7  hover:text-primary'/></a>
         </div>
-                <div>
-                  <h1>Link (download) Dr. Ghazi Kablouti (Profile document)</h1>
-                  <h1>Link to LinkedIn Profile (https://www.linkedin.com/in/ghazikablouti/)</h1>
-                  <h1>Get in Touch</h1>
+        
+        {/* services link */}
+        <div className="flex  flex-col gap-5 justify-center items-center  bg-shade2 p-5">
+        <h1 className='text-2xl'>
+        Dr. Ghazi Kablouti biography 
+          </h1>
+        <a  href="/Dr. Ghazi Kablouti.pdf" 
+                      download="Dr_Ghazi_Bio.pdf" >
+                    <button class="flex gap-2 items-center bg-shade7 hover:bg-primary font-bold  text-xl text-white px-5 py-2 " >
+                     <FaDownload className=' text-white' />
+ 
+                     Download Bio
+                    </button>
+                    </a>
+        </div>
+
+
                 </div>
+
 
 
       </div>

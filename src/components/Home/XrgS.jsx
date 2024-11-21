@@ -43,7 +43,7 @@ const XrgS = () => {
             <h1 className="text-2xl text-shade1 font-semibold mb-4">What we do</h1>
             <div className="w-full text-justify  flex flex-col gap-3  text-primary">
             <p >
-            We offer management advisory, educational, and speaking services to help economic players achieve their financial goals and create long-term value by reaching their sustainability objectives.
+            We are a Switzerland-based advisory firm offering global management consulting, lecturing services , and speaking engagements. Our mission is to empower economic players to achieve their financial goals while creating lasting value through sustainable practices.
             </p>
             </div>
           </div>

@@ -84,6 +84,8 @@ const Achievments = () => {
 
         </div>
         </div>
+
+        
     </div>
   );
 };
