@@ -11,7 +11,7 @@ const Achievments = () => {
       <div className=' container flex gap-10 '>
         <div className='flex-1  '>
         {/* text left */}
-        <div className=" flex  h-100 flex-col  text-base overflow-hidden ">
+        <div className=" flex   flex-col  text-base overflow-hidden ">
           {AchievmentsData.map((data, index) => (
             <div key={index}  className='flex flex-col p-5  border-b border-b-gray-500 pb-10  mb-5  bg-shade5 text-white  hover:animate-zoomIn'>
               <div className=''>
@@ -54,33 +54,7 @@ const Achievments = () => {
               </div>                 
           </div>
 
-          <div   className='flex-1 flex flex-col p-5  border-b border-b-gray-500 pb-10  mb-5  bg-shade5 text-white hover:animate-zoomIn'>
-              <div className=''>
-                <h1 className='  text-xl  mb-4 font-semibold text-secondary'>
-                 	Alstom Power
-                </h1>
-              </div>
 
-              <div  className=' text-justify'>
-                <ul className='list-disc'>
-                  <li>
-                   	Led the non-financial due diligence and integration of Alstom Power’s CSR function in GE’s largest-ever acquisition (2015).
-                  </li>
-                  <li>
-                   	Integrated sustainability and impact management methodologies, including product life-cycle assessments and eco-design approaches, into the power generation sector (2013).
-                  </li>
-                  <li>
-                   	Established an industry-leading, third-party verified GHG Avoidance accounting framework recognized by the World Bank (2011).
-                  </li>
-                  <li>
-                  	Co-founded the “Alstom Chair in Clean Energy Systems” at Wits University, South Africa (2012).
-                  </li>
-                  <li>
-                   	Credited with generating €30 million in incremental, carbon-related sales revenues (2011).
-                  </li>
-                </ul>
-              </div>                 
-          </div>
 
         </div>
         </div>
