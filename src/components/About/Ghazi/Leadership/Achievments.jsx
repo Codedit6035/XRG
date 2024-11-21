@@ -13,7 +13,7 @@ const Achievments = () => {
         {/* text left */}
         <div className=" flex   flex-col  text-base overflow-hidden ">
           {AchievmentsData.map((data, index) => (
-            <div key={index}  className='flex flex-col p-5  border-b border-b-gray-500 pb-10  mb-5  bg-shade5 text-white  hover:animate-zoomIn'>
+            <div key={index}  className='flex flex-col p-5  border-b border-b-gray-500 pb-10  mb-5  bg-shade5 text-white  '>
               <div className=''>
                 <h1 className='  text-xl  mb-4 font-semibold text-secondary'>
                   {data.title}
@@ -26,7 +26,7 @@ const Achievments = () => {
             </div>
       ))}   
           {/* GeE corporate */}
-          <div   className='flex flex-col p-5  border-b border-b-gray-500 pb-10  mb-5  bg-shade5 text-white  hover:animate-zoomIn'>
+          <div   className='flex flex-col p-5  border-b border-b-gray-500 pb-10  mb-5  bg-shade5 text-white  '>
               <div className=''>
                 <h1 className='  text-xl  mb-4 font-semibold text-secondary'>
                  	GE Corporate:
@@ -48,7 +48,7 @@ const Achievments = () => {
             </div>               
           </div> 
                     {/*	Alstom Power */}
-          <div   className='flex flex-col p-5  border-b border-b-gray-500 pb-10  mb-5  bg-shade5 text-white  hover:animate-zoomIn'>
+          <div   className='flex flex-col p-5  border-b border-b-gray-500 pb-10  mb-5  bg-shade5 text-white  '>
               <div className=''>
                 <h1 className='  text-xl  mb-4 font-semibold text-secondary'>
                 	Alstom Power:
