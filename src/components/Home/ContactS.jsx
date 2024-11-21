@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const ContactS = () => {
   return (
     <div>
-    <div className='pt-14 pb-12  font-Raleway'>
+    <div className='py-10  font-Raleway'>
 
          {/* body */}  
          <div>

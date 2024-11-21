@@ -1,40 +1,41 @@
 import React from 'react'
-import LogoFooter from'../assets/logofooter.png'
+import LogoFooter from'../assets/logo.png'
 
 const Footer = () => {
   return (
-    <div className='  bg-primary mt-0.5  py-10 font-raleway '>
+    <div className='  bg-primary mt-0.5  py-10 font-raleway  text-base'>
       <div className='container text-white'>
-      <div className='flex flex-col border-b  gap-20 pb-5 pt-5 pr-40'>
+      <div className='border-b   py-5  '>
       {/* Logo & topins & services */}
-      <div className='flex  justify-between '>
-        <div>
+      <div className='flex '>
+        <div className='flex-1'>
           <a href="/">
             <img src={LogoFooter}alt="" className='w-20 animate-spin-slow '/>           
           </a>
 
         </div>
-        <div>
-          <h1 className='text-2xl pb-5'>Topics</h1>
+        <div className='flex-1'>
+          <h1 className='text-2xl pb-5 font-bold'>Topics</h1>
           <ul>
+            <li>Home</li>
+            <li>XRG Approach</li>
+            <li>Dr. Ghazi Kablouti</li>
             <li>Services</li>
-            <li>Partnerships</li>
-            <li>Accomplishments</li>
-            <li>About</li>
+            <li>Contact</li>
           </ul>
         </div>
-        <div>
-          <h1 className='text-2xl pb-5'>Services</h1>
+        <div className='flex-1 '> 
+          <h1 className='text-2xl pb-5 font-bold'>Services</h1>
           <ul>
             <li>Advising</li>
-            <li>Teaching</li>
-            <li>Talking</li>
+            <li>Lecturing</li>
+            <li>Speaing</li>
           </ul>
         </div>
       </div>
       </div>
       {/* copyright privacy */}
-      <div className='flex justify-between  pt-5'>
+      <div className='flex justify-between  py-5 '>
         <h1>© XRG Impact Management Advisory 2024</h1>
         <div className='flex'>
           <h1>Privacy Policy</h1>    

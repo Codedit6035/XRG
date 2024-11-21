@@ -35,11 +35,11 @@ const ServicesS = () => {
   }, []);
 
   return (
-    <div className='pt-10 pb-12 font-Raleway text-base'>
+    <div className='py-10 font-Raleway text-base'>
       {/* Header section */}
       <div
         ref={sectionRef}
-        className={`mb-10 bg-white w-full pl-20 text-black ${
+        className={`mb-10  w-full pl-20 text-black ${
           isInView ? 'animate-slideInFromLeft' : 'opacity-0'
         }`}
       >

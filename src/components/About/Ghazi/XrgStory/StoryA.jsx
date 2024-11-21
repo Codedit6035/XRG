@@ -42,7 +42,7 @@ const StoryA = () => {
         {/* right*/}
         <div className=' flex-1'>
           <ul className='flex flex-col gap-5 list-disc text-justify text-base'>
-            <li>However, while ESG often centers on improving sustainability credentials and boosting scores to attract investment, impact investing takes a different approach. It emphasizes backing businesses that actively address societal or environmental challenges, even when these efforts don’t directly correlate with financial performance. </li>
+            <li >However, while ESG often centers on improving sustainability credentials and boosting scores to attract investment, impact investing takes a different approach. It emphasizes backing businesses that actively address societal or environmental challenges, even when these efforts don’t directly correlate with financial performance. </li>
             <li>Notably, many companies that perform poorly on ESG metrics still make a significant positive impact on society. This highlights a real risk that ESG can sometimes lead to complacency or greenwashing, masking the need for deeper, more transformative change.</li>
             <h1 className='text-[12px]  italic text-primary '>*Survival of the Fittest: From ESG to Competitive Sustainability. Cambridge Institute for Sustainability Leadership (2024).</h1>
 
