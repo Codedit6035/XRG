@@ -71,11 +71,11 @@ const StoryC = () => {
         </div>
 
         {/* Schema Section */}
-        <div className="p-10 flex flex-col items-center" id="schema-section">
-          <div className="flex items-center justify-center">
+        <div className=" = flex flex-col items-center" id="schema-section">
+          <div className="flex items-center justify-center =">
             {/* Schema 1 */}
             <div
-              className={`w-2/5 transition-opacity duration-700 ${
+              className={`w-[50%]  transition-opacity duration-700 = ${
                 isInView ? 'animate-slideInFromLeft opacity-100' : 'opacity-0'
               }`}
             >
@@ -84,13 +84,13 @@ const StoryC = () => {
 
             {/* Schema 2 */}
             <div
-              className={`relative w-2/12 flex justify-center overflow-hidden transition-opacity duration-700 ${
+              className={`relative w-[10%] flex justify-center overflow-hidden transition-opacity duration-700 ${
                 isInView ? 'opacity-100 scale-100' : 'opacity-0 scale-50'
               }`}
             >
               <img src={SchemaTwo} alt="Schema 2" className="inset-0" />
               <div
-                className={`absolute inset-0 bg-white transition-transform ${
+                className={`absolute  inset-0 bg-white transition-transform ${
                   isInView ? 'transition-transform animate-maskRevealSche' : 'transform scaleX-0'
                 }`}
               />
@@ -98,7 +98,7 @@ const StoryC = () => {
 
             {/* Schema 3 */}
             <div
-              className={`w-2/5 transition-opacity duration-700 ${
+              className={`w-[50%]  ml-5 transition-opacity duration-700 ${
                 isInView ? 'animate-fadeIn ' : 'opacity-0'
               }`}
             >
