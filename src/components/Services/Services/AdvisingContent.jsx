@@ -15,10 +15,10 @@ const AdvisingContent = () => {
                            viewport={{ once: true }}
                    >
                        {/*advising + p*/}
-                       <h1 className='text-4xl  bg-shade1 text-white w-fit pb-1 px-2'>Advising</h1>
+                       <h1 className='text-4xl  bg-shade1 text-white w-fit pb-1 px-2 '>Advising</h1>
                        <p className=' text-primary'>Empowering businesses to leverage their systemic strengths for long-term value and impact</p>
                        {/*corporations*/}
-                       <div className='space-y-7'>
+                       <div className='space-y-7 text-primary '>
                         <h1 className='text-xl font-semibold underline text-primary  '>For corporations: </h1>
                         <p className=''>with a focus on resource-Intensive Corporations and Start-Ups in Energy & Utilities, Capital Goods Manufacturing, Materials, Chemicals, and Healthcare</p>
                         <ul className='list-disc space-y-3 '>

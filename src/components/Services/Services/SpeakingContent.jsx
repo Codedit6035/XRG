@@ -5,9 +5,9 @@ import { motion } from 'framer-motion';
 const SpeakingContent = () => {
   return (
     <div>
-                <div className='flex justify-center  my-20 gap-20 '>
+                <div className='flex justify-center  my-20 gap-20 font-raleway text-base'>
                    {/* text*/}
-                   <motion.div className='flex-1 font-raleway space-y-14 text-base'
+                   <motion.div className='flex-1  space-y-14 '
                                               initial={{ x: '-100%', opacity: 0 }}
                                               whileInView={{ x: 0, opacity: 1 }}
                                               transition={{ duration: 1.1, ease: "easeInOut" }}
@@ -17,7 +17,7 @@ const SpeakingContent = () => {
                        <p className='text-primary '>Connecting, inspiring, and engaging to drive societal progress</p>
                        {/*corporations*/}
                        <div className='space-y-7'>
-                        <ul className='list-disc space-y-3 '>
+                        <ul className='list-disc space-y-3  text-primary '>
                           <li>
                             <span className='font-semibold'>Delivering Presentations, Keynotes, and Panel Discussions– </span>offering insights and perspectives to inspire and drive meaningful dialogue.
                           </li>
