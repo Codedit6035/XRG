@@ -19,7 +19,7 @@ const AdvisingContent = () => {
                        <p className=' text-primary'>Empowering businesses to leverage their systemic strengths for long-term value and impact</p>
                        {/*corporations*/}
                        <div className='space-y-7'>
-                        <h1 className='text-xl font-semibold underline text-primary  '>Corporations: </h1>
+                        <h1 className='text-xl font-semibold underline text-primary  '>For corporations: </h1>
                         <p className=''>with a focus on resource-Intensive Corporations and Start-Ups in Energy & Utilities, Capital Goods Manufacturing, Materials, Chemicals, and Healthcare</p>
                         <ul className='list-disc space-y-3 '>
                           <li>
@@ -33,6 +33,18 @@ const AdvisingContent = () => {
                           </li>
                           <li>
                             <span className='font-semibold'>Building a Compelling Business Case for Change– </span>crafting persuasive narratives to support the shift toward more sustainable strategies and business models.
+                          </li>
+                          <li>
+                            <span className='font-semibold'>Redefining Corporate Purpose and Business Model– </span>targeting core areas of impact to maximize the business model’s social and environmental contributions.
+                          </li>
+                          <li>
+                            <span className='font-semibold'>Aligning Sustainability and Business Strategies– </span>designing operational plans at the functional level to measure and achieve tangible, real-world impact.
+                          </li>
+                          <li>
+                            <span className='font-semibold'>Positioning the Business as a Change Leader– </span>establishing the company as a proactive force within its industry ecosystem, driving change at scale with meaningful engagement initiatives.
+                          </li>
+                          <li>
+                            <span className='font-semibold'>Developing a Strategic Sustainability Narrative– </span>creating a clear, impactful message to engage internal and external stakeholders on value-driven, impact-focused solutions.
                           </li>
                         </ul>
                        </div>                  
@@ -56,7 +68,7 @@ const AdvisingContent = () => {
                                        viewport={{ once: true }}>    
                          {/*Financial Services:*/}
                          <div className='space-y-7'>
-                         <h1 className='text-xl font-semibold underline text-white '>Financial Services: </h1>
+                         <h1 className='text-xl font-semibold underline text-white '>For financial Services: </h1>
                          <ul className='list-disc space-y-3  text-shade2 px-10'>
                            <li>
                              <span className='font-semibold'>	Evaluating Environmental and Social Risks and Opportunities– </span>analyzing portfolio companies' business models to identify critical sustainability risks and growth opportunities.
@@ -65,8 +77,11 @@ const AdvisingContent = () => {
                              <span className='font-semibold'>	Supporting Informed Investment Decisions–  </span>advising on current value creation by addressing key societal challenges and assessing future impact and value potential.
                            </li>
                            <li>
-                             <span className='font-semibold'>	Defining and Guiding Transformation Needs–  </span>identifying essential transformation requirements for portfolio companies and supporting the implementation process
+                             <span className='font-semibold'>	Defining and Guiding Transformation Needs–  </span>driving essential transformation requirements for portfolio companies and
                            </li>
+                           <li>
+                             <span className='font-semibold'>	Driving Systemic Change–   </span>defining your role as investor and guiding your portfolio and action to drive a purpose-driven systemic change.
+                           </li>                          
                          </ul>
                         </div> 
                    </motion.div>
@@ -78,7 +93,7 @@ const AdvisingContent = () => {
                                        viewport={{ once: true }}>   
                        {/*Policy and Standards Makers:*/}
                        <div className='space-y-10'>
-                        <h1 className='text-xl font-semibold underline text-white '>Policy and Standards Makers:</h1>
+                        <h1 className='text-xl font-semibold underline text-white '>For policy and Standards Makers:</h1>
                         <ul className='list-disc space-y-3  text-shade2  px-10'>
                           <li>
                             <span className='font-semibold'>Providing Data-Driven Insights to Policymakers–  </span>identifying critical levers to craft effective policies that drive meaningful change.
