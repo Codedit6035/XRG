@@ -109,7 +109,7 @@ export default {
         maskRevealBio: 'maskRevealBio 2.5s ease-out forwards', // Adjust duration as needed
         zoomOut: 'zoomOut 2.5s ease-out forwards',    // Match duration with maskReveal
         maskRevealSche: 'maskRevealSche 5s ease-out forwards',// Adjust duration as needed
-        fadeIn: 'fadeIn 5s ease-out  forwards',
+        fadeIn: 'fadeIn 3.5s ease-out  forwards',
         float: 'float 2s ease-in-out infinite',
         zoomInAb: 'zoomInAb 8s ease-in-out  infinite',       // Match duration with maskReveal
         zoomIn: 'zoomIn 5s ease-in-out  forwards', 

@@ -2,21 +2,23 @@ import React from 'react'
 import Image from '../../../assets/expertiseph.jpg'
 import ExpertiseData from "../../../data/ExpertiseData";
 import Certificates from './Expertise/Certificates';
+import { CiLinkedin } from "react-icons/ci";
+import { FaDownload } from "react-icons/fa";
 
 const  Expertise = () => {
   return (
     <div>
-      <div className='  flex flex-col gap-10 py-10  font-raleway '>
+      <div className='  flex flex-col gap-10 py-10  font-raleway  text-base'>
          {/*slogan*/}
       <div className=' text-2xl  text-center py-10  '>
-          <p className='px-10 text-secondary font-bold'>“Mastery is not a question of intelligence, but a question of persistence and resilience” - Anonymous</p>
+          <p className='px-10 text-primary font-bold'>“Mastery is not a question of intelligence, but a question of persistence and resilience” - Anonymous</p>
         </div>
         {/*Img*/}
         <div>
           <img src={Image} alt="" className='w-fit' />
         </div>
         {/* text */}
-        <div className="container flex flex-col text-base ">
+        <div className="container flex flex-col  ">
           {ExpertiseData.map((data, index) => (
             <div key={index}  className={`flex py-5 gap-10  pb-10 px-5  ${
         index % 2 === 0 ? '' : 'bg-gray-300'
@@ -70,16 +72,28 @@ const  Expertise = () => {
                 </div> */}
                 </div>
                 {/* links*/}
-                <div className='container'>
-                                                                       {/* Get in touch link */}
-        <div className=" flex   items-center  mt-10 ">
-          <div className=''>
-            <span>Any thoughts, need for support, </span>
-             <a href="/get in touch" className='font-bold text-shade7'><span>let’s get in touch</span></a>
-          </div>
+                <div className='container flex flex-col gap-10'>
+        {/* Get in touch link */}
+        <div className=" flex flex-col  justify-center items-center  gap-5 ">
+             <a href="/get in touch" className='font-bold text-shade7 '><span>let’s get in touch</span></a>
+             <a href="https://www.linkedin.com/in/ghazikablouti/ "  target="_blank"><CiLinkedin className=' text-5xl  text-shade7  hover:text-primary'/></a>
         </div>
-                  <h1>Link (download) Dr. Ghazi Kablouti (Profile document)</h1>
-                  <h1>Link to LinkedIn Profile (https://www.linkedin.com/in/ghazikablouti/)</h1>
+        
+        {/* services link */}
+        <div className="flex  flex-col gap-5 justify-center items-center  bg-shade2 p-5">
+        <h1 className='text-2xl'>
+        Dr. Ghazi Kablouti biography 
+          </h1>
+        <a  href="/Dr. Ghazi Kablouti.pdf" 
+                      download="Dr_Ghazi_Bio.pdf" >
+                    <button class="flex gap-2 items-center bg-shade7 hover:bg-primary font-bold  text-xl text-white px-5 py-2 " >
+                     <FaDownload className=' text-white' />
+ 
+                     Download Bio
+                    </button>
+                    </a>
+        </div>
+
 
                 </div>
 

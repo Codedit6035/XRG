@@ -99,7 +99,7 @@ const StoryC = () => {
             {/* Schema 3 */}
             <div
               className={`w-2/5 transition-opacity duration-700 ${
-                isInView ? 'animate-fadeIn opacity-100' : 'opacity-0'
+                isInView ? 'animate-fadeIn ' : 'opacity-0'
               }`}
             >
               <img src={SchemaThree} alt="Schema 3" />
@@ -120,14 +120,6 @@ const StoryC = () => {
            The world possesses the knowledge, technology, and resources needed to build a more resilient and prosperous economy—one that respects planetary boundaries and fosters genuine societal well-being. Markets are the most effective vehicles to drive this transformation, and XRG Advisory is your trusted partner in designing a transformative path to economic success through impactful, sustainable solutions 
           </p>
         </div>
-
-        {/* services link */}
-        <div className="text-center justify-center items-center space-y-5 bg-shade2 p-5">
-          <h1 className='text-2xl'>
-          Explore our Services
-          </h1>
-          <button className='bg-shade7 hover:bg-primary font-bold  text-xl text-white   px-5 py-2'>Services</button>
-        </div>
         {/* Get in touch link */}
         <div className=" flex  justify-center items-center  gap-10 ">
           <div className=''>
@@ -135,6 +127,14 @@ const StoryC = () => {
              <a href="/get in touch" className='font-bold text-shade7 '><span>let’s get in touch</span></a>
           </div>
         </div>
+        {/* services link */}
+        <div className="text-center justify-center items-center space-y-5 bg-shade2 p-5">
+          <h1 className='text-2xl'>
+          Explore our Services
+          </h1>
+          <button className='bg-shade7 hover:bg-primary font-bold  text-xl text-white   px-5 py-2'>Services</button>
+        </div>
+
                 
       </div>
     </div>

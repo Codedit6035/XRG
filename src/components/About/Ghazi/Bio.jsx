@@ -13,10 +13,10 @@ const Bio = () => {
   }, []);
 
   return (
-    <div className='py-10 container  font-raleway'>
+    <div className='py-10 container  font-raleway text-base'>
         <div className='   py-10  flex items-center gap-10 px-10 text-white  bg-primary font-bold'>
           <h1 className=' text-4xl flex-1'>Dr. Ghazi Kablouti </h1>
-          <p className=' flex-1 text-lg flex gap-10'><span>Envision. </span> <span>Lead. </span> <span>Inspire</span></p>
+          <p className=' flex-1 text-xl tracking-widest  flex gap-10   pl-10'><span>Envision. </span> <span>Lead. </span> <span>Inspire</span></p>
         </div>
         <div className=' flex gap-10 py-20'>
             {/* image */}
@@ -35,7 +35,7 @@ const Bio = () => {
 
             </div>
             {/* text */}
-            <div className='flex flex-1 flex-col   w-4/6  pl-10 '>
+            <div className='flex flex-1 flex-col    pl-10 '>
                   {/*header */}
                 {/* <h1 className=' text-xl text-shade1 mb-4 font-semibold '> Dr. Ghazi Balkouti </h1>
 
@@ -43,7 +43,7 @@ const Bio = () => {
                 {/* text */}
                 <div className=" ">
                 {BioData.map((para, index) => (
-        <p key={index} className="text-base mb-4 text-justify">
+        <p key={index} className=" mb-4 text-justify">
           {para}
         </p>
       ))}                  
@@ -65,7 +65,6 @@ const Bio = () => {
                              {/* Get in touch link */}
         <div className=" flex   items-center  mt-10 ">
           <div className=''>
-            <span>Any thoughts, need for support, </span>
              <a href="/get in touch" className='font-bold text-shade7'><span>let’s get in touch</span></a>
           </div>
         </div>
