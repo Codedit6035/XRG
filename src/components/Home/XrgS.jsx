@@ -8,12 +8,13 @@ const XrgS = () => {
     <div id="xrg" className="py-10 font-Raleway text-base relative " >
 
         {/* Header section */}
-        <div  className="   mb-10 animate-slideInFromLeft w-full pl-20  text-black">
-          <h1 className="text-left  text-3xl text-primary  hover:bg-shade1 hover:text-white w-fit pr-5 pl-1">
-            XRG I<span className="text-xl font-semibold">mpact Management Advisory</span> 
+        <div  className="   mb-10 animate-slideInFromLeft w-full pl-20  text-primary">
+          <h1 className="text-left  text-3xl   hover:bg-shade1 hover:text-white w-fit ">
+            XRG
           </h1>
           {/* Blue line */}
-          <div className="w-16 h-1 bg-shade7 mb-4 "></div>        
+          <div className="w-16 h-1 bg-shade7 "></div>    
+          <h1 className="text-xl font-semibold mb-4 ">Impact Management Advisory</h1>     
         </div>
 
         {/* Body section */}

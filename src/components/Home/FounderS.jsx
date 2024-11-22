@@ -9,7 +9,7 @@ const FounderS = () => {
 
         {/* Header section */}
         <div  className="   mb-10 animate-slideInFromLeft w-full pl-20  text-black">
-        <h1 className="text-left  text-3xl text-primary  hover:bg-shade1 hover:text-white w-fit pr-5 pl-1">
+        <h1 className="text-left  text-3xl text-primary  hover:bg-shade1 hover:text-white w-fit ">
             Founder
         </h1>
           {/* Blue line */}

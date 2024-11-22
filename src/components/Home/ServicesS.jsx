@@ -39,7 +39,7 @@ const ServicesS = () => {
           isInView ? 'animate-slideInFromLeft' : 'opacity-0'
         }`}
       >
-        <h1 className="text-left text-3xl text-primary hover:bg-shade1 hover:text-white w-fit pr-5 pl-1">
+        <h1 className="text-left text-3xl text-primary hover:bg-shade1 hover:text-white w-fit ">
           Services
         </h1>
         {/* Blue line */}

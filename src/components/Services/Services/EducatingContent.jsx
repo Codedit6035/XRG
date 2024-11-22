@@ -18,7 +18,7 @@ const EducatingContent = () => {
 
       {/* Text */}
       <motion.div
-        className="flex-1 font-raleway space-y-14 text-base text-primary h-fit  "
+        className="flex-1 font-raleway space-y-14 text-base text-primary   "
         initial={{ x: '100%', opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1.1, ease: "easeInOut" }}

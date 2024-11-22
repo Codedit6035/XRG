@@ -52,7 +52,7 @@ const PartnersS = () => {
     <div className="py-10 font-Raleway">
       {/* Header section */}
       <div className="mb-10 w-full pl-20 ">
-        <h1 className="text-left text-3xl text-primary hover:bg-shade1 hover:text-white w-fit pr-5 pl-1">Partners & Employers</h1>
+        <h1 className="text-left text-3xl text-primary hover:bg-shade1 hover:text-white w-fit ">Partners & Employers</h1>
         {/* Blue line */}
         <div className="w-16 h-1 bg-shade7 mb-4"></div>
       </div>
