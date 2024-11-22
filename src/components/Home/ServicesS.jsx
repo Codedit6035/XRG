@@ -1,10 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { RiSpeakFill } from "react-icons/ri";
-import { FaChalkboardTeacher } from "react-icons/fa";
-import { IoMdPeople } from "react-icons/io";
-import { PiArrowElbowDownRight } from "react-icons/pi";
 import Advising from '../../assets/advisinghome.jpg'
-import Lecturing from '../../assets/lecturing.jpeg'
+import Lecturing from '../../assets/lecturing.jpg'
 import Speaking from '../../assets/speaking.png'
 
 const ServicesS = () => {

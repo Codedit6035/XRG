@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import Adivising from "../../../assets/lecturing.jpeg";
+import Adivising from "../../../assets/lecturing.jpg";
 
 const EducatingContent = () => {
   return (
@@ -13,7 +13,7 @@ const EducatingContent = () => {
         transition={{ duration: 1.1, ease: "easeInOut" }}
         viewport={{ once: true }}
       >
-        <img src={Adivising} alt="Educating" className="h-[450px] w-full" />
+        <img src={Adivising} alt="Educating" className=" w-full" />
       </motion.div>
 
       {/* Text */}
