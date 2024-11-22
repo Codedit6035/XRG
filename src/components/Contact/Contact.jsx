@@ -16,7 +16,7 @@ const Contact = () => {
     href="mailto:contact@xrg-advisory.com"
     className="text-shade7 font-bold hover:underline"
   >
-    contact@xrgadvisor.com
+    contact@xrg-advisory.com
   </a>
   , or fill out the form on this page. We’ll get back to you as soon as possible. <br /><br />
   We look forward to connecting with you!
