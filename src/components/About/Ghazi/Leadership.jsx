@@ -3,20 +3,30 @@ import Awards from './Leadership/Awards'
 import Achievments from './Leadership/Achievments'
 import { CiLinkedin } from "react-icons/ci";
 import { FaDownload } from "react-icons/fa";
-import AchievmentImg from "../../../assets/achievement.jpg"
+import AchievmentImg from "../../../assets/achievement.jpeg"
+import { motion } from 'framer-motion';
 
 
 const  Expertise = () => {
   return (
     <div>
       <div className=' flex flex-col gap-10 py-10  '>
-        {/*slogan*/}
-        <div className=' text-2xl py-10 text-center  '>
-          <p className='px-10 text-primary font-bold'>“If you want to go fast, go alone. If you want to go far, go together” <span className="text-lg ">– African Proverb</span> </p>
-        </div>
-        {/*Img*/}
-        <div>
-          <img src={AchievmentImg} alt="" className='w-fit' />
+        {/*quote img*/}
+        <div className='container flex gap-1'>
+        <motion.div className='flex   text-2xl py-10  text-justify justify-center items-center flex-1 bg-shade2/50'
+                                   initial={{ x: '-100%', opacity: 0 }}
+                                   whileInView={{ x: 0, opacity: 1 }}
+                                   transition={{ duration: 1.1, ease: "easeInOut" }}
+                                   viewport={{ once: true }}>
+          <p className='px-10 text-primary font-bold  '>“Education is the most powerful weapon which you can use to change the world."  – <br /> <span className='text-lg text-shade6'>Nelson Mandela</span></p>
+        </motion.div>
+        <motion.div className='flex-1'
+                                   initial={{ x: '100%', opacity: 0 }}
+                                   whileInView={{ x: 0, opacity: 1 }}
+                                   transition={{ duration: 1.1, ease: "easeInOut" }}
+                                   viewport={{ once: true }}>
+          <img src={AchievmentImg } alt="" className=' size-full' />
+        </motion.div>
         </div>
         <Achievments/>
         <Awards/>
