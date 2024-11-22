@@ -5,9 +5,9 @@ import { motion } from 'framer-motion';
 
 const AdvisingContent = () => {
   return (
-    <div className=' my-20 '>
+    <div className=''>
                {/*advising title*/}
-                        <motion.div className='flex-1 font-raleway space-y-14 text-base mb-20  '
+                        <motion.div className='flex-1 font-raleway space-y-14 text-base my-20'
                            initial={{ x: '-100%', opacity: 0 }}
                            whileInView={{ x: 0, opacity: 1 }}
                            transition={{ duration: 1.1, ease: "easeInOut" }}
@@ -59,13 +59,22 @@ const AdvisingContent = () => {
                        </div>                  
                    </motion.div>
                    {/* image*/}
-                   <motion.div  className="flex-1  font-raleway   bg-shade1  "
+                   <motion.div  className="flex-1  "
                            initial={{ x: '100%', opacity: 0 }}
                            whileInView={{ x: 0, opacity: 1 }}
                            transition={{ duration: 1.1, ease: "easeInOut" }}
                            viewport={{ once: true }}>
+                      <img src={Adivising } alt=""  className='h-full w-full ' />
+                   </motion.div>
+                </div>   
+                {/* part 2*/}
+                <div className='flex justify-center  my-20 gap-1  '>
                    {/* text*/}
-                   <div className='flex-1 font-raleway space-y-14 bg-shade5  p-10     '>    
+                   <motion.div className='flex-1 font-raleway space-y-14 bg-shade5  p-10   '
+                                        initial={{ x: '-100%', opacity: 0 }}
+                                       whileInView={{ x: 0, opacity: 1 }}
+                                       transition={{ duration: 1.1, ease: "easeInOut" }}
+                                       viewport={{ once: true }}>    
                          {/*Financial Services:*/}
                          <div className='space-y-7'>
                          <h1 className='text-xl font-semibold underline text-white '>For financial Services: </h1>
@@ -84,9 +93,13 @@ const AdvisingContent = () => {
                            </li>                          
                          </ul>
                         </div> 
-                   </div>
+                   </motion.div>
                    {/* text*/}
-                   <div className='flex-1 font-raleway space-y-14 bg-shade1   p-10  '>   
+                   <motion.div className='flex-1 font-raleway space-y-14 bg-shade1   p-10  '
+                                       initial={{ x: '100%', opacity: 0 }}
+                                       whileInView={{ x: 0, opacity: 1 }}
+                                       transition={{ duration: 1.1, ease: "easeInOut" }}
+                                       viewport={{ once: true }}>   
                        {/*Policy and Standards Makers:*/}
                        <div className='space-y-10'>
                         <h1 className='text-xl font-semibold underline text-white '>For policy and Standards Makers:</h1>
@@ -99,11 +112,8 @@ const AdvisingContent = () => {
                           </li>
                         </ul>
                        </div>
-                   </div>
-
                    </motion.div>
                 </div>   
- 
              
     </div>
   )
