@@ -77,7 +77,7 @@ const Testimonials = () => {
                                    whileInView={{ x: 0, opacity: 1 }}
                                    transition={{ duration: 1.1, ease: "easeInOut" }}
                                    viewport={{ once: true }}>
-          <p className='px-10  font-bold  '>"The only way to do great work is to love what you do" -<br /> <span className='text-lg text-shade6'>Steve Jobs</span></p>
+          <p className='px-10  font-bold  '>"The only way to do great work is to love what you do" -<br /> <span className='text-lg text-shade6 font-normal'>Steve Jobs</span></p>
         </motion.div>
         <motion.div className='flex-1'
                                    initial={{ x: '100%', opacity: 0 }}

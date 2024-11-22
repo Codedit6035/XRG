@@ -18,7 +18,7 @@ const  Expertise = () => {
                                    whileInView={{ x: 0, opacity: 1 }}
                                    transition={{ duration: 1.1, ease: "easeInOut" }}
                                    viewport={{ once: true }}>
-          <p className='px-10 text-primary font-bold  '>“If you want to go fast, go alone. If you want to go far, go together” –  <br /> <span className='text-lg text-shade6'>African Proverb</span></p>
+          <p className='px-10 text-primary font-bold  '>“If you want to go fast, go alone. If you want to go far, go together” –  <br /> <span className='text-lg text-shade6 font-normal'>African Proverb</span></p>
         </motion.div>
         <motion.div className='flex-1'
                                    initial={{ x: '100%', opacity: 0 }}
