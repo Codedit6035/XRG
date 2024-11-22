@@ -1,24 +1,35 @@
 import React from 'react'
-import Image from '../../../assets/expertiseph.jpg'
+import Image from '../../../assets/expertiseph.jpeg'
 import ExpertiseData from "../../../data/ExpertiseData";
 import Certificates from './Expertise/Certificates';
 import { CiLinkedin } from "react-icons/ci";
 import { FaDownload } from "react-icons/fa";
+import { motion } from 'framer-motion'; 
 
 const  Expertise = () => {
   return (
     <div>
-      <div className='  flex flex-col gap-10 py-10  font-raleway  text-base'>
-         {/*slogan*/}
-      <div className=' text-2xl  text-center py-10  '>
-          <p className='px-10 text-primary font-bold'>“Mastery is not a question of intelligence, but a question of persistence and resilience” </p>
+      <div className='container  flex flex-col gap-10 py-10  font-raleway  text-base'>
+        {/*quote img*/}
+        <div className='flex gap-1'>
+        <motion.div className='flex   text-2xl py-10  text-justify justify-center items-center flex-1 bg-shade2/50'
+                                   initial={{ x: '-100%', opacity: 0 }}
+                                   whileInView={{ x: 0, opacity: 1 }}
+                                   transition={{ duration: 1.1, ease: "easeInOut" }}
+                                   viewport={{ once: true }}>
+          <p className='px-10 text-primary font-bold  '>“Mastery is not a question of intelligence, but a question of persistence and resilience” </p>
+        </motion.div>
+        <motion.div className='flex-1'
+                                   initial={{ x: '100%', opacity: 0 }}
+                                   whileInView={{ x: 0, opacity: 1 }}
+                                   transition={{ duration: 1.1, ease: "easeInOut" }}
+                                   viewport={{ once: true }}>
+          <img src={Image} alt="" className=' size-full' />
+        </motion.div>
         </div>
-        {/*Img*/}
-        <div>
-          <img src={Image} alt="" className='w-fit' />
-        </div>
+
         {/* text */}
-        <div className="container flex flex-col  ">
+        <div className=" flex flex-col  ">
           {ExpertiseData.map((data, index) => (
             <div key={index}  className={`flex py-5 gap-10  pb-10 px-5  ${
         index % 2 === 0 ? '' : 'bg-gray-300'
