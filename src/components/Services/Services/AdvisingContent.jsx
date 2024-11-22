@@ -64,7 +64,7 @@ const AdvisingContent = () => {
                            whileInView={{ x: 0, opacity: 1 }}
                            transition={{ duration: 1.1, ease: "easeInOut" }}
                            viewport={{ once: true }}>
-                      <img src={Adivising } alt=""  className='h-[600px] w-full ' />
+                      <img src={Adivising } alt=""  className='h-full w-full ' />
                    </motion.div>
                 </div>   
                 {/* part 2*/}
