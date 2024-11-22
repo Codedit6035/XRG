@@ -32,7 +32,7 @@ const Navbar = () => {
 
           {/* Links */}
           <div > 
-            <ul className="sm:flex hidden gap-3  bg-black ">
+            <ul className="sm:flex hidden gap-3   ">
               {Menu.map((item) => (
                 <li key={item.id} className="relative ">
                   {item.name === "Explore" ? (
