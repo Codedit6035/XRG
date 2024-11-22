@@ -9,7 +9,7 @@ import { motion } from 'framer-motion';
 
 const Academic = () => {
   return (
-    <div className=' container py-10 font-raleway text-base'> 
+    <div className='container  flex flex-col gap-10 py-10  font-raleway  text-base'> 
         {/*quote img*/}
         <div className='flex gap-1'>
         <motion.div className='flex   text-2xl py-10  text-justify justify-center items-center flex-1 bg-shade2/50'

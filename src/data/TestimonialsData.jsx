@@ -1,5 +1,5 @@
 import Img1 from "../assets/partners/henkel.png"
-import Img2 from "../assets/partners/gea.png"
+import Img2 from "../assets/partners/gm.png"
 import Img3 from "../assets/partners/alstom.png"
 import Img4 from "../assets/partners/zhaw.png"
 import Img5 from "../assets/partners/bsl.svg"

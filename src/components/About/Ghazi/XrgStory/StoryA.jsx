@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const StoryA = () => {
   return (
     <div className=''>
-      <div className=' flex flex-col gap-10 font-raleway text-base overflow-hidden'>
+      <div className=' flex flex-col gap-10 font-raleway text-base '>
         {/*quote img*/}
         <div className='flex gap-1'>
         <motion.div className='flex   text-2xl py-10  text-justify justify-center items-center flex-1 bg-shade2/50'

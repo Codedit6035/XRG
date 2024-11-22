@@ -17,7 +17,7 @@ const  Expertise = () => {
                                    whileInView={{ x: 0, opacity: 1 }}
                                    transition={{ duration: 1.1, ease: "easeInOut" }}
                                    viewport={{ once: true }}>
-          <p className='px-10 text-primary font-bold  '>“Mastery is not a question of intelligence, but a question of persistence and resilience” </p>
+          <p className='px-10 text-primary font-bold  '>“Mastery is not a question of intelligence, but a question of persistence & resilience” </p>
         </motion.div>
         <motion.div className='flex-1'
                                    initial={{ x: '100%', opacity: 0 }}

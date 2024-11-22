@@ -2,7 +2,8 @@ import React from "react";
 import Slider from "react-slick";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import TestimonialData from "../../../data/TestimonialsData";
-import TestimonialtsImg from "../../../assets/testimonials.jpg"
+import TestimonialtsImg from "../../../assets/testimonials.jpeg"
+import { motion } from 'framer-motion';
 
 const Testimonials = () => {
   // Custom Previous Arrow
@@ -69,14 +70,28 @@ const Testimonials = () => {
   return (
     <div className="  flex flex-col gap-10  pt-10 pb-40  font-raleway  text-base  ">
       {/*slogan*/}
-      <div className=' text-2xl  text-center py-10  '>
-          <p className='px-10 text-primary font-bold'>“Mastery is not a question of intelligence, but a question of persistence and resilience” <span className="text-lg "> - Anonymous</span></p>
-      </div>
+        {/*quote img*/}
+        <div className='container flex gap-1'>
+        <motion.div className='flex   text-2xl py-10  text-justify justify-center items-center flex-1 bg-shade2/50'
+                                   initial={{ x: '-100%', opacity: 0 }}
+                                   whileInView={{ x: 0, opacity: 1 }}
+                                   transition={{ duration: 1.1, ease: "easeInOut" }}
+                                   viewport={{ once: true }}>
+          <p className='px-10 text-primary font-bold  '>"The only way to do great work is to love what you do" -<br /> <span className='text-lg text-shade6'>Steve Jobs</span></p>
+        </motion.div>
+        <motion.div className='flex-1'
+                                   initial={{ x: '100%', opacity: 0 }}
+                                   whileInView={{ x: 0, opacity: 1 }}
+                                   transition={{ duration: 1.1, ease: "easeInOut" }}
+                                   viewport={{ once: true }}>
+          <img src={TestimonialtsImg } alt="" className=' size-full' />
+        </motion.div>
+        </div>
 
-      <div className=" bg-shade6 py-10 ">
+      <div className="  py-10 text-primary ">
         {/* Header Section */}
         <div data-aos="zoom-in" className=" ">
-          <h1 className=" container text-3xl font-bold text-shade2 mb-6">
+          <h1 className=" container text-3xl font-bold  mb-6">
             Partners Feedback
           </h1>
 
@@ -87,7 +102,7 @@ const Testimonials = () => {
                 <div className="flex flex-col py-8 px-10 rounded-xl relative">
                   <div className="flex flex-col items-start">
                     <div className="mb-6">
-                      <p className="text-white text-justify">{data.text}</p>
+                      <p className=" text-justify">{data.text}</p>
                     </div>
                     <div className="flex gap-5">
                       <img
@@ -96,10 +111,10 @@ const Testimonials = () => {
                         className="w-[100px] "
                       />
                       <div>
-                        <h1 className="text-xl font-bold text-white">
+                        <h1 className="text-xl font-bold  text-shade6">
                           {data.name}
                         </h1>
-                        <h1 className="text-sm text-shade2">{data.post}</h1>
+                        <h1 className="text-sm text-shade6">{data.post}</h1>
                       </div>
                     </div>
                   </div>

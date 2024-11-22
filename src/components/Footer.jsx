@@ -1,5 +1,6 @@
 import React from 'react'
 import LogoFooter from'../assets/logo.png'
+import Flag from "../assets/swissflag.jpg"
 
 const Footer = () => {
   return (
@@ -8,10 +9,15 @@ const Footer = () => {
       <div className='border-b   py-5  '>
       {/* Logo & topins & services */}
       <div className='flex '>
-        <div className='flex-1'>
+        <div className='flex-1 flex flex-col'>
           <a href="/">
             <img src={LogoFooter}alt="" className='w-20 animate-spin-slow '/>           
           </a>
+          {/* location*/}
+          <div className='flex  mt-auto'>
+              <h1 className=' text-white  px-2 text-sm'>Based in Switzerland</h1>
+              <img src={Flag} alt="" className='w-[20px] h-[20px]' />
+          </div>
 
         </div>
         <div className='flex-1'>
@@ -32,6 +38,7 @@ const Footer = () => {
             <li>Speaing</li>
           </ul>
         </div>
+
       </div>
       </div>
       {/* copyright privacy */}
