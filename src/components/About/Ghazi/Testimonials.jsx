@@ -72,10 +72,7 @@ const Testimonials = () => {
       <div className=' text-2xl  text-center py-10  '>
           <p className='px-10 text-primary font-bold'>“Mastery is not a question of intelligence, but a question of persistence and resilience” <span className="text-lg "> - Anonymous</span></p>
       </div>
-      {/*Img*/}
-      <div>
-         <img src={TestimonialtsImg} alt="" className='w-fit' />
-      </div>
+
       <div className=" bg-shade6 py-10 ">
         {/* Header Section */}
         <div data-aos="zoom-in" className=" ">
