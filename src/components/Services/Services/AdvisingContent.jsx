@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const AdvisingContent = () => {
   return (
-    <div className=' my-10 '>
+    <div className=' my-10  '>
                {/*advising title*/}
                         <motion.div className='flex-1 font-raleway space-y-14 text-base mb-10  '
                            initial={{ x: '-100%', opacity: 0 }}
@@ -18,7 +18,7 @@ const AdvisingContent = () => {
                        <p className=' text-primary'>Empowering businesses to leverage their systemic strengths for long-term value and impact</p>
                        </motion.div>
                 {/*text */}
-                <div className='flex justify-center    gap-1 overflow-hidden '>
+                <div className='flex justify-center    gap-1  '>
                    {/* corporation */}
                    <motion.div className='flex-1 font-raleway  space-y-14 text-base bg-shade2/30'
                            initial={{ x: '-100%', opacity: 0 }}
