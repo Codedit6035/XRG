@@ -4,7 +4,7 @@ import Adivising from "../../../assets/lecturing.jpeg";
 
 const EducatingContent = () => {
   return (
-    <div className="my-20 flex justify-center gap-20 ">
+    <div className="my-10 flex justify-center gap-20 ">
       {/* Image */}
       <motion.div
         className="flex-1"

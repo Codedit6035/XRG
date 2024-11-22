@@ -5,9 +5,9 @@ import { motion } from 'framer-motion';
 
 const AdvisingContent = () => {
   return (
-    <div className=' my-20 '>
+    <div className=' my-10 '>
                {/*advising title*/}
-                        <motion.div className='flex-1 font-raleway space-y-14 text-base mb-20  '
+                        <motion.div className='flex-1 font-raleway space-y-14 text-base mb-10  '
                            initial={{ x: '-100%', opacity: 0 }}
                            whileInView={{ x: 0, opacity: 1 }}
                            transition={{ duration: 1.1, ease: "easeInOut" }}
