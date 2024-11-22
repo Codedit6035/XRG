@@ -17,7 +17,7 @@ const ContactS = () => {
             <h1 className='text-gray-900 '>contact@xrg-advisory.com</h1>
                         {/* location*/}
                         <div className='flex '>
-              <h1 className=' text-gray-900  px-2 font-semibold text-sm'>Based in</h1>
+              <h1 className=' text-red-600  px-2 font-semibold text-sm'>Based in</h1>
               <img src={SwissFlag} alt="" className='w-[20px]' />
             </div>
             <div className='flex items-center text-gray-900  mt-7'>
