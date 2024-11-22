@@ -56,7 +56,7 @@ const  Expertise = () => {
 
                 </div>
                 {/* links*/}
-                <div className='container flex flex-col gap-10'>
+                <div className=' flex flex-col gap-10'>
         {/* Get in touch link */}
         <div className=" flex flex-col  justify-center items-center  gap-5 ">
              <a href="/get in touch" className='font-bold text-shade7 '><span>let’s get in touch</span></a>

@@ -30,7 +30,7 @@ const StoryC = () => {
   }, []);
 
   return (
-    <div className="container pt-10">
+    <div className="pt-10">
       <div className="container flex flex-col gap-10 font-raleway text-base text-primary">
         {/* Title + Blue line */}
         <div>
@@ -128,7 +128,7 @@ const StoryC = () => {
           </div>
         </div>
         {/* services link */}
-        <div className="text-center justify-center items-center space-y-5 bg-shade2 p-5">
+        <div className="text-center justify-center items-center space-y-5 bg-shade2/50 p-5">
           <h1 className='text-2xl'>
           Explore our Services
           </h1>

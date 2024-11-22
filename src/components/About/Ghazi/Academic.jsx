@@ -84,7 +84,7 @@ const Academic = () => {
         </div>
         
         {/* services link */}
-        <div className="flex  flex-col gap-5 justify-center items-center  bg-shade2 p-5">
+        <div className="flex  flex-col gap-5 justify-center items-center  bg-shade2/50 p-5">
         <h1 className='text-2xl'>
         Dr. Ghazi Kablouti biography 
           </h1>
