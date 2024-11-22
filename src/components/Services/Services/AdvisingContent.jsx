@@ -20,7 +20,7 @@ const AdvisingContent = () => {
                 {/*corporation text + img*/}
                 <div className='flex justify-center    gap-1 overflow-hidden '>
                    {/* text*/}
-                   <motion.div className='flex-1 font-raleway space-y-14 text-base bg-shade5 '
+                   <motion.div className='flex-1 font-raleway space-y-14 text-base bg-shade8 '
                            initial={{ x: '-100%', opacity: 0 }}
                            whileInView={{ x: 0, opacity: 1 }}
                            transition={{ duration: 1.1, ease: "easeInOut" }}
