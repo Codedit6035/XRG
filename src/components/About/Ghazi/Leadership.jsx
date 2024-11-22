@@ -3,7 +3,7 @@ import Awards from './Leadership/Awards'
 import Achievments from './Leadership/Achievments'
 import { CiLinkedin } from "react-icons/ci";
 import { FaDownload } from "react-icons/fa";
-import AchievmentImg from "../../../assets/Achievement.jpg"
+import AchievmentImg from "../../../assets/achievement.jpg"
 
 
 const  Expertise = () => {
