@@ -5,10 +5,9 @@ import { motion } from 'framer-motion';
 
 const AdvisingContent = () => {
   return (
-    <div>
-                <div className='flex justify-center  my-20 gap-20 over'>
-                   {/* text*/}
-                   <motion.div className='flex-1 font-raleway space-y-14 text-base'
+    <div className=''>
+               {/*advising title*/}
+                        <motion.div className='flex-1 font-raleway space-y-14 text-base my-20'
                            initial={{ x: '-100%', opacity: 0 }}
                            whileInView={{ x: 0, opacity: 1 }}
                            transition={{ duration: 1.1, ease: "easeInOut" }}
@@ -17,9 +16,19 @@ const AdvisingContent = () => {
                        {/*advising + p*/}
                        <h1 className='text-4xl  bg-shade1 text-white w-fit pb-1 px-2 '>Advising</h1>
                        <p className=' text-primary'>Empowering businesses to leverage their systemic strengths for long-term value and impact</p>
+                       </motion.div>
+                {/*corporation text + img*/}
+                <div className='flex justify-center    gap-1 overflow-hidden '>
+                   {/* text*/}
+                   <motion.div className='flex-1 font-raleway space-y-14 text-base bg-shade5 '
+                           initial={{ x: '-100%', opacity: 0 }}
+                           whileInView={{ x: 0, opacity: 1 }}
+                           transition={{ duration: 1.1, ease: "easeInOut" }}
+                           viewport={{ once: true }}
+                   >
                        {/*corporations*/}
-                       <div className='space-y-7 text-primary '>
-                        <h1 className='text-xl font-semibold underline text-primary  '>For corporations: </h1>
+                       <div className='space-y-7 text-white p-10 '>
+                        <h1 className='text-xl font-semibold underline text-white'>For corporations: </h1>
                         <p className=''>with a focus on resource-Intensive Corporations and Start-Ups in Energy & Utilities, Capital Goods Manufacturing, Materials, Chemicals, and Healthcare</p>
                         <ul className='list-disc space-y-3 '>
                           <li>
@@ -50,7 +59,7 @@ const AdvisingContent = () => {
                        </div>                  
                    </motion.div>
                    {/* image*/}
-                   <motion.div  className="flex-1 "
+                   <motion.div  className="flex-1  "
                            initial={{ x: '100%', opacity: 0 }}
                            whileInView={{ x: 0, opacity: 1 }}
                            transition={{ duration: 1.1, ease: "easeInOut" }}
@@ -59,7 +68,7 @@ const AdvisingContent = () => {
                    </motion.div>
                 </div>   
                 {/* part 2*/}
-                <div className='flex justify-center  my-20 gap-1 '>
+                <div className='flex justify-center  my-20 gap-1  '>
                    {/* text*/}
                    <motion.div className='flex-1 font-raleway space-y-14 bg-shade5  p-10   '
                                         initial={{ x: '-100%', opacity: 0 }}
@@ -77,7 +86,7 @@ const AdvisingContent = () => {
                              <span className='font-semibold'>	Supporting Informed Investment Decisions–  </span>advising on current value creation by addressing key societal challenges and assessing future impact and value potential.
                            </li>
                            <li>
-                             <span className='font-semibold'>	Defining and Guiding Transformation Needs–  </span>driving essential transformation requirements for portfolio companies and
+                             <span className='font-semibold'>	Defining and Guiding Transformation Needs–  </span>driving essential transformation requirements for portfolio companies.
                            </li>
                            <li>
                              <span className='font-semibold'>	Driving Systemic Change–   </span>defining your role as investor and guiding your portfolio and action to drive a purpose-driven systemic change.
