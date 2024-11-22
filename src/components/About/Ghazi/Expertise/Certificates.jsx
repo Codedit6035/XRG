@@ -5,7 +5,7 @@ import Img1 from "../../../../assets/unione.jpg"
 import Img2 from "../../../../assets/unitwo.jpg"
 import Img3 from "../../../../assets/unithree.jpg"
 import Img4 from "../../../../assets/unifour.jpg"
-import Img5 from "../../../../assets/unifive.jpg"
+import Img5 from "../../../../assets/unifive.png"
 
 
 const CertificatesData = [

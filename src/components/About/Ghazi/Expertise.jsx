@@ -52,7 +52,7 @@ const  Expertise = () => {
       ))}                  
         </div> 
                       {/* certificates*/}
-                      <div className=' container flex-1 '>
+                      <div className=' flex-1 '>
                   <h1 className='text-xl bg-shade1 text-white mb-4 font-semibold py-1 px-2'>Courses and certificates</h1>
                   {/* Blue line */}
                   <div className="w-16 h-1 bg-shade5 mb-4  "></div>  
