@@ -68,10 +68,10 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="  flex flex-col gap-10  pt-10 pb-40  font-raleway  text-base  text-primary">
+    <div className="container   flex flex-col gap-10  pt-10 pb-40  font-raleway  text-base  text-primary">
       {/*slogan*/}
         {/*quote img*/}
-        <div className='container flex gap-1'>
+        <div className='flex gap-1'>
         <motion.div className='flex   text-2xl py-10  text-justify justify-center items-center flex-1 bg-shade2/50'
                                    initial={{ x: '-100%', opacity: 0 }}
                                    whileInView={{ x: 0, opacity: 1 }}
@@ -91,15 +91,15 @@ const Testimonials = () => {
       <div className="  py-10 ">
         {/* Header Section */}
         <div data-aos="zoom-in" className=" ">
-          <h1 className=" container text-3xl font-bold  mb-6">
+          <h1 className="text-3xl font-bold  mb-6">
             Partners Feedback
           </h1>
 
           {/* Slider Section */}
           <Slider {...settings}>
             {TestimonialData.map((data) => (
-              <div key={data.id} className=" container  flex-shrink-0">
-                <div className="flex flex-col py-8 px-10 rounded-xl relative">
+              <div key={data.id} className="flex-shrink-0">
+                <div className="flex flex-col py-8 rounded-xl relative">
                   <div className="flex flex-col items-start">
                     <div className="mb-6">
                       <p className=" text-justify">{data.text}</p>
