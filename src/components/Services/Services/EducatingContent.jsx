@@ -13,7 +13,7 @@ const EducatingContent = () => {
         transition={{ duration: 1.1, ease: "easeInOut" }}
         viewport={{ once: true }}
       >
-        <img src={Adivising} alt="Educating" className=" w-full sm:h-screen sm:pb-14" />
+        <img src={Adivising} alt="Educating" className=" w-full h-screen sm:pb-14" />
       </motion.div>
 
       {/* Text */}
