@@ -11,7 +11,7 @@ const  Expertise = () => {
       <div className='  flex flex-col gap-10 py-10  font-raleway  text-base'>
          {/*slogan*/}
       <div className=' text-2xl  text-center py-10  '>
-          <p className='px-10 text-primary font-bold'>“Mastery is not a question of intelligence, but a question of persistence and resilience” <span className="text-lg ">- Anonymous</span></p>
+          <p className='px-10 text-primary font-bold'>“Mastery is not a question of intelligence, but a question of persistence and resilience” </p>
         </div>
         {/*Img*/}
         <div>

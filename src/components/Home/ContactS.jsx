@@ -14,11 +14,11 @@ const ContactS = () => {
          <div className=" container flex  flex-col items-center justify-center  gap-3   ">
             <a href="/get in touch"><button className='bg-shade7 hover:bg-primary font-bold  text-xl text-white border-2 border-gray-400  px-10 py-2 '>Get in Touch</button></a>
             {/* Contact */}
-            <h1>contact@xrg-advisory.com</h1>
+            <h1 className='text-gray-900 '>contact@xrg-advisory.com</h1>
                         {/* location*/}
                         <div className='flex '>
-              <h1 className='bg-red-600 text-white px-2 border-r border-white font-semibold'>Based in</h1>
-              <img src={SwissFlag} alt="" className='w-[25px]' />
+              <h1 className=' text-gray-900  px-2 font-semibold text-sm'>Based in</h1>
+              <img src={SwissFlag} alt="" className='w-[20px]' />
             </div>
             <div className='flex items-center text-gray-900  mt-7'>
                 <h1 className='pr-5 border-r-2 border-gray-400  font-semibold'>Follow us</h1>
