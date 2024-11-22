@@ -20,15 +20,15 @@ const AdvisingContent = () => {
                 {/*corporation text + img*/}
                 <div className='flex justify-center    gap-1 overflow-hidden '>
                    {/* text*/}
-                   <motion.div className='flex-1 font-raleway space-y-14 text-base bg-shade8 '
+                   <motion.div className='flex-1 font-raleway  space-y-14 text-base bg-shade2/30'
                            initial={{ x: '-100%', opacity: 0 }}
                            whileInView={{ x: 0, opacity: 1 }}
                            transition={{ duration: 1.1, ease: "easeInOut" }}
                            viewport={{ once: true }}
                    >
                        {/*corporations*/}
-                       <div className='space-y-7 text-white p-10 '>
-                        <h1 className='text-xl font-semibold underline text-white'>For corporations: </h1>
+                       <div className='space-y-7 text-primary p-10 '>
+                        <h1 className='text-xl font-semibold underline text-primary'>For corporations: </h1>
                         <p className=''>with a focus on resource-Intensive Corporations and Start-Ups in Energy & Utilities, Capital Goods Manufacturing, Materials, Chemicals, and Healthcare</p>
                         <ul className='list-disc space-y-3 '>
                           <li>
