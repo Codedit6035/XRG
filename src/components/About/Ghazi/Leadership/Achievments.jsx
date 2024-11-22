@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaTrophy } from 'react-icons/fa';
 import AchievmentsData from "../../../../data/AchievmentsData";
-import achievments from "../../../../assets/achievments.jpg"
+import achievments from "../../../../assets/achievement.jpeg"
 
 const Achievments = () => {
   return (

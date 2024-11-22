@@ -4,7 +4,7 @@ import Adivising from "../../../assets/lecturing.jpg";
 
 const EducatingContent = () => {
   return (
-    <div className="my-10 flex justify-center gap-20 ">
+    <div className="my-10 flex justify-center gap-20 items-stretch ">
       {/* Image */}
       <motion.div
         className="flex-1"
@@ -13,12 +13,12 @@ const EducatingContent = () => {
         transition={{ duration: 1.1, ease: "easeInOut" }}
         viewport={{ once: true }}
       >
-        <img src={Adivising} alt="Educating" className=" w-full" />
+        <img src={Adivising} alt="Educating" className=" w-full sm:h-screen sm:pb-14" />
       </motion.div>
 
       {/* Text */}
       <motion.div
-        className="flex-1 font-raleway space-y-14 text-base text-primary "
+        className="flex-1 font-raleway space-y-14 text-base text-primary h-fit  "
         initial={{ x: '100%', opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1.1, ease: "easeInOut" }}
