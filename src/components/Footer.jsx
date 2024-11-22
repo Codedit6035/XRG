@@ -23,11 +23,21 @@ const Footer = () => {
         <div className='flex-1'>
           <h1 className='text-2xl pb-5 font-bold'>Topics</h1>
           <ul>
-            <li>Home</li>
-            <li>XRG Approach</li>
-            <li>Dr. Ghazi Kablouti</li>
-            <li>Services</li>
-            <li>Contact</li>
+            <li >
+              <a href="/">Home</a>
+            </li>
+            <li >
+              <a href="/explore">XRG Approach</a>
+            </li>
+            <li >
+              <a href="/explore">Dr. Ghazi Kablouti</a>
+            </li>
+            <a href="/services">
+              <li>Services</li>
+            </a>
+            <li >
+              <a href="/get in touch">Contact</a>
+            </li>
           </ul>
         </div>
         <div className='flex-1 '> 
