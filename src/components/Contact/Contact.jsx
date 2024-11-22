@@ -5,14 +5,22 @@ const Contact = () => {
   return (
     <div className=' text-primary '>
 
-        <div className='container flex flex-col  sm:flex-row pb-20  pt-10 font-raleway' >
+        <div className='container flex flex-col  sm:flex-row pb-20  pt-10 font-raleway text-base text-primary' >
             {/* Get In Touch text  bg-slate-950 */}
             <div className=' flex-1   '>
-                <h1 className="font-bold text-4xl text-primary">Get In <span className='text-shade7 text-5xl'>Touch</span></h1>
-                <p className="py-5 w-3/4   border-b">
-                We woud love to hear from you. <br /><br /> Get in touch if you would like to explore more on how we can help you. <br/><br/>
-                 Please fill out the form and we will get back to you as quickly as possible.
-                </p>
+                <h1 className="font-bold text-4xl ">Get In <span className='text-shade7 text-5xl'>Touch</span></h1>
+                <p className="py-5 w-3/4 border-b">
+  We would love to hear from you. Whether you have a question, need more information, or want to explore how we can collaborate, we’re here to assist. <br /><br />
+  You can reach out to us directly via email at{" "}
+  <a
+    href="mailto:contact@xrg-advisory.com"
+    className="text-shade7 font-bold hover:underline"
+  >
+    contact@xrgadvisor.com
+  </a>
+  , or fill out the form on this page. We’ll get back to you as soon as possible. <br /><br />
+  We look forward to connecting with you!
+</p>
             </div>
             {/* form */}
             <div className=' flex-1   '>
