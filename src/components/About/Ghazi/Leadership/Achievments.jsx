@@ -13,9 +13,13 @@ const Achievments = () => {
         {/* text left */}
         <div className=" flex   flex-col  text-base overflow-hidden ">
           {AchievmentsData.map((data, index) => (
-            <div key={index}  className='flex flex-col p-5  border-b border-b-gray-500 pb-10  mb-5  bg-shade5 text-white  '>
+            <div key={index}   className={`py-5 gap-10  pb-10 px-5  ${
+              index % 2 === 0 ? '' : 'bg-gray-300'
+            } `}>
               <div className=''>
-                <h1 className='  text-xl  mb-4 font-semibold text-secondary'>
+                <h1    className={`text-xl mb-4 font-semibold ${
+            index % 2 === 0 ? 'text-shade1' : 'text-shade1'
+          }`}>
                   {data.title}
                 </h1>
 
@@ -26,9 +30,9 @@ const Achievments = () => {
             </div>
       ))}   
           {/* GeE corporate */}
-          <div   className='flex flex-col p-5  border-b border-b-gray-500 pb-10  mb-5  bg-shade5 text-white  '>
+          <div   className='py-5 gap-10  pb-10 px-5  '>
               <div className=''>
-                <h1 className='  text-xl  mb-4 font-semibold text-secondary'>
+                <h1 className=' text-xl mb-4 font-semibold text-shade1'>
                  	GE Corporate:
                 </h1>
 
@@ -48,9 +52,9 @@ const Achievments = () => {
             </div>               
           </div> 
                     {/*	Alstom Power */}
-          <div   className='flex flex-col p-5  border-b border-b-gray-500 pb-10  mb-5  bg-shade5 text-white  '>
+          <div   className='py-5 gap-10  pb-10 px-5  bg-gray-300'>
               <div className=''>
-                <h1 className='  text-xl  mb-4 font-semibold text-secondary'>
+                <h1 className=' text-xl mb-4 font-semibold text-shade1'>
                 	Alstom Power:
                 </h1>
 
