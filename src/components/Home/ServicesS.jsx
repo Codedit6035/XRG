@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Advising from '../../assets/advisinghome.jpg'
-import Lecturing from '../../assets/lecturing.jpg'
+import Lecturing from '../../assets/lecturinghome.jpg'
 import Speaking from '../../assets/speaking.png'
 
 const ServicesS = () => {
