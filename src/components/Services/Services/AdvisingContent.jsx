@@ -17,9 +17,9 @@ const AdvisingContent = () => {
                        <h1 className='text-4xl  bg-shade1 text-white w-fit pb-1 px-2 '>Advising</h1>
                        <p className=' text-primary'>Empowering businesses to leverage their systemic strengths for long-term value and impact</p>
                        </motion.div>
-                {/*corporation text + img*/}
+                {/*text */}
                 <div className='flex justify-center    gap-1 overflow-hidden '>
-                   {/* text*/}
+                   {/* corporation */}
                    <motion.div className='flex-1 font-raleway  space-y-14 text-base bg-shade2/30'
                            initial={{ x: '-100%', opacity: 0 }}
                            whileInView={{ x: 0, opacity: 1 }}
@@ -58,8 +58,8 @@ const AdvisingContent = () => {
                         </ul>
                        </div>                  
                    </motion.div>
-                   {/* image*/}
-                   <motion.div  className="flex-1  font-raleway   bg-shade1  "
+                   {/* financial + policy*/}
+                   <motion.div  className="flex-1 flex flex-col gap-1 font-raleway    "
                            initial={{ x: '100%', opacity: 0 }}
                            whileInView={{ x: 0, opacity: 1 }}
                            transition={{ duration: 1.1, ease: "easeInOut" }}
