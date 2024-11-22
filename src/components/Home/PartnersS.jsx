@@ -65,7 +65,7 @@ const PartnersS = () => {
             {partners.map((data) => (
               <div
                 key={data.id}
-                className="flex justify-center items-center w-[150px] h-[150px]  p-5 mx-4 rounded-md bg-primary/10  ">
+                className="flex justify-center items-center w-[150px] h-[150px]  p-5 mx-4 rounded-md bg-shade2/30  ">
 
                   <img
                     src={data.img}
