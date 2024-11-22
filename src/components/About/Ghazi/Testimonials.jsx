@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import TestimonialData from "../../../data/TestimonialsData";
+import TestimonialtsImg from "../../../assets/testimonials.jpg"
 
 const Testimonials = () => {
   // Custom Previous Arrow
@@ -67,10 +68,14 @@ const Testimonials = () => {
 
   return (
     <div className="  flex flex-col gap-10  pt-10 pb-40  font-raleway  text-base  ">
-               {/*slogan*/}
-               <div className=' text-2xl  text-center py-10  '>
+      {/*slogan*/}
+      <div className=' text-2xl  text-center py-10  '>
           <p className='px-10 text-primary font-bold'>“Mastery is not a question of intelligence, but a question of persistence and resilience” <span className="text-lg "> - Anonymous</span></p>
-        </div>
+      </div>
+      {/*Img*/}
+      <div>
+         <img src={TestimonialtsImg} alt="" className='w-fit' />
+      </div>
       <div className=" bg-shade6 py-10 ">
         {/* Header Section */}
         <div data-aos="zoom-in" className=" ">

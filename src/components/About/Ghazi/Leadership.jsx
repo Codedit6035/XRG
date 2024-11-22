@@ -3,21 +3,26 @@ import Awards from './Leadership/Awards'
 import Achievments from './Leadership/Achievments'
 import { CiLinkedin } from "react-icons/ci";
 import { FaDownload } from "react-icons/fa";
+import AchievmentImg from "../../../assets/Achievement.jpg"
 
 
 const  Expertise = () => {
   return (
     <div>
-      <div className='container flex flex-col gap-10 py-10  '>
+      <div className=' flex flex-col gap-10 py-10  '>
         {/*slogan*/}
         <div className=' text-2xl py-10 text-center  '>
           <p className='px-10 text-primary font-bold'>“If you want to go fast, go alone. If you want to go far, go together” <span className="text-lg ">– African Proverb</span> </p>
+        </div>
+        {/*Img*/}
+        <div>
+          <img src={AchievmentImg} alt="" className='w-fit' />
         </div>
         <Achievments/>
         <Awards/>
 
                 {/* links*/}
-                <div className='flex flex-col gap-10'>
+                <div className=' container flex flex-col gap-10'>
         {/* Get in touch link */}
         <div className=" flex flex-col  justify-center items-center  gap-5 ">
              <a href="/get in touch" className='font-bold text-shade7 '><span>let’s get in touch</span></a>

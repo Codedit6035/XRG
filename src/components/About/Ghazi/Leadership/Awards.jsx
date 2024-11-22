@@ -3,7 +3,7 @@ import { FaTrophy } from 'react-icons/fa';
 
 const Awards = () => {
   return (
-    <div>
+    <div className='container'>
       <h1 className="text-xl text-shade1 mb-4 font-semibold">Awards and Recognition</h1>
       <div className="w-16 h-1 bg-shade5 mb-8"></div>
       <div className=' pb-10 text-base'>
