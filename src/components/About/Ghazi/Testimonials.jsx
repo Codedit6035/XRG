@@ -68,7 +68,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="  flex flex-col gap-10  pt-10 pb-40  font-raleway  text-base  ">
+    <div className="  flex flex-col gap-10  pt-10 pb-40  font-raleway  text-base  text-primary">
       {/*slogan*/}
         {/*quote img*/}
         <div className='container flex gap-1'>
@@ -77,7 +77,7 @@ const Testimonials = () => {
                                    whileInView={{ x: 0, opacity: 1 }}
                                    transition={{ duration: 1.1, ease: "easeInOut" }}
                                    viewport={{ once: true }}>
-          <p className='px-10 text-primary font-bold  '>"The only way to do great work is to love what you do" -<br /> <span className='text-lg text-shade6'>Steve Jobs</span></p>
+          <p className='px-10  font-bold  '>"The only way to do great work is to love what you do" -<br /> <span className='text-lg text-shade6'>Steve Jobs</span></p>
         </motion.div>
         <motion.div className='flex-1'
                                    initial={{ x: '100%', opacity: 0 }}
@@ -88,7 +88,7 @@ const Testimonials = () => {
         </motion.div>
         </div>
 
-      <div className="  py-10 text-primary ">
+      <div className="  py-10 ">
         {/* Header Section */}
         <div data-aos="zoom-in" className=" ">
           <h1 className=" container text-3xl font-bold  mb-6">

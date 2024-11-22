@@ -5,21 +5,19 @@ import achievments from "../../../../assets/achievement.jpeg"
 
 const Achievments = () => {
   return (
-    <div className=' container'>
-      <h1 className="text-xl text-shade1 mb-4 font-semibold">Professional Achievements</h1>
+    <div className=' container  text-base font-raleway text-primary'>
+      <h1 className="text-xl  mb-4 font-semibold text-shade1">Professional Achievements</h1>
       <div className="w-16 h-1 bg-shade5 mb-8"></div>      
       <div className='   '>
         <div className=''>
         {/* text left */}
-        <div className=" flex   flex-col  text-base overflow-hidden ">
+        <div className=" flex   flex-col   ">
           {AchievmentsData.map((data, index) => (
             <div key={index}   className={`py-5 gap-10  pb-10 px-5  ${
-              index % 2 === 0 ? '' : 'bg-gray-300'
+              index % 2 === 0 ? '' : 'bg-shade2/50'
             } `}>
               <div className=''>
-                <h1    className={`text-xl mb-4 font-semibold ${
-            index % 2 === 0 ? 'text-shade1' : 'text-shade1'
-          }`}>
+                <h1    className="text-xl mb-4 font-semibold " >
                   {data.title}
                 </h1>
 
@@ -32,7 +30,7 @@ const Achievments = () => {
           {/* GeE corporate */}
           <div   className='py-5 gap-10  pb-10 px-5  '>
               <div className=''>
-                <h1 className=' text-xl mb-4 font-semibold text-shade1'>
+                <h1 className=' text-xl mb-4 font-semibold '>
                  	GE Corporate:
                 </h1>
 
@@ -52,9 +50,9 @@ const Achievments = () => {
             </div>               
           </div> 
                     {/*	Alstom Power */}
-          <div   className='py-5 gap-10  pb-10 px-5  bg-gray-300'>
+          <div   className='py-5 gap-10  pb-10 px-5  bg-shade2/50'>
               <div className=''>
-                <h1 className=' text-xl mb-4 font-semibold text-shade1'>
+                <h1 className=' text-xl mb-4 font-semibold '>
                 	Alstom Power:
                 </h1>
 

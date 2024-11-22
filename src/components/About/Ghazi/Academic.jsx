@@ -9,7 +9,7 @@ import { motion } from 'framer-motion';
 
 const Academic = () => {
   return (
-    <div className='container  flex flex-col gap-10 py-10  font-raleway  text-base'> 
+    <div className='container  flex flex-col gap-10 py-10  font-raleway  text-base text-primary'> 
         {/*quote img*/}
         <div className='flex gap-1'>
         <motion.div className='flex   text-2xl py-10  text-justify justify-center items-center flex-1 bg-shade2/50'
@@ -33,8 +33,8 @@ const Academic = () => {
                 {/* left*/}
                 <div className=" flex flex-col gap-5 text-justify">
                 {AcademialeftData.map((para, index) => (
-                <p key={index} className= {`rounded-s-sm p-3 text-shade5  ${
-                  index % 2 === 0 ? '' : 'bg-gray-300'
+                <p key={index} className= {`rounded-s-sm p-3  ${
+                  index % 2 === 0 ? '' : 'bg-shade2/50'
                 }`}
                 >
                     {para.text}
@@ -46,14 +46,14 @@ const Academic = () => {
 
                 {/*publications*/}
                 <div className='  flex  flex-1 flex-col  pt-10 '>
-                <h1 className='text-xl text-shade1 mb-4 font-semibold '>Links to download documents</h1>
+                <h1 className='text-xl  mb-4 font-semibold text-shade1 '>Links to download documents</h1>
                   {/* Blue line */}
                   <div className="w-16 h-1 bg-shade5 mb-4  "></div>
                 <div className='  flex   flex-col gap-5'>         
         {/*element2*/}
         <div className='flex justify-between border-l-4 border-shade5 bg-shade2/10 p-5 mr-20  '>
           <div className='flex flex-col '>
-            <h1 className='font-semibold text-xl text-shade1'>Dr. Ghazi Kablouti Publications List  </h1>
+            <h1 className='font-semibold text-xl '>Dr. Ghazi Kablouti Publications List  </h1>
           </div>
           <a  href="/publications.pdf" 
               download=" Dr. Ghazi Kablouti Ph.D. Thesis Outline.pdf" >
@@ -65,7 +65,7 @@ const Academic = () => {
         {/*element2*/}
         <div className='flex justify-between border-l-4 border-shade5 bg-shade2/10 p-5 mr-20  '>
           <div className='flex flex-col '>
-            <h1 className='font-semibold text-xl text-shade1'>Dr. Ghazi Kablouti Ph.D. Thesis Outline</h1>
+            <h1 className='font-semibold text-xl '>Dr. Ghazi Kablouti Ph.D. Thesis Outline</h1>
           </div>
           <a  href="/thesis.pdf" 
               download="Dr. Ghazi Kablouti Publications List.pdf" >

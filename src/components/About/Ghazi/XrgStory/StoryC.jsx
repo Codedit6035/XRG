@@ -31,7 +31,7 @@ const StoryC = () => {
 
   return (
     <div className="container pt-10">
-      <div className="container flex flex-col gap-10 font-raleway text-base">
+      <div className="container flex flex-col gap-10 font-raleway text-base text-primary">
         {/* Title + Blue line */}
         <div>
           <h1 className="text-2xl text-shade1 font-semibold mb-4">The XRG Framework</h1>

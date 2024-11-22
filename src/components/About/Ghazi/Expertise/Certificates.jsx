@@ -6,6 +6,7 @@ import Img2 from "../../../../assets/unitwo.jpg"
 import Img3 from "../../../../assets/unithree.jpg"
 import Img4 from "../../../../assets/unifour.jpg"
 import Img5 from "../../../../assets/unifive.png"
+import Marquee from "react-marquee-slider";
 
 
 const CertificatesData = [
@@ -17,86 +18,34 @@ const CertificatesData = [
   ];
 
 const Certificates = () => {
-  // Custom Previous Arrow
-  const PrevArrow = ({ onClick }) => (
-    <div
-      onClick={onClick}
-      className="absolute bottom-[-60px] left-[45%] flex justify-center items-center bg-white w-10 h-10 rounded shadow-lg cursor-pointer"
-    >
-      <FaArrowLeft className="text-primary" />
-    </div>
-  );
 
-  // Custom Next Arrow
-  const NextArrow = ({ onClick }) => (
-    <div
-      onClick={onClick}
-      className="absolute bottom-[-60px] left-[50%] flex justify-center items-center bg-white w-10 h-10 rounded shadow-lg cursor-pointer"
-    >
-      <FaArrowRight className="text-primary" />
-    </div>
-  );
-
-  // Slider settings
-  const settings = {
-    dots: true,
-    arrows: false,
-    infinite: true,
-    speed: 500,
-    slidesToScroll: 1,
-    autoplay: false,
-    autoplaySpeed: 2000,
-    cssEase: "linear",
-    pauseOnHover: true,
-    pauseOnFocus: true,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
-    responsive: [
-      {
-        breakpoint: 10000,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
-        },
-      },
-      {
-        breakpoint: 640,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
 
   return (
     <div className=" py-10 ">
 
-          {/* Slider Section */}
-          <Slider {...settings}  >
+      {/* Slider container */}
+      <div className=" w-full  py-2 ">
+        {/* Animated slider */}
+        <div className="flex  gap-5 items-center" >
+        <Marquee velocity={30} minScale={0.7} resetAfterTries={100}>
             {CertificatesData.map((data) => (
               <div key={data.id} className="  ">
-                <div className="flex flex-col justify-center items-center mx-10  ">
-                <div className=" bg-white ">
-                   <img src={data.img} alt="" className="w-full " />
-                </div>
-                <div className="flex flex-col py-8 px-5 rounded-md h-[200px]   w-full bg-shade2/30  justify-center items-center ">
-                    <h1 className='text--lg font-bold text-center'>{data.name}</h1>
-                    <h1 className='text-sm'>{data.uni}</h1>
-                </div>
-                </div>
+              <div className="flex flex-col justify-center items-center mx-10  text-primary  w-[300px] h-fit">
+              <div className=" bg-white ">
+                 <img src={data.img} alt="" className="w-full " />
               </div>
-            ))}
-          </Slider>
+              <div className="flex flex-col py-8 px-5 rounded-md h-[150px]   w-full bg-shade2/50   items-center text-center ">
+                  <h1 className='text--lg font-bold text-center'>{data.name}</h1>
+                  <h1 className='text-sm'>{data.uni}</h1>
+              </div>
+              </div>
+            </div>
+          ))}
+          </Marquee>
+
+
+        </div>
+      </div>
 
 
     </div>
