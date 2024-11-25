@@ -14,9 +14,9 @@ const Footer = () => {
             <img src={LogoFooter}alt="" className='w-20 animate-spin-slow '/>           
           </a>
           {/* location*/}
-          <div className='flex  mt-auto'>
+          <div className='flex  mt-auto items-center'>
           <img src={Flag} alt="" className='w-[20px] h-[20px]' />
-              <h1 className=' text-white  px-2 text-sm'>Switzerland-based, Worldwide
+              <h1 className=' text-white  px-2 text-xs'>Switzerland-based, Worldwide
               Services</h1>
           </div>
 
