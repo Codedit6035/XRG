@@ -53,7 +53,7 @@ const Footer = () => {
       </div>
       </div>
       {/* copyright privacy */}
-      <div className='flex justify-between  py-5 '>
+      <div className='flex justify-between  py-5 text-sm '>
         <h1>© XRG Impact Management Advisory 2024</h1>
         <div className='flex'>
           <a href="/Privacy, Terms & Conditions of Use">Privacy, Terms & Conditions of Use</a>   
