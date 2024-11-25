@@ -13,7 +13,21 @@ const Awards = () => {
       </div>
       
       <div className="container flex gap-10 justify-center">
-        
+
+        {/* Award Card 2 */}
+        <div className="bg-shade5 p-10 flex-1 ">
+          <div className="flex flex-col justify-center items-center text-center">
+            <h1 className="text-lg font-bold text-secondary">GE</h1>
+
+            {/* Hidden award name, takes no space initially */}
+            <h1 className="font-semibold text-white flex justify-center items-center">
+              GE “Above & Beyond” Excellence Award
+            </h1>
+
+            <FaTrophy className="text-4xl text-white" />
+            <p className="text-sm text-shade2">2017</p>
+          </div>
+        </div>
         {/* Award Card 1 */}
         <div className="bg-shade3 p-10 flex-1 ">
           <div className="flex flex-col justify-center items-center text-center">
@@ -33,23 +47,8 @@ const Awards = () => {
           </div>
         </div>
 
-        {/* Award Card 2 */}
-        <div className="bg-shade5 p-10 flex-1 ">
-          <div className="flex flex-col justify-center items-center text-center">
-            <h1 className="text-lg font-bold text-secondary">GE</h1>
-
-            {/* Hidden award name, takes no space initially */}
-            <h1 className="font-semibold text-white flex justify-center items-center">
-              GE “Above & Beyond” Excellence Award
-            </h1>
-
-            <FaTrophy className="text-4xl text-white" />
-            <p className="text-sm text-shade2">2017</p>
-          </div>
-        </div>
-
         {/* Award Card 3 */}
-        <div className="bg-shade1 p-10 flex-1 ">
+        <div className="bg-primary p-10 flex-1 ">
           <div className="flex flex-col justify-center items-center text-center">
             <h1 className="text-lg font-semibold text-secondary">CXO</h1>
 

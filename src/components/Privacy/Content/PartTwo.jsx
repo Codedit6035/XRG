@@ -1,4 +1,5 @@
 import React from 'react'
+import CookiesData from "../../../data/CookiesData"
 
 
 
@@ -40,6 +41,29 @@ const PartTwo = () => {
                         <p>
                         When subscribing to the newsletter, your e-mail address will be used for your own advertising purposes until you unsubscribe from the newsletter. You can unsubscribe at any time. We use the personal data in detail to handle business relations and to prevent misuse of our website. Furthermore, with your express consent, we will inform you about services and news at XRG Advisory. In order to get in touch with you easier and faster than by mail we ask you to provide us with your e-mail address.
                         </p>
+                    </li>
+                    <li>
+                        <h1 className='text-lg mb-4 font-medium  text-shade1'>What does XRG Advisory do with your personal data?</h1>
+                        <p>We store the personal data for optimal order processing. You have a right to free information about your stored data as well as if necessary a right to correction, blocking or deletion of these data. Furthermore, you can request information about the use of your personal data at any time.</p>
+                    </li>
+                    <li>
+                        <h1 className='text-lg mb-4 font-medium  text-shade1'> How does XRG Advisory protect your personal data?</h1>
+                        <p>If you have registered with XRG Advisory and log in with a password, your personal data will be transmitted to us. To prevent these from falling into the wrong hands, we encrypt them using the SSL procedure (Secure Socket Layer). This is currently the most common and most secure data transmission method on the internet. It is used by XRG Advisory as a standard as soon as sensitive data is transferred. You can see that encrypt data is being transmitted via the symbol of a lock in the lower status bar of your browser. XRG Advisory maintains various other security measures to protect the personal data of its customers. In connection with these security measures, you will occasionally be asked to provide proof of your identity before we disclose personal information to you. An example of this procedure is access to the customer account, which is only possible by entering a password.</p>
+                    </li>
+                    <li>
+                        <h1 className='text-lg mb-4 font-medium  text-shade1'>Does XRG Advisory use cookies?</h1>
+                        <div className='flex flex-col gap-3'>
+                          {CookiesData.map((para, index) => (
+                             <p key={index} className=" ">
+                               {para}
+                             </p>
+                          ))} 
+                        </div>
+                        <a href="http://tools.google.com/dlpage/gaoptout?hl=en " target='blank' className='text-shade7 font-semibold'>http://tools.google.com/dlpage/gaoptout?hl=en </a>
+                    </li>
+                    <li>
+                        <h1 className='text-lg mb-4 font-medium  text-shade1'>When will your data be deleted?</h1>
+                        <p>The legislator has enacted a variety of storage obligations and periods. After the 10-year period has expired, the corresponding data is routinely deleted.</p>
                     </li>
                 </ol>
             </div>

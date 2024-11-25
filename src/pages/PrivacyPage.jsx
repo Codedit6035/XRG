@@ -5,7 +5,7 @@ import Privacy from '../components/Privacy/Privacy'
 
 const PrivacyPage = () => {
   return (
-    <div className=''>
+    <div c>
         <div className='bg-primary'>
         <Navbar/>
         </div>
