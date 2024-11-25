@@ -55,8 +55,8 @@ const Academic = () => {
           <div className='flex flex-col '>
             <h1 className='font-semibold text-xl '>Dr. Ghazi Kablouti Publications List  </h1>
           </div>
-          <a  href="/publications.pdf" 
-              download="bbb.pdf" >
+          <a  href="/Dr. Ghazi Kablouti Publications List.pdf" 
+              download="Dr. Ghazi Kablouti Publications List.pdf" >
             <button>
               <FaDownload className='text-xl text-shade7  hover:text-primary' />
             </button>
@@ -67,8 +67,8 @@ const Academic = () => {
           <div className='flex flex-col '>
             <h1 className='font-semibold text-xl '>Dr. Ghazi Kablouti Ph.D. Thesis Outline</h1>
           </div>
-          <a  href="/thesis.pdf" 
-              download="aaa.pdf" >
+          <a  href="/Dr. Ghazi Kablouti Ph.D. Thesis Outline.pdf" 
+              download="Dr. Ghazi Kablouti Ph.D. Thesis Outline.pdf" >
             <button>
               <FaDownload className='text-xl text-shade7  hover:text-primary' />
             </button>
