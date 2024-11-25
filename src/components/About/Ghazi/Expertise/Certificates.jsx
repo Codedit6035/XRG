@@ -30,7 +30,7 @@ const Certificates = () => {
         <Marquee velocity={30} minScale={0.7} resetAfterTries={100}>
             {CertificatesData.map((data) => (
               <div key={data.id} className="  ">
-              <div className="flex flex-col justify-center items-center mx-10  text-primary  w-[300px] h-fit">
+              <div className="flex flex-col justify-center items-center mx-10   w-[300px] h-fit">
               <div className=" bg-white ">
                  <img src={data.img} alt="" className="w-full " />
               </div>

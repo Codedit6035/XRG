@@ -7,7 +7,7 @@ const AdvisingContent = () => {
   return (
     <div className=' my-10  '>
                {/*advising title*/}
-                        <motion.div className='flex-1 font-raleway space-y-14 text-base mb-10  '
+                        <motion.div className='flex-1 space-y-14  mb-10  '
                            initial={{ x: '-100%', opacity: 0 }}
                            whileInView={{ x: 0, opacity: 1 }}
                            transition={{ duration: 1.1, ease: "easeInOut" }}
@@ -15,20 +15,20 @@ const AdvisingContent = () => {
                    >
                        {/*advising + p*/}
                        <h1 className='text-4xl  bg-shade1 text-white w-fit pb-1 px-2 '>Advising</h1>
-                       <p className=' text-primary'>Empowering businesses to leverage their systemic strengths for long-term value and impact</p>
+                       <p>Empowering businesses to leverage their systemic strengths for long-term value and impact</p>
                        </motion.div>
                 {/*text */}
                 <div className='flex justify-center    gap-1  '>
                    {/* corporation */}
-                   <motion.div className='flex-1 font-raleway  space-y-14 text-base bg-shade2/30'
+                   <motion.div className='flex-1  space-y-14  bg-shade2/30'
                            initial={{ x: '-100%', opacity: 0 }}
                            whileInView={{ x: 0, opacity: 1 }}
                            transition={{ duration: 1.1, ease: "easeInOut" }}
                            viewport={{ once: true }}
                    >
                        {/*corporations*/}
-                       <div className='space-y-7 text-primary p-10 '>
-                        <h1 className='text-xl font-semibold underline text-primary'>For corporations: </h1>
+                       <div className='space-y-7  p-10 '>
+                        <h1 className='text-xl font-semibold underline'>For corporations: </h1>
                         <p className=''>with a focus on resource-Intensive Corporations and Start-Ups in Energy & Utilities, Capital Goods Manufacturing, Materials, Chemicals, and Healthcare</p>
                         <ul className='list-disc space-y-3 '>
                           <li>
@@ -59,13 +59,13 @@ const AdvisingContent = () => {
                        </div>                  
                    </motion.div>
                    {/* financial + policy*/}
-                   <motion.div  className="flex-1 flex flex-col gap-1 font-raleway    "
+                   <motion.div  className="flex-1 flex flex-col gap-1 "
                            initial={{ x: '100%', opacity: 0 }}
                            whileInView={{ x: 0, opacity: 1 }}
                            transition={{ duration: 1.1, ease: "easeInOut" }}
                            viewport={{ once: true }}>
                    {/* text*/}
-                   <div className='flex-1 font-raleway space-y-14 bg-shade5  p-10     '>    
+                   <div className='flex-1 space-y-14 bg-shade5  p-10     '>    
                          {/*Financial Services:*/}
                          <div className='space-y-7'>
                          <h1 className='text-xl font-semibold underline text-white '>For financial Services: </h1>
@@ -86,7 +86,7 @@ const AdvisingContent = () => {
                         </div> 
                    </div>
                    {/* text*/}
-                   <div className='flex-1 font-raleway space-y-14 bg-shade1   p-10  '>   
+                   <div className='flex-1  space-y-14 bg-shade1   p-10  '>   
                        {/*Policy and Standards Makers:*/}
                        <div className='space-y-10'>
                         <h1 className='text-xl font-semibold underline text-white '>For policy and Standards Makers:</h1>

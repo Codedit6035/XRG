@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const StoryA = () => {
   return (
     <div className=''>
-      <div className=' flex flex-col gap-10 font-raleway text-base text-primary '>
+      <div className=' flex flex-col gap-10 '>
         {/*quote img*/}
         <div className='flex gap-1'>
         <motion.div className='flex   text-2xl py-10  text-justify justify-center items-center flex-1 bg-shade2/50'
@@ -13,7 +13,7 @@ const StoryA = () => {
                                    whileInView={{ x: 0, opacity: 1 }}
                                    transition={{ duration: 1.1, ease: "easeInOut" }}
                                    viewport={{ once: true }}>
-          <p className='px-10  font-bold  '>“ESG as it stands — grounded in disclosures and voluntary market action — will not deliver the necessary change … We must urgently address the tension between profitability and sustainability” – <br /> <span className='text-lg text-shade6 font-normal'>Cambridge University*</span></p>
+          <p className='px-10  font-bold'>“ESG as it stands — grounded in disclosures and voluntary market action — will not deliver the necessary change … We must urgently address the tension between profitability and sustainability” – <br /> <span className='text-lg text-shade6 font-normal'>Cambridge University*</span></p>
         </motion.div>
         <motion.div className='flex-1'
                                    initial={{ x: '100%', opacity: 0 }}

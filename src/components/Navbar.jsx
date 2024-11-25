@@ -47,7 +47,7 @@ const Navbar = () => {
                   ) : (
                     <a
                       href={item.link}
-                      className={`text-base font-raleway  bg-shade5/40 px-2 py-0.5 text-white hover:${item.bg} hover:text-primary`}
+                      className={` bg-shade5/40 px-2 py-0.5 text-white hover:${item.bg} hover:text-primary`}
 
                     >
                       {item.name}
@@ -62,7 +62,7 @@ const Navbar = () => {
                         <li key={subItem.id} className=''>
                           <a
                             href={subItem.link}
-                            className="block px-4 py-2 text-sm hover:bg-blue-100 text-white font-raleway"
+                            className="block px-4 py-2 text-sm hover:bg-blue-100 text-white "
                           >
                             {subItem.name}
                           </a>
@@ -75,7 +75,7 @@ const Navbar = () => {
                <li>
                <a
                       href="/get in touch"
-                      className="text-base font-raleway  bg-shade7 px-2 py-0.5 text-white hover:bg-white hover:text-primary"
+                      className=" bg-shade7 px-2 py-0.5 text-white hover:bg-white hover:text-primary"
 
                     >
                       Get In Touch

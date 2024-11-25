@@ -75,7 +75,7 @@ const Hero = ({ handleOrderPopup }) => {
             <div className='absolute left-0 top-0 w-100 h-100 inset-0 z-10 flex items-center justify-start'>
       </div>
       {/* Content Overlay */}
-      <div className=" container absolute inset-0 flex items-center justify-center z-10 font-raleway ">
+      <div className=" container absolute inset-0 flex items-center justify-center z-10 ">
         <div className="text-white max-w-2xl flex flex-col items-center justify-center">
           {/* Title */}
           <h1 className="text-6xl font-bold mb-4 text-center  "><span className="text-secondary">XRG </span> Impact Management Advisory</h1>

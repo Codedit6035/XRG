@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Advising from '../../assets/advisinghome.jpg'
 import Lecturing from '../../assets/lecturinghome.jpeg'
-import Speaking from '../../assets/speaking.png'
+import Speaking from '../../assets/speakinghome.jpg'
 
 const ServicesS = () => {
   const [isInView, setIsInView] = useState(false);
@@ -31,15 +31,15 @@ const ServicesS = () => {
   }, []);
 
   return (
-    <div className='py-10 font-Raleway text-base'>
+    <div className='py-10 '>
       {/* Header section */}
       <div
         ref={sectionRef}
-        className={`mb-10  w-full pl-20 text-black ${
+        className={`mb-10  w-full pl-20  ${
           isInView ? 'animate-slideInFromLeft' : 'opacity-0'
         }`}
       >
-        <h1 className="text-left text-3xl text-primary hover:bg-shade1 hover:text-white w-fit ">
+        <h1 className="text-left text-3xl  hover:bg-shade1 hover:text-white w-fit ">
           Services
         </h1>
         {/* Blue line */}

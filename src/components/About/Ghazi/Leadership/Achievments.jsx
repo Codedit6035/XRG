@@ -5,7 +5,7 @@ import achievments from "../../../../assets/achievement.jpeg"
 
 const Achievments = () => {
   return (
-    <div className=' container  text-base font-raleway text-primary'>
+    <div className=' container  '>
       <h1 className="text-xl  mb-4 font-semibold text-shade1">Professional Achievements</h1>
       <div className="w-16 h-1 bg-shade5 mb-8"></div>      
       <div className='   '>

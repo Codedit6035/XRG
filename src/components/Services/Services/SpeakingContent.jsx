@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const SpeakingContent = () => {
   return (
     <div>
-                <div className='flex justify-center  my-10 gap-20 font-raleway text-base'>
+                <div className='flex justify-center  my-10 gap-20 '>
                    {/* text*/}
                    <motion.div className='flex-1  space-y-14 '
                                               initial={{ x: '-100%', opacity: 0 }}
@@ -14,10 +14,10 @@ const SpeakingContent = () => {
                                               viewport={{ once: true }}>
                        {/*advising + p*/}
                        <h1 className='text-4xl  bg-shade1 text-white w-fit pb-1 px-2'>Speaking</h1>
-                       <p className='text-primary '>Connecting, inspiring, and engaging to drive societal progress</p>
+                       <p>Connecting, inspiring, and engaging to drive societal progress</p>
                        {/*corporations*/}
                        <div className='space-y-7'>
-                        <ul className='list-disc space-y-3  text-primary '>
+                        <ul className='list-disc space-y-3  '>
                           <li>
                             <span className='font-semibold'>Delivering Presentations, Keynotes, and Panel Discussions– </span>offering insights and perspectives to inspire and drive meaningful dialogue.
                           </li>

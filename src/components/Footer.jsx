@@ -4,7 +4,7 @@ import Flag from "../assets/swissflag.jpg"
 
 const Footer = () => {
   return (
-    <div className='  bg-primary mt-0.5  py-10 font-raleway  text-base'>
+    <div className='  mt-0.5  py-10 bg-primary'>
       <div className='container text-white'>
       <div className='border-b   py-5  '>
       {/* Logo & topins & services */}
@@ -15,8 +15,9 @@ const Footer = () => {
           </a>
           {/* location*/}
           <div className='flex  mt-auto'>
-              <h1 className=' text-white  px-2 text-sm'>Based in Switzerland</h1>
-              <img src={Flag} alt="" className='w-[20px] h-[20px]' />
+          <img src={Flag} alt="" className='w-[20px] h-[20px]' />
+              <h1 className=' text-white  px-2 text-sm'>Switzerland-based, Worldwide
+              Services</h1>
           </div>
 
         </div>
@@ -36,7 +37,7 @@ const Footer = () => {
               <li>Services</li>
             </a>
             <li >
-              <a href="/get in touch">Contact</a>
+              <a href="/get in touch">Get in Touch</a>
             </li>
           </ul>
         </div>
@@ -55,8 +56,7 @@ const Footer = () => {
       <div className='flex justify-between  py-5 '>
         <h1>© XRG Impact Management Advisory 2024</h1>
         <div className='flex'>
-          <h1>Privacy Policy</h1>    
-          <h1>Terms</h1>
+          <a href="/Privacy, Terms & Conditions of Use">Privacy, Terms & Conditions of Use</a>   
         </div>           
 
       </div>

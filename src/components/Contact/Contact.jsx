@@ -3,9 +3,9 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className=' text-primary '>
+    <div className='  '>
 
-        <div className='container flex flex-col  sm:flex-row pb-20  pt-10 font-raleway text-base text-primary' >
+        <div className='container flex flex-col  sm:flex-row pb-20  pt-10 ' >
             {/* Get In Touch text  bg-slate-950 */}
             <div className=' flex-1   '>
                 <h1 className="font-bold text-4xl ">Get In <span className='text-shade7 text-5xl'>Touch</span></h1>
@@ -24,7 +24,7 @@ const Contact = () => {
             </div>
             {/* form */}
             <div className=' flex-1   '>
-                 <h1  className="font-bold text-4xl  pb-10 text-primary">Complete <span className='  '>the form below</span> </h1>
+                 <h1  className="font-bold text-4xl  pb-10 ">Complete <span >the form below</span> </h1>
                  <form action="">
                     <div className='flex gap-10 pb-5'>
                         <div className='flex flex-col flex-1 '>

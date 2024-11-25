@@ -15,7 +15,7 @@ import SeparationXrg from '../components/Home/SeparationXrg'
 
 const HomePage = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Hero/>
       <Separation/>
       <XrgS/>

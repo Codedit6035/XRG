@@ -12,7 +12,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className='relative overflow-hidden font-raleway'>
+    <div className='relative overflow-hidden '>
     <div className=" h-screen w-full ">
       {/* Navbar Component */}
       <div className="absolute top-0 left-0 w-full z-20">

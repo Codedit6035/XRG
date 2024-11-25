@@ -4,7 +4,7 @@ import Ghazi from '../components/About/Ghazi/Ghazi'
 
 const AboutPage = ({titreColor}) => {
   return (
-    <div className='overflow-hidden'>
+    <div className='overflow-hidde'>
       <Banner titreColor={titreColor}/>
       <Ghazi/>
 

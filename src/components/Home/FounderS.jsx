@@ -5,11 +5,11 @@ import { FaAnglesDown } from "react-icons/fa6";
 
 const FounderS = () => {
   return (
-    <div className="pt-10 pb-12 font-Raleway text-base relative" >
+    <div className="pt-10 pb-12 relative" >
 
         {/* Header section */}
-        <div  className="   mb-10 animate-slideInFromLeft w-full pl-20  text-black">
-        <h1 className="text-left  text-3xl text-primary  hover:bg-shade1 hover:text-white w-fit ">
+        <div  className="   mb-10 animate-slideInFromLeft w-full pl-20  ">
+        <h1 className="text-left  text-3xl  hover:bg-shade1 hover:text-white w-fit ">
             Founder
         </h1>
           {/* Blue line */}
@@ -19,7 +19,7 @@ const FounderS = () => {
         <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-screen w-full overflow-hidden bg-shade2/30">
           {/* text */}
           <div className="flex sm:flex-1 flex-col pl-3rem  py-7   justify-center">
-          <div data-aos="fade-up" className="  px-5 rounded-md text-primary " >
+          <div data-aos="fade-up" className="  px-5 rounded-md " >
             <h1 className="font-medium text-4xl  transition-all    ">Dr. Ghazi Kablouti  </h1>
             <span className="font-bold text-xl  ">Envision. Lead. Inspire</span>
             <div className="py-5   w-full text-justify flex flex-col gap-3 ">

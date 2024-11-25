@@ -9,7 +9,7 @@ import { motion } from 'framer-motion';
 
 const Academic = () => {
   return (
-    <div className='container  flex flex-col gap-10 py-10  font-raleway  text-base text-primary'> 
+    <div className='container  flex flex-col gap-10 py-10 text-primary'> 
         {/*quote img*/}
         <div className='flex gap-1'>
         <motion.div className='flex   text-2xl py-10  text-justify justify-center items-center flex-1 bg-shade2/50'
@@ -17,7 +17,7 @@ const Academic = () => {
                                    whileInView={{ x: 0, opacity: 1 }}
                                    transition={{ duration: 1.1, ease: "easeInOut" }}
                                    viewport={{ once: true }}>
-          <p className='px-10 text-primary font-bold  '>“Education is the most powerful weapon which you can use to change the world."  – <br /> <span className='text-lg text-shade6 font-normal'>Nelson Mandela</span></p>
+          <p className='px-10  font-bold  '>“Education is the most powerful weapon which you can use to change the world."  – <br /> <span className='text-lg text-shade6 font-normal'>Nelson Mandela</span></p>
         </motion.div>
         <motion.div className='flex-1'
                                    initial={{ x: '100%', opacity: 0 }}

@@ -68,7 +68,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="container   flex flex-col gap-10  pt-10 pb-40  font-raleway  text-base  text-primary">
+    <div className="container   flex flex-col gap-10  pt-10 pb-40 text-primary">
       {/*slogan*/}
         {/*quote img*/}
         <div className='flex gap-1'>

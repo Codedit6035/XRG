@@ -6,7 +6,6 @@ import Bio from './Bio';
 import Academic from './Academic';
 import  Expertise from './Expertise';
 import Testimonials from './Testimonials';
-import Clients from './Clients';
 import Leadership from './Leadership.jsx'
 
 const tabs = [
@@ -23,7 +22,7 @@ export default function Ghazi() {
   const ActiveComponent = tabs[activeTab].component;
 
   return (
-    <div id="about-me" className="  pt-20 ">
+    <div id="about-me" className="  pt-20  text-primary">
       {/* Tab List Container */}
       <div className=" flex gap-2 justify-center container ">
         {tabs.map((tab, index) => (
@@ -57,7 +56,7 @@ export default function Ghazi() {
         transition={{ duration: 0.4 }}
         className="mt-4 text-gray-700  "
       >
-        <ActiveComponent />
+        <ActiveComponent  />
       </motion.div>
     </div>
   );

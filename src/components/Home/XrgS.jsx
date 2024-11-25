@@ -5,10 +5,10 @@ import { FaAnglesDown } from "react-icons/fa6";
 
 const XrgS = () => {
   return (
-    <div id="xrg" className="py-10 font-Raleway text-base relative " >
+    <div id="xrg" className="py-10  relative " >
 
         {/* Header section */}
-        <div  className="   mb-10 animate-slideInFromLeft w-full pl-20  text-primary">
+        <div  className="   mb-10 animate-slideInFromLeft w-full pl-20  ">
           <h1 className="text-left  text-3xl   hover:bg-shade1 hover:text-white w-fit ">
             XRG
           </h1>
@@ -26,7 +26,7 @@ const XrgS = () => {
               {/* Content Overlay */}
               <div className=" container absolute inset-0 flex items-center justify-center z-10 font-raleway  ">
                 <div className=" flex flex-col justify-center items-center">
-                  <h1 className='text-6xl font-bold mb-5 text-primary'> Our Approach</h1>
+                  <h1 className='text-6xl font-bold mb-5 '> Our Approach</h1>
                   <a href="/explore" className=''>
                     <div className='bg-shade7 h-10 w-[10%] px-5 hover:animate-expand  hover:bg-primary flex items-center '>
                     <h1 className=' text-scondary font-bold  text-xl '>Explore</h1>  
@@ -40,18 +40,18 @@ const XrgS = () => {
           {/* text */}
           <div className="flex sm:flex-1 flex-col mr-20 gap-5 items-center justify-center  py-5 pl-10 ">
           {/* text1 */}
-          <div data-aos="fade-down" className="  px-5 rounded-md text-white " >
+          <div data-aos="fade-down" className="  px-5 rounded-md" >
             <h1 className="text-2xl text-shade1 font-semibold mb-4">What we do</h1>
-            <div className="w-full text-justify  flex flex-col gap-3  text-primary">
+            <div className="w-full text-justify  flex flex-col gap-3">
             <p >
             We are a Switzerland-based advisory firm offering global management consulting, lecturing services , and speaking engagements. Our mission is to empower economic players to achieve their financial goals while creating lasting value through sustainable practices.
             </p>
             </div>
           </div>
           {/* text2 */}
-          <div data-aos="fade-up" className="  px-5 rounded-md text-white " >
+          <div data-aos="fade-up" className="  px-5 rounded-md" >
             <h1 className="text-2xl text-shade1 font-semibold mb-4">Why managing business and sustainability beyond ESG</h1>
-            <div className="w-full text-justify  flex flex-col gap-3  text-primary ">
+            <div className="w-full text-justify  flex flex-col gap-3">
             <p>
             True business success cannot thrive in fragile societies. Businesses are indispensable in building resilient economic models that respect planetary boundaries and foster genuine societal prosperity. However, addressing the world’s most pressing challenges ("Do Good") is only possible for organizations that are also thriving and profitable ("Do Well").
             </p>

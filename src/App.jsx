@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbar from './components/Navbar';
+import PrivacyPage from './pages/PrivacyPage';
 
 
 
@@ -24,12 +25,13 @@ const App = () => {
     AOS.refresh();
   }, []);
   return (
-    <div className=''>
+    <div className=' text-primary  text-base font-raleway'>
       <Routes>
           <Route path="/"  element={<HomePage   /> } />
           <Route path="/services" element={<ServicesPage  /> }/>
           <Route path="/explore"  element={<AboutPage /> } />
           <Route path="/get in touch" element={<ContactPage  />  } />
+          <Route path="/Privacy, Terms & Conditions of Use" element={<PrivacyPage/>  } />
         </Routes>
         <Footer/>
 

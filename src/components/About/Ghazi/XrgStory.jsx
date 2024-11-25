@@ -5,7 +5,7 @@ import StoryC from './XrgStory/StoryC'
 
 const XrgStory = () => {
   return (
-    <div className='py-10 px-0 mx-0'>
+    <div className='py-10 px-0 mx-0 text-primary'>
       <StoryA/>
       <StoryB/>
       <StoryC/>

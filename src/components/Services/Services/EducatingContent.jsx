@@ -18,14 +18,14 @@ const EducatingContent = () => {
 
       {/* Text */}
       <motion.div
-        className="flex-1 font-raleway space-y-14 text-base text-primary   "
+        className="flex-1  space-y-14   "
         initial={{ x: '100%', opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1.1, ease: "easeInOut" }}
         viewport={{ once: true }}
       >
         <h1 className="text-4xl bg-shade1 text-white w-fit pb-1 px-2">Lecturing</h1>
-        <p className="text-primary ">
+        <p>
           Shaping the next generation of leaders with a vision and sense of urgency for change.
         </p>
         <div className="space-y-7">
