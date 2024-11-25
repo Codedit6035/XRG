@@ -56,7 +56,7 @@ const Academic = () => {
             <h1 className='font-semibold text-xl '>Dr. Ghazi Kablouti Publications List  </h1>
           </div>
           <a  href="/publications.pdf" 
-              download=" Dr. Ghazi Kablouti Publications List.pdf" >
+              download="bbb.pdf" >
             <button>
               <FaDownload className='text-xl text-shade7  hover:text-primary' />
             </button>
@@ -68,7 +68,7 @@ const Academic = () => {
             <h1 className='font-semibold text-xl '>Dr. Ghazi Kablouti Ph.D. Thesis Outline</h1>
           </div>
           <a  href="/thesis.pdf" 
-              download="Dr. Ghazi Kablouti Ph.D. Thesis Outline.pdf" >
+              download="aaa.pdf" >
             <button>
               <FaDownload className='text-xl text-shade7  hover:text-primary' />
             </button>
