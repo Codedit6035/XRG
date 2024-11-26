@@ -90,17 +90,17 @@ const Navbar = () => {
 
           {/* Mobile Menu Icon */}
           <a href="#" onClick={toggleMobileMenu} className="sm:hidden">
-            <div className={`relative w-8 h-8 flex flex-col items-center transition-transform duration-300 z-20 ${isMobileMenuOpen ? 'justify-center' : 'justify-between '}`}>
-            <div className={`w-full h-1 bg-blue-500 transition-all duration-300 ${isMobileMenuOpen ? '-rotate-45 absolute' : ''}`} />
-              <div className={`w-full h-1 bg-blue-500 transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0 absolute' : ''}`} />
-              <div className={`w-full h-1 bg-blue-500 transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 absolute' : ''}`} />
+            <div className={`relative w-8 h-8 flex flex-col items-center transition-transform duration-3000 z-20 ${isMobileMenuOpen ? 'justify-center' : 'justify-between '}`}>
+            <div className={`w-full h-1 bg-shade7 transition-all duration-300 ${isMobileMenuOpen ? '-rotate-45 absolute bg-white' : ''}`} />
+              <div className={`w-full h-1 bg-shade7 transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0 absolute ' : ''}`} />
+              <div className={`w-full h-1 bg-shade7 transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 absolute bg-white' : ''}`} />
             </div>
           </a>
         </div>
       </div>
             {/* Mobile Menu Slide-in */}
             <div
-        className={`fixed top-0 right-0  bg-shade5 w-full h-full transform transition-all duration-500 sm:hidden ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}
+        className={`fixed top-0 right-0  bg-shade7/90 w-full h-full transform transition-all duration-500 sm:hidden ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}
         onClick={toggleMobileMenu} // This will close the menu if the background is clicked
       >
 
