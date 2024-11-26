@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className='  '>
 
-        <div className='container flex flex-col  md:flex-row pb-20  pt-10 ' >
+        <div className='container flex flex-col gap-10  md:flex-row pb-20  pt-10 ' >
             {/* Get In Touch text  bg-slate-950 */}
             <div className=' flex-1   '>
                 <h1 className="font-bold text-4xl md:w-3/4">Get In <span className='text-shade7 text-5xl'>Touch</span></h1>
