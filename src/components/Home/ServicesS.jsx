@@ -35,7 +35,7 @@ const ServicesS = () => {
       {/* Header section */}
       <div
         ref={sectionRef}
-        className={`mb-10  w-full pl-20  ${
+        className={` mb-10 w-full pl-5 md:pl-20  ${
           isInView ? 'animate-slideInFromLeft' : 'opacity-0'
         }`}
       >
@@ -48,7 +48,7 @@ const ServicesS = () => {
   
       {/* body */}  
       <div className='flex justify-center h-fit'>  
-        <div className='flex gap-1 w-full'>
+        <div className='flex flex-col md:flex-row gap-1 w-full'>
           <div
             className='flex flex-1 gap-5 space-y-3  p-5 bg-shade2 text-white justify-start items-center text-3xl font-semibold'
             data-aos="fade-up"

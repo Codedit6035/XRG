@@ -8,7 +8,7 @@ const FounderS = () => {
     <div className="pt-10 pb-12 relative" >
 
         {/* Header section */}
-        <div  className="   mb-10 animate-slideInFromLeft w-full pl-20  ">
+        <div  className="mb-10 animate-slideInFromLeft w-full pl-5 md:pl-20">
         <h1 className="text-left  text-3xl  hover:bg-shade1 hover:text-white w-fit ">
             Founder
         </h1>
@@ -18,7 +18,7 @@ const FounderS = () => {
         {/* Body section */}
         <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-screen w-full overflow-hidden bg-shade2/30">
           {/* text */}
-          <div className="flex sm:flex-1 flex-col pl-3rem  py-7   justify-center">
+          <div className="flex sm:flex-1 flex-col md:pl-3rem  py-7   justify-center">
           <div data-aos="fade-up" className="  px-5 rounded-md " >
             <h1 className="font-medium text-4xl  transition-all    ">Dr. Ghazi Kablouti  </h1>
             <span className="font-bold text-xl  ">Envision. Lead. Inspire</span>

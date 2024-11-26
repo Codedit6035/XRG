@@ -5,7 +5,7 @@ import Banner from '../components/Contact/Banner'
 
 const ContactPage = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Banner/>
       <Contact/>
     </div>

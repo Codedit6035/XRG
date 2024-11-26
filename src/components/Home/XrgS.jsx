@@ -8,7 +8,7 @@ const XrgS = () => {
     <div id="xrg" className="py-10  relative " >
 
         {/* Header section */}
-        <div  className="   mb-10 animate-slideInFromLeft w-full pl-20  ">
+        <div  className="   mb-10 animate-slideInFromLeft w-full pl-5 md:pl-20  ">
           <h1 className="text-left  text-3xl   hover:bg-shade1 hover:text-white w-fit ">
             XRG
           </h1>
@@ -21,10 +21,10 @@ const XrgS = () => {
         <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-fit bg-shade2/30">
 
           {/*Image sectioni*/}
-          <div className="flex  sm:flex-1  overflow-hidden">
+          <div className="flex  flex-1  overflow-hidden">
             <div style={{ backgroundImage: `url(${BannerImg})`  }} className="w-full bg-cover bg-left bg-no-repeat items-end animate-zoomInAb">
               {/* Content Overlay */}
-              <div className=" container absolute inset-0 flex items-center justify-center z-10 font-raleway  ">
+              <div className=" container absolute inset-0 flex items-center justify-center z-10 ">
                 <div className=" flex flex-col justify-center items-center">
                   <h1 className='text-6xl font-bold mb-5 '> Our Approach</h1>
                   <a href="/explore" className=''>
@@ -38,7 +38,7 @@ const XrgS = () => {
           </div>
 
           {/* text */}
-          <div className="flex sm:flex-1 flex-col mr-20 gap-5 items-center justify-center  py-5 pl-10 ">
+          <div className="flex flex-1 flex-col md:mr-20 gap-5 items-center justify-center  py-5  md:pl-10 ">
           {/* text1 */}
           <div data-aos="fade-down" className="  px-5 rounded-md" >
             <h1 className="text-2xl text-shade1 font-semibold mb-4">What we do</h1>
