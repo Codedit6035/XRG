@@ -92,7 +92,7 @@ const Navbar = () => {
           <a href="#" onClick={toggleMobileMenu} className="sm:hidden">
             <div className={`relative w-8 h-8 flex flex-col items-center transition-transform duration-3000 z-20 ${isMobileMenuOpen ? 'justify-center' : 'justify-between '}`}>
             <div className={`w-full h-1 bg-shade7 transition-all duration-300 ${isMobileMenuOpen ? '-rotate-45 absolute bg-white' : ''}`} />
-              <div className={`w-full h-1 bg-shade7 transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0 absolute ' : ''}`} />
+              <div className={`w-full h-1 bg-shade7 transition-all duration-300 ${isMobileMenuOpen ? 'bg-shade7/90absolute ' : ''}`} />
               <div className={`w-full h-1 bg-shade7 transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 absolute bg-white' : ''}`} />
             </div>
           </a>
