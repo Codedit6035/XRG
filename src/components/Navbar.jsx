@@ -17,6 +17,10 @@ const AboutDropdown = [
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // Mobile menu state
+
+  // Toggle mobile menu
+  const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
 
   return (
     <div className="bg-transparent duration-200 relative z-50">
@@ -85,8 +89,39 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Menu Icon */}
-          <a href="" className="sm:hidden">
-            <IoMenuOutline className="text-5xl text-blue-500 font-bold hover:text-white transition duration-200" />
+          <a href="#" onClick={toggleMobileMenu} className="sm:hidden">
+            <div className={`relative w-8 h-8 flex flex-col items-center transition-transform duration-300 z-20 ${isMobileMenuOpen ? '' : 'justify-between '}`}>
+            <div className={`w-full h-1 bg-blue-500 transition-all duration-300 ${isMobileMenuOpen ? '-rotate-45 absolute' : ''}`} />
+              <div className={`w-full h-1 bg-blue-500 transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0' : ''}`} />
+              <div className={`w-full h-1 bg-blue-500 transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 absolute' : ''}`} />
+            </div>
+          </a>
+        </div>
+      </div>
+            {/* Mobile Menu Slide-in */}
+            <div
+        className={`fixed top-0 right-0 bg-shade5 w-full h-full transform transition-all duration-500 ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}
+        onClick={toggleMobileMenu} // This will close the menu if the background is clicked
+      >
+
+<div className="flex justify-center flex-col items-center space-y-6 h-full">
+          {/* Mobile menu items */}
+          {Menu.map((item) => (
+            <a
+              key={item.id}
+              href={item.link}
+              className="text-white text-lg"
+              onClick={toggleMobileMenu} // This will close the menu after clicking a link
+            >
+              {item.name}
+            </a>
+          ))}
+          <a
+            href="/get-in-touch"
+            className="text-white text-lg"
+            onClick={toggleMobileMenu} // This will close the menu after clicking a link
+          >
+            Get In Touch
           </a>
         </div>
       </div>
