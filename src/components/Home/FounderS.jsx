@@ -17,8 +17,17 @@ const FounderS = () => {
         </div>
         {/* Body section */}
         <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-screen w-full overflow-hidden bg-shade2/30">
+          {/*Image Ghasi*/}
+                  <motion.div className="flex  flex-1  overflow-hidden md:hidden"
+                  initial={{ x: '100%', opacity: 0 }}
+                  whileInView={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 1.1, ease: "easeInOut" }}
+                  viewport={{ once: true }}>
+          <div style={{ backgroundImage: `url(${GhasiImg})`  }} className="w-full bg-cover bg-left bg-no-repeat items-end  h-[300px] ">
+          </div>
+          </motion.div>
           {/* text */}
-          <div className="flex sm:flex-1 flex-col md:pl-3rem  py-7   justify-center">
+          <div className="flex flex-1 flex-col md:pl-3rem  py-7   justify-center">
           <div data-aos="fade-up" className="  px-5 rounded-md " >
             <h1 className="font-medium text-4xl  transition-all    ">Dr. Ghazi Kablouti  </h1>
             <span className="font-bold text-xl  ">Envision. Lead. Inspire</span>
@@ -43,7 +52,7 @@ const FounderS = () => {
           </div>
 
           {/*Image Ghasi*/}
-          <motion.div className="flex  sm:flex-1  overflow-hidden"
+          <motion.div className="flex  flex-1  overflow-hidden"
                   initial={{ x: '100%', opacity: 0 }}
                   whileInView={{ x: 0, opacity: 1 }}
                   transition={{ duration: 1.1, ease: "easeInOut" }}

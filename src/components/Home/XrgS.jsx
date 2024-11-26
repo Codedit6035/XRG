@@ -1,14 +1,12 @@
 import React from "react";
 import BannerImg from "../../assets/aboutph.jpg";
-import GhasiImg from "../../assets/xrg.jpg";
-import { FaAnglesDown } from "react-icons/fa6";
 
 const XrgS = () => {
   return (
     <div id="xrg" className="py-10  relative " >
 
         {/* Header section */}
-        <div  className="   mb-10 animate-slideInFromLeft w-full pl-5 md:pl-20  ">
+        <div  className="   mb-10 w-full pl-5 md:pl-20  ">
           <h1 className="text-left  text-3xl   hover:bg-shade1 hover:text-white w-fit ">
             XRG
           </h1>
@@ -18,11 +16,11 @@ const XrgS = () => {
         </div>
 
         {/* Body section */}
-        <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-fit bg-shade2/30">
+        <div  className=" flex flex-col gap-10   md:flex-row  md:h-fit bg-shade2/30">
 
           {/*Image sectioni*/}
           <div className="flex  flex-1  overflow-hidden">
-            <div style={{ backgroundImage: `url(${BannerImg})`  }} className="w-full bg-cover bg-left bg-no-repeat items-end animate-zoomInAb">
+            <div style={{ backgroundImage: `url(${BannerImg})`  }} className="w-full bg-cover bg-left bg-no-repeat items-end animate-zoomInAb md:h-auto h-[300px] relative">
               {/* Content Overlay */}
               <div className=" container absolute inset-0 flex items-center justify-center z-10 ">
                 <div className=" flex flex-col justify-center items-center">
