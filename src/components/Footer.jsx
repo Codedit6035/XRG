@@ -27,7 +27,7 @@ const Footer = () => {
             <img src={LogoFooter}alt="XRG Impact Management Advisory Logo" className='w-20 animate-spin-slow '/>           
           </a>
           {/* location*/}
-          <div className='flex  mt-auto items-center'>
+          <div className='flex mt-10 md:mt-auto items-center'>
           <img src={Flag} alt="" className='w-[20px] h-[20px]' />
               <h1 className=' text-white  px-2 text-xs'>Switzerland-based, Worldwide
               Services</h1>
