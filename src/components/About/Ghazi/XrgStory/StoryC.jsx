@@ -124,7 +124,7 @@ const StoryC = () => {
         <div className=" flex  justify-center items-center  gap-10 ">
           <div className=''>
             <span>Any thoughts, need for support, </span>
-             <a href="/get in touch" className='font-bold text-shade7 '><span>let’s get in touch</span></a>
+             <a href="/get-in-touch" className='font-bold text-shade7 '><span>let’s get in touch</span></a>
           </div>
         </div>
         {/* services link */}

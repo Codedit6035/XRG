@@ -61,7 +61,7 @@ const Bio = () => {
                              {/* Get in touch link */}
         <div className=" flex   items-center  mt-10 ">
           <div className=''>
-             <a href="/get in touch" className='font-bold text-shade7'><span>let’s get in touch</span></a>
+             <a href="/get-in-touch" className='font-bold text-shade7'><span>let’s get in touch</span></a>
           </div>
         </div>
             </div>

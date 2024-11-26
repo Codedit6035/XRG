@@ -74,7 +74,7 @@ const Navbar = () => {
               ))}
                <li>
                <a
-                      href="/get in touch"
+                      href="/get-in-touch"
                       className=" bg-shade7 px-2 py-0.5 text-white hover:bg-white hover:text-primary"
 
                     >

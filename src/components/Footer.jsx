@@ -3,15 +3,28 @@ import LogoFooter from'../assets/logo.png'
 import Flag from "../assets/swissflag.jpg"
 
 const Footer = () => {
+  const topics = [
+    { label: 'Home', link: '/' },
+    { label: 'XRG Approach', link: '/explore' },
+    { label: 'Dr. Ghazi Kablouti', link: '/explore' },
+    { label: 'Services', link: '/services' },
+    { label: 'Get in Touch', link: '/get-in-touch' },
+  ];
+  // Services data array
+  const services = [
+    { label: 'Advising' },
+    { label: 'Lecturing' },
+    { label: 'Speaking' },
+  ];
   return (
     <div className='  mt-0.5  py-10 bg-primary'>
       <div className='container text-white'>
       <div className='border-b   py-5  '>
-      {/* Logo & topins & services */}
-      <div className='flex '>
-        <div className='flex-1 flex flex-col'>
+      {/* Logo & topics & services */}
+      <div className='flex flex-col gap-10 md:flex-row  '>
+        <div className='flex-1 flex flex-col '>
           <a href="/">
-            <img src={LogoFooter}alt="" className='w-20 animate-spin-slow '/>           
+            <img src={LogoFooter}alt="XRG Impact Management Advisory Logo" className='w-20 animate-spin-slow '/>           
           </a>
           {/* location*/}
           <div className='flex  mt-auto items-center'>
@@ -24,36 +37,27 @@ const Footer = () => {
         <div className='flex-1'>
           <h1 className='text-2xl pb-5 font-bold'>Topics</h1>
           <ul>
-            <li >
-              <a href="/">Home</a>
-            </li>
-            <li >
-              <a href="/explore">XRG Approach</a>
-            </li>
-            <li >
-              <a href="/explore">Dr. Ghazi Kablouti</a>
-            </li>
-            <a href="/services">
-              <li>Services</li>
-            </a>
-            <li >
-              <a href="/get in touch">Get in Touch</a>
-            </li>
+                {/* Map through the topics array */}
+                {topics.map((topic, index) => (
+                  <li key={index}>
+                    <a href={topic.link}>{topic.label}</a>
+                  </li>
+                ))}
           </ul>
         </div>
         <div className='flex-1 '> 
           <h1 className='text-2xl pb-5 font-bold'>Services</h1>
           <ul>
-            <li>Advising</li>
-            <li>Lecturing</li>
-            <li>Speaing</li>
+                {/* Map through the services array */}
+                {services.map((service, index) => (
+                  <li key={index}><a href="/services">{service.label}</a></li>
+                ))}
           </ul>
         </div>
-
       </div>
       </div>
       {/* copyright privacy */}
-      <div className='flex justify-between  py-5 text-sm '>
+      <div className='flex flex-col gap-10 md:flex-row md:justify-between  py-5 text-sm '>
         <h1>© XRG Impact Management Advisory 2024</h1>
         <div className='flex'>
           <a href="/Privacy, Terms & Conditions of Use">Privacy, Terms & Conditions of Use</a>   

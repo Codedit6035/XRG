@@ -11,7 +11,7 @@ const ContactS = () => {
          <div>
 
          <div className=" container flex  flex-col items-center justify-center  gap-3   ">
-            <a href="/get in touch"><button className='bg-shade7 hover:bg-primary font-bold  text-xl text-white border-2 border-gray-400  px-10 py-2 '>Get in Touch</button></a>
+            <a href="/get-in-touch"><button className='bg-shade7 hover:bg-primary font-bold  text-xl text-white border-2 border-gray-400  px-10 py-2 '>Get in Touch</button></a>
             {/* Contact */}
             <a
                 href="mailto:contact@xrg-advisory.com"
