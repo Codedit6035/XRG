@@ -7,7 +7,7 @@ const Separation = () => {
     <div id="next-section" className='relative py-10'>
     <div  className='flex flex-col justify-center items-center gap-2 text-center'  >
                 <h1 data-aos="fade-down" className=' text-4xl font-bold'> The End of Traditional ESG</h1>    
-                <h1 data-aos="fade-down"  className='text-6xl font-bold mb-10'>Competing for a Sustainable Future</h1>
+                <h1 data-aos="fade-down"  className='text-5xl md:text-6xl font-bold mb-10'>Competing for a Sustainable Future</h1>
         <motion.div  className='text-justify relative font-semibold w-9/12'
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
