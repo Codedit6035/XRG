@@ -5,11 +5,11 @@ const Contact = () => {
   return (
     <div className='  '>
 
-        <div className='container flex flex-col  sm:flex-row pb-20  pt-10 ' >
+        <div className='container flex flex-col  md:flex-row pb-20  pt-10 ' >
             {/* Get In Touch text  bg-slate-950 */}
             <div className=' flex-1   '>
-                <h1 className="font-bold text-4xl ">Get In <span className='text-shade7 text-5xl'>Touch</span></h1>
-                <p className="py-5 w-3/4 border-b">
+                <h1 className="font-bold text-4xl md:w-3/4">Get In <span className='text-shade7 text-5xl'>Touch</span></h1>
+                <p className="py-5 md:w-3/4 border-b">
   We would love to hear from you. Whether you have a question, need more information, or want to explore how we can collaborate, we’re here to assist. <br /><br />
   You can reach out to us directly via email at{" "}
   <a
@@ -26,7 +26,7 @@ const Contact = () => {
             <div className=' flex-1   '>
                  <h1  className="font-bold text-4xl  pb-10 ">Complete <span >the form below</span> </h1>
                  <form action="">
-                    <div className='flex gap-10 pb-5'>
+                    <div className='flex flex-col md:flex-row gap-10 pb-5'>
                         <div className='flex flex-col flex-1 '>
                             <label htmlFor="" className='text-sm'>First name</label>
                             <input type="text" className=' h-[35px]   bg-neutral-300/30'/>
