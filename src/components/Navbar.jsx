@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <a href="/"  >
-          <div className="flex items-center  w-46 ">
+          <div className="flex items-center  w-20 ">
               <img src={Logo} alt="Logo" className=" h-20 animate-spin-slow" />
               <img src={LogoText} alt="Logo" className=" h-20" />
           </div>
@@ -90,9 +90,9 @@ const Navbar = () => {
 
           {/* Mobile Menu Icon */}
           <a href="#" onClick={toggleMobileMenu} className="sm:hidden">
-            <div className={`relative w-8 h-8 flex flex-col items-center transition-transform duration-300 z-20 ${isMobileMenuOpen ? '' : 'justify-between '}`}>
+            <div className={`relative w-8 h-8 flex flex-col items-center transition-transform duration-300 z-20 ${isMobileMenuOpen ? 'justify-center' : 'justify-between '}`}>
             <div className={`w-full h-1 bg-blue-500 transition-all duration-300 ${isMobileMenuOpen ? '-rotate-45 absolute' : ''}`} />
-              <div className={`w-full h-1 bg-blue-500 transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0' : ''}`} />
+              <div className={`w-full h-1 bg-blue-500 transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0 absolute' : ''}`} />
               <div className={`w-full h-1 bg-blue-500 transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 absolute' : ''}`} />
             </div>
           </a>
@@ -100,11 +100,11 @@ const Navbar = () => {
       </div>
             {/* Mobile Menu Slide-in */}
             <div
-        className={`fixed top-0 right-0 bg-shade5 w-full h-full transform transition-all duration-500 ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}
+        className={`fixed top-0 right-0  bg-shade5 w-full h-full transform transition-all duration-500 sm:hidden ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}
         onClick={toggleMobileMenu} // This will close the menu if the background is clicked
       >
 
-<div className="flex justify-center flex-col items-center space-y-6 h-full">
+<div className="flex justify-center flex-col items-center space-y-6 h-full ">
           {/* Mobile menu items */}
           {Menu.map((item) => (
             <a
