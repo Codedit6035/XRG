@@ -18,7 +18,7 @@ const AdvisingContent = () => {
                        <p>Empowering businesses to leverage their systemic strengths for long-term value and impact</p>
                        </motion.div>
                 {/*text */}
-                <div className='flex justify-center    gap-1  '>
+                <div className='flex flex-col lg:flex-row justify-center    gap-1  '>
                    {/* corporation */}
                    <motion.div className='flex-1  space-y-14  bg-shade2/30'
                            initial={{ x: '-100%', opacity: 0 }}
@@ -30,7 +30,7 @@ const AdvisingContent = () => {
                        <div className='space-y-7  p-10 '>
                         <h1 className='text-xl font-semibold underline'>For corporations: </h1>
                         <p className=''>with a focus on resource-Intensive Corporations and Start-Ups in Energy & Utilities, Capital Goods Manufacturing, Materials, Chemicals, and Healthcare</p>
-                        <ul className='list-disc space-y-3 '>
+                        <ul className='list-disc space-y-3 pl-5'>
                           <li>
                             <span className='font-semibold'>Serving as a Corporate Board Member or Executive Advisor– </span>offering strategic insights and guidance at the highest levels.
                           </li>
@@ -69,7 +69,7 @@ const AdvisingContent = () => {
                          {/*Financial Services:*/}
                          <div className='space-y-7'>
                          <h1 className='text-xl font-semibold underline text-white '>For financial Services: </h1>
-                         <ul className='list-disc space-y-3  text-shade2 px-10'>
+                         <ul className='list-disc space-y-3  text-shade2 pl-5 lg:px-10'>
                            <li>
                              <span className='font-semibold'>	Evaluating Environmental and Social Risks and Opportunities– </span>analyzing portfolio companies' business models to identify critical sustainability risks and growth opportunities.
                            </li>
@@ -90,7 +90,7 @@ const AdvisingContent = () => {
                        {/*Policy and Standards Makers:*/}
                        <div className='space-y-10'>
                         <h1 className='text-xl font-semibold underline text-white '>For policy and Standards Makers:</h1>
-                        <ul className='list-disc space-y-3  text-shade2  px-10'>
+                        <ul className='list-disc space-y-3  text-shade2  pl-5 lg:px-10'>
                           <li>
                             <span className='font-semibold'>Providing Data-Driven Insights to Policymakers–  </span>identifying critical levers to craft effective policies that drive meaningful change.
                           </li>

@@ -5,7 +5,7 @@ import Speaking from './Services/Speaking'
 
 const Services = () => {
   return (
-    <div id='nextservices' className='py-20 '>
+    <div id='services' className='py-20 '>
 
                 <Advising/>
                 <Educating/> 

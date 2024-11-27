@@ -4,7 +4,7 @@ import Adivising from "../../../assets/lecturing.jpg";
 
 const EducatingContent = () => {
   return (
-    <div className="my-10 flex justify-center gap-20 ">
+    <div className="my-10 flex flex-col lg:flex-row justify-center gap-20 ">
       {/* Image */}
       <motion.div
         className="flex-1"
@@ -13,7 +13,7 @@ const EducatingContent = () => {
         transition={{ duration: 1.1, ease: "easeInOut" }}
         viewport={{ once: true }}
       >
-        <img src={Adivising} alt="Educating" className=" w-full sm:h-screen " />
+        <img src={Adivising} alt="Educating" className=" size-full" />
       </motion.div>
 
       {/* Text */}
@@ -29,7 +29,7 @@ const EducatingContent = () => {
           Shaping the next generation of leaders with a vision and sense of urgency for change.
         </p>
         <div className="space-y-7">
-          <ul className="list-disc space-y-3 ">
+          <ul className="list-disc space-y-3 pl-5">
             <li><span className="font-semibold">Collaborating with Academic Program Directors– </span>partnering with engineering and business schools to design innovative, impactful curricula focused on Business & Society.</li>
             <li><span className="font-semibold">Developing and Delivering Courses on Business & Society– </span>across academic and executive education levels</li>
             <li><span className="font-semibold">Supervising Theses at All Academic Levels– </span>guiding bachelor’s, master’s, and doctoral students in developing research aligned with sustainable business practices.</li>

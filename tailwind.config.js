@@ -23,12 +23,12 @@ export default {
       spacing: {
         '9rem': '9rem', // Adds a custom spacing utility
         '3rem': '3rem', // Adds a custom spacing utility
+        '1rem': '1rem', // Adds a custom spacing utility
       },
       container: {
         center: true,
         padding: {
           DEFAULT: "1rem",
-          sm: "1 em",
           lg: "3rem",
         },
       },

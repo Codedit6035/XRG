@@ -12,7 +12,7 @@ const XrgS = () => {
           </h1>
           {/* Blue line */}
           <div className="w-16 h-1 bg-shade7 "></div>    
-          <h1 className="text-xl font-semibold mb-4 ">Impact Management Advisory</h1>     
+          <h1 className="text-xl font-semibold mb-4  ">Impact Management Advisory</h1>     
         </div>
 
         {/* Body section */}

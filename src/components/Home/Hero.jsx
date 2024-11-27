@@ -51,68 +51,68 @@ const Hero = ({ handleOrderPopup }) => {
   };
 
   return (
-
-
     <div className="relative  ">
-    {/* blue part */}
-    <div className=" h-screen w-full ">
-      {/* Navbar Component */}
-      <div className=" absolute top-0 left-0 w-full z-20  ">
-        <Navbar /> {/* This is your existing Navbar component */}
-      </div>
-      {/* background pattern */}
-      <Fade duration={3000} transitionDuration={1000} infinite arrows={false} >
-        {images.map((each, index) => (
-          <div        
-            key={index}
-            className="h-screen w-full bg-cover bg-center animate-zoom "
-            style={{ backgroundImage: `url(${each})` }}
-            
-          ></div>
-        ))}
-      </Fade>
-            {/* bg Overlay */}
-            <div className='absolute left-0 top-0 w-100 h-100 inset-0 z-10 flex items-center justify-start'>
-      </div>
-      {/* Content Overlay */}
-      <div className=" container absolute inset-0 flex items-center justify-center z-10 ">
-        <div className="text-white max-w-2xl flex flex-col items-center justify-center">
-          {/* Title */}
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-center  "><span className="text-secondary">XRG </span> Impact Management Advisory</h1>
-          
-          {/* Blue line */}
-          <div className="w-2/6 h-1 bg-shade7 mb-4 "></div>
-
-          {/* Short Paragraph */}
-          <p className=" text-center text-2xl font-medium md:whitespace-nowrap ">
-          Solutions for Managing Business and Sustainability beyond ESG
-          </p>
+      {/* blue part */}
+      <div className=" h-screen w-full ">
+        {/* Navbar Component */}
+        <div className=" absolute top-0 left-0 w-full z-20 ">
+          <Navbar /> {/* This is your existing Navbar component */}
         </div>
+        {/* background pattern */}
+        <Fade duration={3000} transitionDuration={1000} infinite arrows={false}>
+          {images.map((each, index) => (
+            <div
+              key={index}
+              className="h-screen w-full bg-cover bg-center animate-zoom "
+              style={{ backgroundImage: `url(${each})` }}
+            ></div>
+          ))}
+        </Fade>
+        {/* bg Overlay */}
+        <div className="absolute left-0 top-0 w-100 h-100 inset-0 z-10 flex items-center justify-start"></div>
+        {/* Content Overlay */}
+        <div className=" container absolute inset-0 flex items-center justify-center z-10 ">
+          <div className="text-white max-w-2xl flex flex-col items-center justify-center">
+            {/* Title */}
+            <h1 className="text-4xl sm:text-6xl font-bold mb-4 text-center  ">
+              <span className="text-secondary">XRG </span> Impact Management
+              Advisory
+            </h1>
+
+            {/* Blue line */}
+            <div className="w-2/6 h-1 bg-shade7 mb-4 "></div>
+
+            {/* Short Paragraph */}
+            <p className=" text-center text-xl sm:text-2xl font-medium md:whitespace-nowrap ">
+              Solutions for Managing Business and Sustainability beyond ESG
+            </p>
+          </div>
+        </div>
+        {/* Tailwind Custom Keyframe */}
+        <style jsx>{`
+          @keyframes zoomIn {
+            0% {
+              transform: scale(1);
+            }
+            100% {
+              transform: scale(1.1);
+            }
+          }
+          .animate-zoom {
+            animation: zoomIn 5s ease-in-out infinite;
+          }
+        `}</style>
       </div>
-            {/* Tailwind Custom Keyframe */}
-            <style jsx>{`
-        @keyframes zoomIn {
-          0% {
-            transform: scale(1);
-          }
-          100% {
-            transform: scale(1.1);
-          }
-        }
-        .animate-zoom {
-          animation: zoomIn 5s ease-in-out infinite;
-        }
-      `}</style>
-    
+      {/* down circle */}
+      <div className="absolute  z-10  flex w-[70px] h-[70px]  left-[50%] -ml-[35px] -mt-[70px] animate-float ">
+        <a
+          href="#next-section"
+          className="flex items-center  w-[70px] h-[70px] text-4xl  text-shade2 justify-center"
+        >
+          <FaAnglesDown />
+        </a>
+      </div>
     </div>
-    {/* down circle */}
-    <div className='absolute  z-10  flex w-[70px] h-[70px]  left-[50%] -ml-[35px] -mt-[70px] animate-float '>
-           <a href="#next-section" className="flex items-center  w-[70px] h-[70px] text-4xl  text-shade2 justify-center"><FaAnglesDown  /></a>
-    </div>
-    </div>
-
-
- 
   );
 };
 
