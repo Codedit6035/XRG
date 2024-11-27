@@ -14,7 +14,7 @@ const Separation = () => {
                 transition={{ duration: 1.3, ease: "easeInOut" }}
                 viewport={{ once: true }}>        
           <p className='text-2xl mb-2 '>“It is time to confront the uncomfortable truth: the ESG (Environmental, Social, and Governance) agenda, as we know it, is over. In the decade ahead, businesses must compete not only for market share but for the future itself. The rewards will be significant: long-term resilience, market leadership, and the ability to thrive in a world grounded in essential environmental and social foundations”.</p>
-          <h1 className='absolute right-0 -bottom-5 text-lg italic '> – Financial Times, <span className='text-base font-light'>September 2024</span></h1>
+          <h1 className='absolute right-0 md:-bottom-5 text-lg italic '> – Financial Times, <span className='text-base font-light'>September 2024</span></h1>
         </motion.div>
     </div>
 

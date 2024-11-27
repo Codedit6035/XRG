@@ -25,7 +25,7 @@ const App = () => {
     AOS.refresh();
   }, []);
   return (
-    <div className=' text-primary  text-base font-raleway'>
+    <div className=' text-primary  text-base font-raleway bg-white'>
       <Routes>
           <Route path="/"  element={<HomePage   /> } />
           <Route path="/services" element={<ServicesPage  /> }/>

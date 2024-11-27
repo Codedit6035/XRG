@@ -23,7 +23,7 @@ const FounderS = () => {
                   whileInView={{ x: 0, opacity: 1 }}
                   transition={{ duration: 1.1, ease: "easeInOut" }}
                   viewport={{ once: true }}>
-          <div style={{ backgroundImage: `url(${GhasiImg})`  }} className="w-full bg-cover bg-left bg-no-repeat items-end  h-screen ">
+          <div style={{ backgroundImage: `url(${GhasiImg})`  }} className="w-screen  bg-cover bg-center bg-no-repeat   h-screen ">
           </div>
           </motion.div>
           {/* text */}
