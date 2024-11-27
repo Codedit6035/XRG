@@ -12,7 +12,7 @@ const  Expertise = () => {
     <div>
       <div className=' flex flex-col gap-10 py-10  text-primary'>
         {/*quote img*/}
-        <div className='container flex gap-1'>
+        <div className='container flex flex-col sm:flex-row gap-1'>
         <motion.div className='flex   text-2xl py-10  text-justify justify-center items-center flex-1 bg-shade2/50'
                                    initial={{ x: '-100%', opacity: 0 }}
                                    whileInView={{ x: 0, opacity: 1 }}
@@ -35,13 +35,13 @@ const  Expertise = () => {
                 <div className=' container flex flex-col gap-10'>
         {/* Get in touch link */}
         <div className=" flex flex-col  justify-center items-center  gap-5 ">
-             <a href="/get-in-touch" className='font-bold text-shade7 '><span>let’s get in touch</span></a>
+             <a href="/get-in-touch" className='font-bold text-shade7 text-center '>let’s get in touch</a>
              <a href="https://www.linkedin.com/in/ghazikablouti/ "  target="_blank"><CiLinkedin className=' text-5xl  text-shade7  hover:text-primary'/></a>
         </div>
         
         {/* services link */}
         <div className="flex  flex-col gap-5 justify-center items-center  bg-shade2/50 p-5">
-        <h1 className='text-2xl'>
+        <h1 className='text-2xl text-center'>
         Dr. Ghazi Kablouti biography 
           </h1>
         <a  href="/Dr. Ghazi Kablouti.pdf" 

@@ -24,7 +24,7 @@ export default function Ghazi() {
   return (
     <div id="about-me" className="  pt-20  text-primary">
       {/* Tab List Container */}
-      <div className=" flex gap-2 justify-center container ">
+      <div className=" flex flex-col lg:flex-row gap-2 justify-center container ">
         {tabs.map((tab, index) => (
           <motion.div
             key={index}

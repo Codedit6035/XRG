@@ -13,12 +13,12 @@ const Bio = () => {
   }, []);
 
   return (
-    <div className='py-10 container text-primary'>
-        <div className='   py-10  flex items-center gap-10 px-10 text-white font-bold bg-primary'>
-          <h1 className=' text-4xl flex-1'>Dr. Ghazi Kablouti </h1>
-          <p className=' flex-1 text-xl tracking-widest  flex gap-10   pl-10'><span>Envision. </span> <span>Lead. </span> <span>Inspire</span></p>
+    <div className='py-10 container text-primary '>
+        <div className='   py-10 flex flex-col lg:flex-row items-center justify-center gap-10 px-1rem lg:px-10 text-white font-bold bg-primary'>
+          <h1 className=' text-4xl flex-1 text-center'>Dr. Ghazi Kablouti </h1>
+          <p className=' flex-1 text-base sm:text-xl tracking-widest  flex gap-10   lg:pl-10'><span>Envision. </span> <span>Lead. </span> <span>Inspire</span></p>
         </div>
-        <div className=' flex gap-10 py-20'>
+        <div className=' flex flex-col lg:flex-row gap-10 pt-10 lg:pt-20'>
             {/* image */}
             <div className='flex-1  mt-2 relative overflow-hidden '>
                 {/* Fixed Background Image */}
@@ -35,7 +35,7 @@ const Bio = () => {
 
             </div>
             {/* text */}
-            <div className='flex flex-1 flex-col    pl-10 '>
+            <div className='flex flex-1 flex-col    lg:pl-10 '>
                 {/* text */}
                 <div className=" ">
                 {BioData.map((para, index) => (

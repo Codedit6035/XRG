@@ -12,9 +12,9 @@ const Awards = () => {
         </p>
       </div>
       
-      <div className="container flex gap-10 justify-center">
+      <div className="container flex flex-col sm:flex-row gap-10 justify-center">
 
-        {/* Award Card 2 */}
+        {/* Award Card 1 */}
         <div className="bg-shade5 p-10 flex-1 ">
           <div className="flex flex-col justify-center items-center text-center">
             <h1 className="text-lg font-bold text-secondary">GE</h1>
@@ -28,7 +28,7 @@ const Awards = () => {
             <p className="text-sm text-shade2">2017</p>
           </div>
         </div>
-        {/* Award Card 1 */}
+        {/* Award Card 2 */}
         <div className="bg-shade3 p-10 flex-1 ">
           <div className="flex flex-col justify-center items-center text-center">
             <h1 className="text-lg font-semibold text-secondary">Hitachi</h1>

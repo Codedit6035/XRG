@@ -68,10 +68,10 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="container   flex flex-col gap-10  pt-10 pb-40 text-primary">
+    <div className="container   flex flex-col gap-10  pt-10 pb-20 text-primary">
       {/*slogan*/}
         {/*quote img*/}
-        <div className='flex gap-1'>
+        <div className='flex flex-col sm:flex-row gap-1'>
         <motion.div className='flex   text-2xl py-10  text-justify justify-center items-center flex-1 bg-shade2/50'
                                    initial={{ x: '-100%', opacity: 0 }}
                                    whileInView={{ x: 0, opacity: 1 }}

@@ -9,10 +9,10 @@ import { motion } from 'framer-motion';
 const  Expertise = () => {
   return (
     <div>
-      <div className='container  flex flex-col gap-10 py-10 text-primary'>
+      <div className='container  flex flex-col gap-10 py-10 text-primary '>
         {/*quote img*/}
-        <div className='flex gap-1'>
-        <motion.div className='flex   text-2xl py-10  text-justify justify-center items-center flex-1 bg-shade2/50'
+        <div className='flex flex-col sm:flex-row  gap-1 '>
+        <motion.div className='flex  text-2xl py-10  text-justify justify-center items-center flex-1 bg-shade2/50'
                                    initial={{ x: '-100%', opacity: 0 }}
                                    whileInView={{ x: 0, opacity: 1 }}
                                    transition={{ duration: 1.1, ease: "easeInOut" }}
@@ -31,16 +31,16 @@ const  Expertise = () => {
         {/* text */}
         <div className=" flex flex-col  ">
           {ExpertiseData.map((data, index) => (
-            <div key={index}  className={`flex py-5 gap-10  pb-10 px-5   ${
+            <div key={index}  className={`flex flex-col lg:flex-row  py-5 gap-10  pb-10 px-5   ${
         index % 2 === 0 ? '' : 'bg-shade2/50'
       } `}>
-              <div className='w-2/6'>
+              <div className='lg:w-2/6'>
                 <h1           className="text-xl mb-4 font-semibold  text-shade1" >
                   {data.title}
                 </h1>
                 <div   className="w-16 h-1  mb-4 bg-shade5" ></div>
               </div>
-              <div           className="w-4/6 text-justify ">
+              <div           className="lg:w-4/6 text-justify ">
                 <p>{data.text}</p>
               </div>
             </div>
@@ -59,13 +59,13 @@ const  Expertise = () => {
                 <div className=' flex flex-col gap-10'>
         {/* Get in touch link */}
         <div className=" flex flex-col  justify-center items-center  gap-5 ">
-             <a href="/get-in-touch" className='font-bold text-shade7 '><span>let’s get in touch</span></a>
+             <a href="/get-in-touch" className='font-bold text-shade7  text-center'>let’s get in touch</a>
              <a href="https://www.linkedin.com/in/ghazikablouti/ "  target="_blank"><CiLinkedin className=' text-5xl  text-shade7  hover:text-primary'/></a>
         </div>
         
         {/* services link */}
         <div className="flex  flex-col gap-5 justify-center items-center  bg-shade2/50 p-5">
-        <h1 className='text-2xl '>
+        <h1 className='text-2xl text-center '>
         Dr. Ghazi Kablouti biography 
           </h1>
         <a  href="/Dr. Ghazi Kablouti.pdf" 
@@ -89,10 +89,3 @@ const  Expertise = () => {
 
 export default  Expertise
 
-{/* <ul className='flex flex-col gap-5 custom-circle-list'>
-<li>Academic Lectures & Training: Designed and delivered academic courses focused on "Business & Society," with an emphasis on combining legal and management approaches</li>
-<li>Sustainability in Energy Technologies (power generation, transmission, and distribution)</li>
-<li>Product-level environmental impact assessment methodologies: Product Carbon Footprint (PCF) and Life Cycle Assessment (LCA) according to ISO 14040, ISO 14044, and ISO 14067, as well as sector-specific methodologies across industries like Metals, Chemicals, and Oil & Gas</li>
-<li>Greenhouse Gas (GHG) Scope 3 Accounting covering both upstream and downstream activities</li>
-<li>Sustainability Data Management Software (requirements engineering, selection, and implementation of sustainability data management software: supply chain management, product- and corporate-level sustainability reporting)</li>
-</ul> */}

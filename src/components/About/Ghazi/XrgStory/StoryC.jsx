@@ -39,10 +39,10 @@ const StoryC = () => {
         </div>
 
         {/* Content */}
-        <div className="flex gap-20">
+        <div className="flex flex-col lg:flex-row  gap-20">
           {/* Left */}
           <div className="flex-1">
-            <ul className="flex flex-col gap-5 text-justify list-disc ">
+            <ul className="flex flex-col gap-5 text-justify list-disc pl-5 ">
               <li>
               We believe that the best response to this situation is not to continue advocating for further integration of sustainability into business strategy, but transforming how companies set goals, design strategy, and create value
               </li>
@@ -56,7 +56,7 @@ const StoryC = () => {
           </div>
           {/* Right */}
           <div className="flex-1">
-            <ul className="flex flex-col gap-5 list-disc text-justify ">
+            <ul className="flex flex-col gap-5 list-disc text-justify pl-5 lg:pl-0">
               <li>
                <strong> X-Factor:</strong> Achieving financial goals by proactively addressing key societal challenges, and leveraging the unique systemic strengths of the business to act, enable and influence for long-term impacts.
               </li>
@@ -121,7 +121,7 @@ const StoryC = () => {
           </p>
         </div>
         {/* Get in touch link */}
-        <div className=" flex  justify-center items-center  gap-10 ">
+        <div className=" flex  justify-center text-center items-center  gap-10 ">
           <div className=''>
             <span>Any thoughts, need for support, </span>
              <a href="/get-in-touch" className='font-bold text-shade7 '><span>let’s get in touch</span></a>
@@ -129,7 +129,7 @@ const StoryC = () => {
         </div>
         {/* services link */}
         <div className="text-center justify-center items-center space-y-5 bg-shade2/50 p-5">
-          <h1 className='text-2xl'>
+          <h1 className='text-2xl text-center'>
           Explore our Services
           </h1>
           <button className='bg-shade7 hover:bg-primary font-bold  text-xl text-white   px-5 py-2'>Services</button>

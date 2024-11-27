@@ -7,7 +7,7 @@ const StoryA = () => {
     <div className=''>
       <div className=' flex flex-col gap-10 '>
         {/*quote img*/}
-        <div className='flex gap-1'>
+        <div className='flex flex-col sm:flex-row gap-1'>
         <motion.div className='flex   text-2xl py-10  text-justify justify-center items-center flex-1 bg-shade2/50'
                                    initial={{ x: '-100%', opacity: 0 }}
                                    whileInView={{ x: 0, opacity: 1 }}
@@ -31,17 +31,17 @@ const StoryA = () => {
         <div className="w-16 h-1 bg-shade5 mb-4"></div>
         </div>
         {/* content */}
-        <div className='container flex gap-20'>
+        <div className='container flex flex-col lg:flex-row gap-20'>
         {/* left*/}  
         <div className='flex-1'>
-          <ul className='flex flex-col gap-5 list-disc text-justify '>
+          <ul className='flex flex-col gap-5 list-disc text-justify pl-5'>
             <li>Companies are the engines of modern society, providing purpose, jobs, and innovations that improve quality of life and drive prosperity. As societal challenges grow, businesses are increasingly prioritizing sustainability through Environmental, Social, and Governance (ESG) initiatives. </li>
             <li>Today’s dominant ESG framework focuses on integrating “sustainability thinking” into business operations by quantifying ESG factors that influence shareholder value, particularly those that present potential risks to the company.</li>
           </ul>
         </div>
         {/* right*/}
         <div className=' flex-1'>
-          <ul className='flex flex-col gap-5 list-disc text-justify '>
+          <ul className='flex flex-col gap-5 list-disc text-justify pl-5 lg:pl-0'>
             <li >However, while ESG often centers on improving sustainability credentials and boosting scores to attract investment, impact investing takes a different approach. It emphasizes backing businesses that actively address societal or environmental challenges, even when these efforts don’t directly correlate with financial performance. </li>
             <li>Notably, many companies that perform poorly on ESG metrics still make a significant positive impact on society. This highlights a real risk that ESG can sometimes lead to complacency or greenwashing, masking the need for deeper, more transformative change.</li>
             <h1 className='text-[12px]  italic  '>*Survival of the Fittest: From ESG to Competitive Sustainability. Cambridge Institute for Sustainability Leadership (2024).</h1>
