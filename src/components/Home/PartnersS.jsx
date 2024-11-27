@@ -51,7 +51,7 @@ const PartnersS = () => {
   return (
     <div className="py-10 ">
       {/* Header section */}
-      <div className="animate-slideInFromLeft w-full pl-5 md:pl-20  ">
+      <div className="animate-slideInFromLeft w-full pl-5 lg:pl-20  ">
         <h1 className="text-left text-3xl  hover:bg-shade1 hover:text-white w-fit ">Partners & Employers</h1>
         {/* Blue line */}
         <div className="w-16 h-1 bg-shade7 mb-4"></div>

@@ -8,7 +8,7 @@ const FounderS = () => {
     <div className="pt-10 pb-12 relative" >
 
         {/* Header section */}
-        <div  className="mb-10 animate-slideInFromLeft w-full pl-5 md:pl-20">
+        <div  className="mb-10 animate-slideInFromLeft w-full pl-5 lg:pl-20">
         <h1 className="text-left  text-3xl  hover:bg-shade1 hover:text-white w-fit ">
             Founder
         </h1>
@@ -16,9 +16,9 @@ const FounderS = () => {
           <div className="w-16 h-1 bg-shade7 mb-4 "></div>        
         </div>
         {/* Body section */}
-        <div  className=" flex flex-col gap-10   sm:flex-row  sm:h-screen w-full overflow-hidden bg-shade2/30">
+        <div  className=" flex flex-col gap-10   lg:flex-row  lgm:h-screen w-full overflow-hidden bg-shade2/30">
           {/*Image Ghasi*/}
-                  <motion.div className="flex  flex-1  overflow-hidden md:hidden"
+                  <motion.div className="flex  flex-1  overflow-hidden lg:hidden"
                   initial={{ x: '100%', opacity: 0 }}
                   whileInView={{ x: 0, opacity: 1 }}
                   transition={{ duration: 1.1, ease: "easeInOut" }}
@@ -27,7 +27,7 @@ const FounderS = () => {
           </div>
           </motion.div>
           {/* text */}
-          <div className="flex flex-1 flex-col md:pl-3rem  py-7   justify-center">
+          <div className="flex flex-1 flex-col lg:pl-3rem  py-7   justify-center">
           <div data-aos="fade-up" className="  px-5 rounded-md " >
             <h1 className="font-medium text-4xl  transition-all    ">Dr. Ghazi Kablouti  </h1>
             <span className="font-bold text-xl  ">Envision. Lead. Inspire</span>
@@ -52,7 +52,7 @@ const FounderS = () => {
           </div>
 
           {/*Image Ghasi*/}
-          <motion.div className="hidden md:flex  flex-1  overflow-hidden"
+          <motion.div className="hidden lg:flex  flex-1  overflow-hidden"
                   initial={{ x: '100%', opacity: 0 }}
                   whileInView={{ x: 0, opacity: 1 }}
                   transition={{ duration: 1.1, ease: "easeInOut" }}

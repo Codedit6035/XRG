@@ -13,7 +13,7 @@ const Banner = () => {
 
   return (
     <div className='relative overflow-hidden '>
-    <div className=" h-screen w-full ">
+    <div className="h-fit lg:h-screen w-full ">
       {/* Navbar Component */}
       <div className="absolute top-0 left-0 w-full z-20">
         <Navbar />
@@ -24,7 +24,7 @@ const Banner = () => {
       </div>
 
       {/* Content Overlay */}
-      <div className="pl-9rem absolute inset-0 flex items-center justify-between">
+      <div className="pl-9rem absolute inset-0 space-y-10 lg:flex items-center lg:justify-between">
         <div className="text-white max-w-lg z-10">
           {/* Title */}
           <h1 className="text-6xl font-bold mb-4  ">

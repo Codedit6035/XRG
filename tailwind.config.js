@@ -28,7 +28,8 @@ export default {
         center: true,
         padding: {
           DEFAULT: "1rem",
-          sm: "3rem",
+          sm: "1 em",
+          lg: "3rem",
         },
       },
 
