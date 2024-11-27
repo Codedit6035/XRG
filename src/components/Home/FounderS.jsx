@@ -23,7 +23,7 @@ const FounderS = () => {
                   whileInView={{ x: 0, opacity: 1 }}
                   transition={{ duration: 1.1, ease: "easeInOut" }}
                   viewport={{ once: true }}>
-          <div style={{ backgroundImage: `url(${GhasiImg})`  }} className="w-full bg-cover bg-left bg-no-repeat items-end  h-[300px] ">
+          <div style={{ backgroundImage: `url(${GhasiImg})`  }} className="w-full bg-cover bg-left bg-no-repeat items-end  h-screen ">
           </div>
           </motion.div>
           {/* text */}
@@ -52,7 +52,7 @@ const FounderS = () => {
           </div>
 
           {/*Image Ghasi*/}
-          <motion.div className="flex  flex-1  overflow-hidden"
+          <motion.div className="hidden md:flex  flex-1  overflow-hidden"
                   initial={{ x: '100%', opacity: 0 }}
                   whileInView={{ x: 0, opacity: 1 }}
                   transition={{ duration: 1.1, ease: "easeInOut" }}

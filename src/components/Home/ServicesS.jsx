@@ -50,7 +50,7 @@ const ServicesS = () => {
       <div className='flex justify-center h-fit'>  
         <div className='flex flex-col md:flex-row gap-1 w-full'>
           <div
-            className='flex flex-1 gap-5 space-y-3  p-5 bg-shade2 text-white justify-start items-center text-3xl font-semibold'
+            className='flex h-screen md:h-full md:flex-1 gap-5 space-y-3  p-5 bg-shade2 text-white justify-start items-center text-3xl font-semibold'
             data-aos="fade-up"
             data-aos-delay="0"
           >
@@ -58,7 +58,7 @@ const ServicesS = () => {
 
           </div>
           <div
-            className='flex flex-col flex-1  space-y-3 bg-shade3  text-white'
+            className='flex h-screen md:h-full md:flex-1  flex-col space-y-3 bg-shade3  text-white'
             data-aos="fade-up"
             data-aos-delay="200"
           > 
@@ -77,7 +77,7 @@ const ServicesS = () => {
           </div>
           
           <div
-            className='flex flex-col flex-1  space-y-3 bg-shade5  text-white'
+            className='flex h-screen md:h-full md:flex-1 flex-col space-y-3 bg-shade5  text-white'
             data-aos="fade-up"
             data-aos-delay="400"
           > 
@@ -95,7 +95,7 @@ const ServicesS = () => {
             </div>
           </div>
           <div
-            className='flex flex-col flex-1  space-y-3 bg-shade1  text-white'
+            className='flex h-screen md:h-full md:flex-1 flex-col space-y-3 bg-shade1  text-white'
             data-aos="fade-up"
             data-aos-delay="600"
           > 

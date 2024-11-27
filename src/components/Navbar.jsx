@@ -36,7 +36,7 @@ const Navbar = () => {
 
           {/* Links */}
           <div > 
-            <ul className="sm:flex hidden gap-3   ">
+            <ul className="md:flex hidden gap-3   ">
               {Menu.map((item) => (
                 <li key={item.id} className="relative ">
                   {item.name === "Explore" ? (
@@ -101,7 +101,6 @@ const Navbar = () => {
             {/* Mobile Menu Slide-in */}
             <div
         className={`fixed top-0 right-0  bg-shade7/90 w-full h-full transform transition-all duration-500 sm:hidden ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}
-        onClick={toggleMobileMenu} // This will close the menu if the background is clicked
       >
 
 <div className="flex justify-center flex-col items-center space-y-6 h-full ">
@@ -111,7 +110,6 @@ const Navbar = () => {
               key={item.id}
               href={item.link}
               className="text-white text-lg"
-              onClick={toggleMobileMenu} // This will close the menu after clicking a link
             >
               {item.name}
             </a>
@@ -119,7 +117,6 @@ const Navbar = () => {
           <a
             href="/get-in-touch"
             className="text-white text-lg"
-            onClick={toggleMobileMenu} // This will close the menu after clicking a link
           >
             Get In Touch
           </a>

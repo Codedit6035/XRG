@@ -20,7 +20,7 @@ const XrgS = () => {
 
           {/*Image sectioni*/}
           <div className="flex  flex-1  overflow-hidden">
-            <div style={{ backgroundImage: `url(${BannerImg})`  }} className="w-full bg-cover bg-left bg-no-repeat items-end animate-zoomInAb md:h-auto h-[300px] relative">
+            <div style={{ backgroundImage: `url(${BannerImg})`  }} className="w-full bg-cover bg-left bg-no-repeat items-end animate-zoomInAb md:h-auto h-screen relative">
               {/* Content Overlay */}
               <div className=" container absolute inset-0 flex items-center justify-center z-10 ">
                 <div className=" flex flex-col justify-center items-center">
