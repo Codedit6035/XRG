@@ -75,7 +75,7 @@ const Banner = () => {
 
         {/* down circle */}
         <div className='absolute  z-10  flex w-[70px] h-[70px]  left-[50%] -ml-[35px] -mt-[70px] animate-float '>
-          <a href="#nextservices" className="flex items-center  w-[70px] h-[70px] text-4xl  text-shade2 justify-center"><FaAnglesDown /></a>
+          <a href="#services" className="flex items-center  w-[70px] h-[70px] text-4xl  text-shade2 justify-center"><FaAnglesDown /></a>
         </div>
 
       </div>
