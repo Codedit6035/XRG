@@ -28,10 +28,19 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <a href="/"  >
-          <div className="flex items-center  w-46 ">
-              <img src={Logo} alt="Logo" className=" h-20 animate-spin-slow" />
-              <img src={LogoText} alt="Logo" className=" h-20" />
+          <div className="flex items-center w-46">
+            <img 
+             src={Logo} 
+              alt="Logo" 
+            className="h-10 md:h-20 animate-spin-slow" 
+            />
+            <img 
+               src={LogoText} 
+              alt="Logo" 
+               className="h-10 md:h-20" 
+            />
           </div>
+
           </a>
 
           {/* Links */}
@@ -91,7 +100,7 @@ const Navbar = () => {
           {/* Mobile Menu Icon */}
           <a href="#" onClick={toggleMobileMenu} className="md:hidden">
             <div className={`relative w-8 h-8 flex flex-col items-center transition-transform duration-3000 z-20 ${isMobileMenuOpen ? 'justify-center' : 'justify-between '}`}>
-            <div className={`w-full h-1 bg-shade7 transition-all duration-300 ${isMobileMenuOpen ? '-rotate-45 absolute bg-white' : ''}`} />
+             <div className={`w-full h-1 bg-shade7 transition-all duration-300 ${isMobileMenuOpen ? '-rotate-45 absolute bg-white' : ''}`} />
               <div className={`w-full h-1 bg-shade7 transition-all duration-300 ${isMobileMenuOpen ? 'bg-shade7/90absolute ' : ''}`} />
               <div className={`w-full h-1 bg-shade7 transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 absolute bg-white' : ''}`} />
             </div>

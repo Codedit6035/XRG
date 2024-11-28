@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Navbar from '../Navbar';
 import banner from "../../assets/banner.jpg";
+import bannerphone from "../../assets/bannertab.jpg";
 import { FaAnglesDown } from "react-icons/fa6";
 
 const Banner = () => {
@@ -57,12 +58,12 @@ const Banner = () => {
             />
           </div>
           {/*Image Phone */}
-          <div className="relative w-fit h-fit overflow-hidden  lg:hidden">
+          <div className="relative w-full lg:hidden overflow-hidden">
             {/* Fixed Background Image */}
             <img
-              src={banner}
+              src={bannerphone}
               alt="Revealing"
-              className={` transition-transform  ${startAnimation ? 'animate-zoomOut' : ''
+              className={` w-full h-auto object-cover transition-transform   ${startAnimation ? 'animate-zoomOut' : ''
                 }`}
             />
 

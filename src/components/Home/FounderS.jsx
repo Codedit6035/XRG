@@ -17,7 +17,7 @@ const FounderS = () => {
         </div>
         {/* Body section */}
         <div  className=" flex flex-col gap-10   lg:flex-row  lgm:h-screen w-full overflow-hidden bg-shade2/30">
-          {/*Image Ghasi*/}
+          {/*Image Ghasi for phone*/}
                   <motion.div className="flex  flex-1  overflow-hidden lg:hidden"
                   initial={{ x: '100%', opacity: 0 }}
                   whileInView={{ x: 0, opacity: 1 }}

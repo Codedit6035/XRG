@@ -1,19 +1,20 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import Adivising from "../../../assets/lecturing.jpg";
+import Advising from "../../../assets/lecturing.jpg";
 
 const EducatingContent = () => {
   return (
     <div className="my-10 flex flex-col lg:flex-row justify-center gap-20 ">
       {/* Image */}
       <motion.div
-        className="flex-1"
+        className="flex flex-1 bg-black"
         initial={{ x: '-100%', opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1.1, ease: "easeInOut" }}
         viewport={{ once: true }}
       >
-        <img src={Adivising} alt="Educating" className=" size-full" />
+          <div style={{ backgroundImage: `url(${Advising})`  }} className=" w-screen lg:w-full aspect-[3/4] lg:aspect-auto lg:h-full bg-cover bg-center bg-no-repeat">
+          </div>
       </motion.div>
 
       {/* Text */}

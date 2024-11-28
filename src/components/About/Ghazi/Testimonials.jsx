@@ -70,23 +70,23 @@ const Testimonials = () => {
   return (
     <div className="container   flex flex-col gap-10  pt-10 pb-20 text-primary">
       {/*slogan*/}
-        {/*quote img*/}
-        <div className='flex flex-col sm:flex-row gap-1'>
+      {/*quote img*/}
+      <div className='flex flex-col sm:flex-row gap-1'>
         <motion.div className='flex   text-2xl py-10  text-justify justify-center items-center flex-1 bg-shade2/50'
-                                   initial={{ x: '-100%', opacity: 0 }}
-                                   whileInView={{ x: 0, opacity: 1 }}
-                                   transition={{ duration: 1.1, ease: "easeInOut" }}
-                                   viewport={{ once: true }}>
+          initial={{ x: '-100%', opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1.1, ease: "easeInOut" }}
+          viewport={{ once: true }}>
           <p className='px-10  font-bold  '>"The only way to do great work is to love what you do" -<br /> <span className='text-lg text-shade6 font-normal'>Steve Jobs</span></p>
         </motion.div>
         <motion.div className='flex-1'
-                                   initial={{ x: '100%', opacity: 0 }}
-                                   whileInView={{ x: 0, opacity: 1 }}
-                                   transition={{ duration: 1.1, ease: "easeInOut" }}
-                                   viewport={{ once: true }}>
-          <img src={TestimonialtsImg } alt="" className=' size-full' />
+          initial={{ x: '100%', opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1.1, ease: "easeInOut" }}
+          viewport={{ once: true }}>
+          <img src={TestimonialtsImg} alt="" className=' size-full' />
         </motion.div>
-        </div>
+      </div>
 
       <div className="  py-10 ">
         {/* Header Section */}

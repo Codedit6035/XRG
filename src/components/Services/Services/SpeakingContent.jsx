@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const SpeakingContent = () => {
   return (
     <div>
-                <div className='flex flex-col lg:flex-row justify-center  my-10 gap-20 '>
+                <div className='flex flex-col lg:flex-row justify-center  my-10 gap-20  bg-red-900'>
                    {/* text*/}
                    <motion.div className='flex-1  space-y-14 '
                                               initial={{ x: '-100%', opacity: 0 }}
@@ -32,12 +32,13 @@ const SpeakingContent = () => {
                    </motion.div>
                    {/* image*/}
                    <motion.div
-                      className="flex-1"
+                      className="flex-1 overflow-hidden"
                       initial={{ x: '100%', opacity: 0 }}
                       whileInView={{ x: 0, opacity: 1 }}
                       transition={{ duration: 1.1, ease: "easeInOut" }}
                       viewport={{ once: true}}>
-                      <img src={Speaking } alt=""  className='h-fit w-fit'/>
+                      <div style={{ backgroundImage: `url(${Speaking})`  }} className=" w-screen lg:w-full aspect-[4/3] lg:aspect-auto lg:h-full bg-cover bg-center bg-no-repeat">
+                      </div>
                    </motion.div>
                 </div>   
     </div>
