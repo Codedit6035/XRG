@@ -42,7 +42,7 @@ const StoryC = () => {
         <div className="flex flex-col lg:flex-row  gap-20">
           {/* Left */}
           <div className="flex-1">
-            <ul className="flex flex-col gap-5 text-justify list-disc pl-5 ">
+            <ul className="flex flex-col gap-5 lg:text-justify list-disc pl-5 ">
               <li>
               We believe that the best response to this situation is not to continue advocating for further integration of sustainability into business strategy, but transforming how companies set goals, design strategy, and create value
               </li>
@@ -56,7 +56,7 @@ const StoryC = () => {
           </div>
           {/* Right */}
           <div className="flex-1">
-            <ul className="flex flex-col gap-5 list-disc text-justify pl-5 lg:pl-0">
+            <ul className="flex flex-col gap-5 list-disc lg:text-justify pl-5 lg:pl-0">
               <li>
                <strong> X-Factor:</strong> Achieving financial goals by proactively addressing key societal challenges, and leveraging the unique systemic strengths of the business to act, enable and influence for long-term impacts.
               </li>

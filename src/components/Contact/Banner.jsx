@@ -9,7 +9,7 @@ const Banner = () => {
  <Navbar /> 
 </div>
 <div className=''>
- <img src={ContactImg} alt="" className='' />
+ <img src={ContactImg} alt="" className='min-h-[70px]' />
 </div>
 </div>
   )

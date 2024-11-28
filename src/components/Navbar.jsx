@@ -5,9 +5,9 @@ import { IoMenuOutline } from "react-icons/io5";
 import { IoIosArrowDown } from "react-icons/io"; // Add this icon for the arrow
 
 const Menu = [
-  { id: 1, name: "Home", link: "/", bg:"bg-white"  },
-  { id: 2, name: "Explore", link: "/Explore", bg:"bg-white" },
-  { id: 3, name: "Services", link: "/services", bg:"bg-white"  },
+  { id: 1, name: "Home", link: "/"},
+  { id: 2, name: "Explore", link: "/Explore"},
+  { id: 3, name: "Services", link: "/services" },
 ];
 
 const AboutDropdown = [
@@ -45,13 +45,13 @@ const Navbar = () => {
 
           {/* Links */}
           <div > 
-            <ul className="md:flex hidden gap-3   ">
+            <ul className="md:flex hidden gap-3  ">
               {Menu.map((item) => (
-                <li key={item.id} className="relative ">
+                <li key={item.id} className="relative">
                   {item.name === "Explore" ? (
                     <button
                        onMouseEnter={() => setIsDropdownOpen(!isDropdownOpen)}
-                      className="text-base font-raleway bg-shade5/50 px-2   flex items-center text-white  hover:bg-white hover:text-primary"
+                      className=" bg-shade5/50 px-2   inline-flex items-center justify-center text-white  hover:bg-white hover:text-primary"
 
                     >
                       {item.name}
@@ -60,7 +60,7 @@ const Navbar = () => {
                   ) : (
                     <a
                       href={item.link}
-                      className={` bg-shade5/40 px-2 py-0.5 text-white hover:${item.bg} hover:text-primary`}
+                      className= "bg-shade5/40 px-2   inline-flex items-center justify-center text-white hover:white hover:text-primary"
 
                     >
                       {item.name}
@@ -88,7 +88,7 @@ const Navbar = () => {
                <li>
                <a
                       href="/get-in-touch"
-                      className=" bg-shade7 px-2 py-0.5 text-white hover:bg-white hover:text-primary"
+                      className=" bg-shade7 px-2 inline-flex items-center justify-center  text-white hover:bg-white hover:text-primary"
 
                     >
                       Get In Touch

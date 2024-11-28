@@ -20,11 +20,11 @@ const Bio = () => {
         </div>
         <div className=' flex flex-col lg:flex-row gap-10 pt-10 lg:pt-20'>
             {/* image */}
-            <div className='flex-1  mt-2 relative overflow-hidden '>
+            <div className='flex-1 relative overflow-hidden '>
                 {/* Fixed Background Image */}
                 <img src={GhaziImg}   
                            alt="img"
-                           className={`inset-0 h-fit w-fit object-cover transition-transform  ${
+                           className={`h-auto w-full object-cover transition-transform  ${
                              startAnimation ? 'animate-zoomOut' : ''
                            }`}
                 />
@@ -39,7 +39,7 @@ const Bio = () => {
                 {/* text */}
                 <div className=" ">
                 {BioData.map((para, index) => (
-        <p key={index} className=" mb-4 text-justify">
+        <p key={index} className=" mb-4 text-justify hyphens-auto">
           {para}
         </p>
       ))}                  

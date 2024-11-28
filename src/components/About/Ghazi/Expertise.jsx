@@ -12,7 +12,7 @@ const  Expertise = () => {
       <div className='container  flex flex-col gap-10 py-10 text-primary '>
         {/*quote img*/}
         <div className='flex flex-col sm:flex-row  gap-1 '>
-        <motion.div className='flex  text-2xl py-10  text-justify justify-center items-center flex-1 bg-shade2/50'
+        <motion.div className='flex  text-2xl py-10  lg:text-justify justify-center items-center flex-1 bg-shade2/50'
                                    initial={{ x: '-100%', opacity: 0 }}
                                    whileInView={{ x: 0, opacity: 1 }}
                                    transition={{ duration: 1.1, ease: "easeInOut" }}
@@ -40,7 +40,7 @@ const  Expertise = () => {
                 </h1>
                 <div   className="w-16 h-1  mb-4 bg-shade5" ></div>
               </div>
-              <div           className="lg:w-4/6 text-justify ">
+              <div           className="lg:w-4/6 lg:text-justify hyphens-auto">
                 <p>{data.text}</p>
               </div>
             </div>

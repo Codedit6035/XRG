@@ -10,7 +10,7 @@ const Testimonials = () => {
   const PrevArrow = ({ onClick }) => (
     <div
       onClick={onClick}
-      className="absolute bottom-[-60px] left-[45%] flex justify-center items-center bg-white w-10 h-10 rounded shadow-lg cursor-pointer"
+      className="absolute bottom-[-60px] left-[42%] sm:left-[47%] flex justify-center items-center bg-white w-10 h-10 rounded shadow-lg cursor-pointer"
     >
       <FaArrowLeft className="text-shade6" />
     </div>
@@ -20,7 +20,7 @@ const Testimonials = () => {
   const NextArrow = ({ onClick }) => (
     <div
       onClick={onClick}
-      className="absolute bottom-[-60px] left-[50%] flex justify-center items-center bg-white w-10 h-10 rounded shadow-lg cursor-pointer"
+      className="absolute bottom-[-60px] left-[58%] sm:left-[53%] flex justify-center items-center bg-white w-10 h-10 rounded shadow-lg cursor-pointer"
     >
       <FaArrowRight className="text-shade6" />
     </div>
@@ -72,7 +72,7 @@ const Testimonials = () => {
       {/*slogan*/}
       {/*quote img*/}
       <div className='flex flex-col sm:flex-row gap-1'>
-        <motion.div className='flex   text-2xl py-10  text-justify justify-center items-center flex-1 bg-shade2/50'
+        <motion.div className='flex   text-2xl py-10  lg:text-justify justify-center items-center flex-1 bg-shade2/50'
           initial={{ x: '-100%', opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 1.1, ease: "easeInOut" }}
@@ -102,7 +102,7 @@ const Testimonials = () => {
                 <div className="flex flex-col py-8 rounded-xl relative">
                   <div className="flex flex-col items-start">
                     <div className="mb-6">
-                      <p className=" text-justify">{data.text}</p>
+                      <p className="text-justify hyphens-auto">{data.text}</p>
                     </div>
                     <div className="flex gap-5">
                       <img

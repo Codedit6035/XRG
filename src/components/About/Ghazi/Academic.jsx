@@ -12,7 +12,7 @@ const Academic = () => {
     <div className='container  flex flex-col gap-10 py-10 text-primary'> 
         {/*quote img*/}
         <div className='flex flex-col sm:flex-row gap-1'>
-        <motion.div className='flex   text-2xl py-10  text-justify justify-center items-center flex-1 bg-shade2/50'
+        <motion.div className='flex   text-2xl py-10  lg:text-justify justify-center items-center flex-1 bg-shade2/50'
                                    initial={{ x: '-100%', opacity: 0 }}
                                    whileInView={{ x: 0, opacity: 1 }}
                                    transition={{ duration: 1.1, ease: "easeInOut" }}
@@ -31,7 +31,7 @@ const Academic = () => {
              {/* text */}
               <div className='' >
                 {/* left*/}
-                <div className=" flex flex-col gap-5 text-justify">
+                <div className=" flex flex-col gap-5 text-justify hyphens-auto">
                 {AcademialeftData.map((para, index) => (
                 <p key={index} className= {`rounded-s-sm p-3  ${
                   index % 2 === 0 ? '' : 'bg-shade2/50'
