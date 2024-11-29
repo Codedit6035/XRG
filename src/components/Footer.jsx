@@ -60,7 +60,7 @@ const Footer = () => {
       <div className='flex flex-col gap-10 md:flex-row md:justify-between  py-5 text-sm '>
         <h1>© XRG Impact Management Advisory 2024</h1>
         <div className='flex'>
-          <a href="/Privacy, Terms & Conditions of Use">Privacy, Terms & Conditions of Use</a>   
+          <a href="/Privacy-Terms">Privacy, Terms & Conditions of Use</a>   
         </div>           
 
       </div>

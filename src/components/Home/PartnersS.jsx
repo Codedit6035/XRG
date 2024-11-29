@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import AlstomLogo from '../../assets/partners/alstom.png';
 import BmwLogo from '../../assets/partners/bmw.png';
 import BoschLogo from '../../assets/partners/bosch.png';
@@ -19,22 +19,22 @@ import WbgLogo from '../../assets/partners/wbg.png';
 import WitsLogo from '../../assets/partners/wits.svg';
 import WrfLogo from '../../assets/partners/wrf.png';
 import ZhawLogo from '../../assets/partners/zhaw.png';
-import Marquee from "react-marquee-slider";
+import Marquee from "react-fast-marquee";
 
 const PartnersS = () => {
   const partners = [
     {id:1, img: AlstomLogo, alt: 'AlstomLogo' },
-    {id:1, img: BmwLogo, alt: 'BmwLogo' },
-    {id:1, img: BoschLogo, alt: 'BoschLogo' },
-    {id:1, img: BslLogo, alt: 'BslLogo' },
-    {id:1, img: CatenaLogo, alt: 'CatenaLogo' },
-    {id:1, img: GeaLogo, alt: 'GeaLogo' },
-    {id:1, img: GehLogo, alt: 'GehLogo' },
-    {id:1, img: GmLogo, alt: 'GmLogo' },
-    {id:1, img: HenkelLogo, alt: 'HenkelLogo' },
-    {id:1, img: HitachiLogo, alt: 'HitachiLogo' },
-    {id:1, img: MalikLogo, alt: 'MalikLogo' },
-    {id:1, img: MercedesLogo, alt: 'MercedesLogo' },
+    {id:2, img: BmwLogo, alt: 'BmwLogo' },
+    {id:3, img: BoschLogo, alt: 'BoschLogo' },
+    {id:4, img: BslLogo, alt: 'BslLogo' },
+    {id:5, img: CatenaLogo, alt: 'CatenaLogo' },
+    {id:6, img: GeaLogo, alt: 'GeaLogo' },
+    {id:7, img: GehLogo, alt: 'GehLogo' },
+    {id:8, img: GmLogo, alt: 'GmLogo' },
+    {id:9, img: HenkelLogo, alt: 'HenkelLogo' },
+    {id:9, img: HitachiLogo, alt: 'HitachiLogo' },
+    {id:10, img: MalikLogo, alt: 'MalikLogo' },
+    {id:11, img: MercedesLogo, alt: 'MercedesLogo' },
     {id:1, img: MitLogo, alt: 'MitLogo' },
     {id:1, img: TbsLogo, alt: 'TbsLogo' },
     {id:1, img: UpgLogo, alt: 'UpgLogo' },
@@ -61,10 +61,10 @@ const PartnersS = () => {
       <div className=" w-full  py-2 ">
         {/* Animated slider */}
         <div className="flex  gap-5 items-center" >
-        <Marquee velocity={30} minScale={0.7} resetAfterTries={100}>
-            {partners.map((data) => (
+        <Marquee speed={50} >
+            {partners.map((data,index) => (
               <div
-                key={data.id}
+                key= {index}
                 className="flex justify-center items-center w-[150px] h-[150px]  p-5 mx-4 rounded-md bg-shade2/30  ">
 
                   <img

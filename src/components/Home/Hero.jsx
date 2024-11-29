@@ -89,7 +89,7 @@ const Hero = ({ handleOrderPopup }) => {
           </div>
         </div>
         {/* Tailwind Custom Keyframe */}
-        <style jsx>{`
+        <style>{`
           @keyframes zoomIn {
             0% {
               transform: scale(1);

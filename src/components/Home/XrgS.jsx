@@ -40,7 +40,7 @@ const XrgS = () => {
           {/* text1 */}
           <div data-aos="fade-down" className="  px-5 rounded-md" >
             <h1 className="text-2xl text-shade1 font-semibold mb-4">What we do</h1>
-            <div className="w-full text-justify  flex flex-col gap-3">
+            <div className="w-full lg:text-justify hyphens-auto  flex flex-col gap-3">
             <p >
             We are a Switzerland-based advisory firm offering global management consulting, lecturing services , and speaking engagements. Our mission is to empower economic players to achieve their financial goals while creating lasting value through sustainable practices.
             </p>
@@ -49,7 +49,7 @@ const XrgS = () => {
           {/* text2 */}
           <div data-aos="fade-up" className="  px-5 rounded-md" >
             <h1 className="text-2xl text-shade1 font-semibold mb-4">Why managing business and sustainability beyond ESG</h1>
-            <div className="w-full text-justify  flex flex-col gap-3">
+            <div className="w-full lg:text-justify hyphens-auto flex flex-col gap-3">
             <p>
             True business success cannot thrive in fragile societies. Businesses are indispensable in building resilient economic models that respect planetary boundaries and foster genuine societal prosperity. However, addressing the world’s most pressing challenges ("Do Good") is only possible for organizations that are also thriving and profitable ("Do Well").
             </p>

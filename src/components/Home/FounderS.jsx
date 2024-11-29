@@ -31,7 +31,7 @@ const FounderS = () => {
           <div data-aos="fade-up" className="  px-5 rounded-md " >
             <h1 className="font-medium text-4xl  transition-all    ">Dr. Ghazi Kablouti  </h1>
             <span className="font-bold text-xl  ">Envision. Lead. Inspire</span>
-            <div className="py-5   w-full text-justify flex flex-col gap-3 ">
+            <div className="py-5   w-full lg:text-justify hyphens-auto flex flex-col gap-3 ">
             <p >
             As the Founder of XRG Impact Management Advisory, I bring over 25 years of global leadership experience spanning consulting, energy infrastructure, and industrial manufacturing with world-leading corporations. With a multicultural and interdisciplinary background, I operate at the unique intersection of business, technology, and sustainability, driving transformative outcomes for organizations.
             </p>
