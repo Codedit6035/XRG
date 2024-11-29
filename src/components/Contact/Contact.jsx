@@ -38,9 +38,9 @@ const Contact = () => {
     setIsSending(true);
     setStatusMessage('');
 
-    const serviceID = 'service_gwp7p2f';
-    const templateID = 'template_84dtvgj';
-    const publicKey = 'kJ7ht3yXraW5PmUDW';
+    const serviceID = 'service_fqfxklz';
+    const templateID = 'template_6b32ye7';
+    const publicKey = 'Qn_DwU3Skgq7WRxIh';
 
     emailjs.send(serviceID, templateID, formData, publicKey)
       .then((response) => {
@@ -87,7 +87,7 @@ const Contact = () => {
                 name="firstName"
                 value={formData.firstName}
                 onChange={handleChange}
-                className="h-[35px] bg-neutral-300/30"
+                className="h-[35px] bg-neutral-300/30 px-2 focus:outline-shade7"
               />
             </div>
             <div className="flex flex-col flex-1">
@@ -97,7 +97,7 @@ const Contact = () => {
                 name="lastName"
                 value={formData.lastName}
                 onChange={handleChange}
-                className="h-[35px] bg-neutral-300/30"
+                className="h-[35px] bg-neutral-300/30 px-2 focus:outline-shade7"
               />
             </div>
           </div>
@@ -108,7 +108,7 @@ const Contact = () => {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="h-[35px] bg-neutral-300/30"
+              className="h-[35px] bg-neutral-300/30 px-2 focus:outline-shade7" 
             />
           </div>
           <div className="flex flex-col pb-5">
@@ -117,7 +117,7 @@ const Contact = () => {
               name="message"
               value={formData.message}
               onChange={handleChange}
-              className="h-[80px] bg-neutral-300/30"
+              className="h-[80px] bg-neutral-300/30 px-2 focus:outline-shade7"
             />
           </div>
           
