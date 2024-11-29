@@ -1,7 +1,60 @@
-import React from 'react'
-
+import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    message: '',
+  });
+
+  const [statusMessage, setStatusMessage] = useState('');
+  const [isSending, setIsSending] = useState(false);
+
+  const validateEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({ ...prevData, [name]: value }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (!formData.firstName || !formData.lastName || !formData.email || !formData.message) {
+      setStatusMessage('All fields are required.');
+      return;
+    }
+
+    if (!validateEmail(formData.email)) {
+      setStatusMessage('Please provide a valid email address.');
+      return;
+    }
+
+    setIsSending(true);
+    setStatusMessage('');
+
+    const serviceID = 'service_gwp7p2f';
+    const templateID = 'template_84dtvgj';
+    const publicKey = 'kJ7ht3yXraW5PmUDW';
+
+    emailjs.send(serviceID, templateID, formData, publicKey)
+      .then((response) => {
+        setIsSending(false);
+        setStatusMessage('Message sent successfully!');
+        setFormData({ firstName: '', lastName: '', email: '', message: '' });
+      })
+      .catch((err) => {
+        setIsSending(false);
+        setStatusMessage('Failed to send the message. Please try again.');
+        console.error('EmailJS Error:', err);
+      });
+  };
+
   return (
     <div className='  '>
 
@@ -22,33 +75,62 @@ const Contact = () => {
   We look forward to connecting with you!
 </p>
             </div>
-            {/* form */}
-            <div className=' flex-1   '>
-                 <h1  className="font-bold text-4xl  pb-10 ">Complete <span >the form below</span> </h1>
-                 <form action="">
-                    <div className='flex flex-col md:flex-row gap-10 pb-5'>
-                        <div className='flex flex-col flex-1 '>
-                            <label htmlFor="" className='text-sm'>First name</label>
-                            <input type="text" className=' h-[35px]   bg-neutral-300/30'/>
-                        </div>
-                        <div className='flex flex-col flex-1'>
-                            <label htmlFor="" className='text-sm'>Last name</label>
-                            <input type="text" className=' h-[35px]  bg-neutral-300/30'/>
-                        </div>                        
-                    </div>
-                    <div className='flex flex-col pb-5'>
-                        <label htmlFor="" className='text-sm'>Email</label>
-                        <input type="text"className=' h-[35px]  bg-neutral-300/30' />
-                    </div>
-                    <div className='flex flex-col pb-5'>
-                        <label htmlFor="" className='text-sm'>Message</label>
-                        <input type="text" className='h-[80px]   bg-neutral-300/30'/>
-                    </div>
-                    <button className='h-[35px] bg-shade7 hover:bg-primary font-bold  text-xl text-white w-full  '>
-                        Submit
-                    </button>
-
-                 </form>
+      {/* Form Section */}
+      <div className="flex-1">
+        <h1 className="font-bold text-4xl pb-10">Complete the form below</h1>
+        <form onSubmit={handleSubmit}>
+          <div className="flex flex-col md:flex-row gap-10 pb-5">
+            <div className="flex flex-col flex-1">
+              <label htmlFor="firstName" className="text-sm">First Name</label>
+              <input
+                type="text"
+                name="firstName"
+                value={formData.firstName}
+                onChange={handleChange}
+                className="h-[35px] bg-neutral-300/30"
+              />
+            </div>
+            <div className="flex flex-col flex-1">
+              <label htmlFor="lastName" className="text-sm">Last Name</label>
+              <input
+                type="text"
+                name="lastName"
+                value={formData.lastName}
+                onChange={handleChange}
+                className="h-[35px] bg-neutral-300/30"
+              />
+            </div>
+          </div>
+          <div className="flex flex-col pb-5">
+            <label htmlFor="email" className="text-sm">Email</label>
+            <input
+              type="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              className="h-[35px] bg-neutral-300/30"
+            />
+          </div>
+          <div className="flex flex-col pb-5">
+            <label htmlFor="message" className="text-sm">Message</label>
+            <textarea
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
+              className="h-[80px] bg-neutral-300/30"
+            />
+          </div>
+          
+          <button
+            disabled={isSending}
+            className={`h-[35px] bg-shade7 hover:bg-primary font-bold text-xl text-white w-full ${
+              isSending ? 'opacity-50 cursor-not-allowed' : ''
+            }`}
+          >
+            {isSending ? 'Sending...' : 'Submit'}
+          </button>
+        </form>
+        {statusMessage && <p className="mt-5 text-center">{statusMessage}</p>}
             </div>
 
         </div>

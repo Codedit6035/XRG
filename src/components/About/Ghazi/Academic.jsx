@@ -31,7 +31,7 @@ const Academic = () => {
              {/* text */}
               <div className='' >
                 {/* left*/}
-                <div className=" flex flex-col gap-5 text-justify hyphens-auto">
+                <div className=" flex flex-col gap-5 lg:text-justify hyphens-auto">
                 {AcademialeftData.map((para, index) => (
                 <p key={index} className= {`rounded-s-sm p-3  ${
                   index % 2 === 0 ? '' : 'bg-shade2/50'

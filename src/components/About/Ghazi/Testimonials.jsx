@@ -102,7 +102,7 @@ const Testimonials = () => {
                 <div className="flex flex-col py-8 rounded-xl relative">
                   <div className="flex flex-col items-start">
                     <div className="mb-6">
-                      <p className="text-justify hyphens-auto">{data.text}</p>
+                      <p className="lg:text-justify hyphens-auto">{data.text}</p>
                     </div>
                     <div className="flex gap-5">
                       <img

@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const SpeakingContent = () => {
   return (
     <div>
-                <div className='flex flex-col lg:flex-row justify-center  my-10 gap-20  bg-red-900'>
+                <div className='flex flex-col lg:flex-row justify-center  my-10 gap-20 '>
                    {/* text*/}
                    <motion.div className='flex-1  space-y-14 '
                                               initial={{ x: '-100%', opacity: 0 }}

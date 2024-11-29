@@ -22,7 +22,7 @@ const Achievments = () => {
                 </h1>
 
               </div>
-              <div  className='text-justify hyphens-auto'>
+              <div  className='lg:text-justify hyphens-auto'>
                 <p>{data.text}</p>
               </div>
             </div>
@@ -35,7 +35,7 @@ const Achievments = () => {
                 </h1>
 
               </div>
-              <ul className='text-justify hyphens-auto list-disc pl-5'>
+              <ul className='lg:text-justify hyphens-auto list-disc pl-5'>
                 <li>
                  	Defined the GE’s sustainability portfolio in a $100 billion global revenue portfolio.
                 </li>
@@ -57,7 +57,7 @@ const Achievments = () => {
                 </h1>
 
               </div>
-              <ul className='text-justify hyphens-auto list-disc pl-5'>
+              <ul className='lg:text-justify hyphens-auto list-disc pl-5'>
                 <li>
                  	Led the non-financial due diligence and integration of Alstom Power’s CSR function in GE’s largest-ever acquisition (2015).
                 </li>

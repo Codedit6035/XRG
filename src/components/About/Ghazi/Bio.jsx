@@ -39,7 +39,7 @@ const Bio = () => {
                 {/* text */}
                 <div className=" ">
                 {BioData.map((para, index) => (
-        <p key={index} className=" mb-4 text-justify hyphens-auto">
+        <p key={index} className=" mb-4 lg:text-justify hyphens-auto">
           {para}
         </p>
       ))}                  
