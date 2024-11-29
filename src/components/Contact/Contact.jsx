@@ -58,82 +58,81 @@ const Contact = () => {
   return (
     <div className='  '>
 
-        <div className='container flex flex-col gap-5  md:flex-row pb-20  pt-10 ' >
-            {/* Get In Touch text  bg-slate-950 */}
-            <div className=' flex-1   '>
-                <h1 className="font-bold text-4xl md:w-3/4">Get In <span className='text-shade7 text-5xl'>Touch</span></h1>
-                <p className="py-5 md:w-3/4 border-b">
-  We would love to hear from you. Whether you have a question, need more information, or want to explore how we can collaborate, we’re here to assist. <br /><br />
-  You can reach out to us directly via email at{" "}
-  <a
-    href="mailto:contact@xrg-advisory.com"
-    className="text-shade7 font-bold hover:underline"
-  >
-    contact@xrg-advisory.com
-  </a>
-  , or fill out the form on this page. We’ll get back to you as soon as possible. <br /><br />
-  We look forward to connecting with you!
-</p>
+      <div className='container flex flex-col gap-5  md:flex-row pb-20  pt-10 ' >
+        {/* Get In Touch text  bg-slate-950 */}
+        <div className=' flex-1   '>
+          <h1 className="font-bold text-4xl md:w-3/4">Get In <span className='text-shade7 text-5xl'>Touch</span></h1>
+          <p className="py-5 md:w-3/4 border-b">
+            We would love to hear from you. Whether you have a question, need more information, or want to explore how we can collaborate, we’re here to assist. <br /><br />
+            You can reach out to us directly via email at{" "}
+            <a
+              href="mailto:contact@xrg-advisory.com"
+              className="text-shade7 font-bold hover:underline"
+            >
+              contact@xrg-advisory.com
+            </a>
+            , or fill out the form on this page. We’ll get back to you as soon as possible. <br /><br />
+            We look forward to connecting with you!
+          </p>
+        </div>
+        {/* Form Section */}
+        <div className="flex-1">
+          <h1 className="font-bold text-4xl pb-10">Complete the form below</h1>
+          <form onSubmit={handleSubmit}>
+            <div className="flex flex-col md:flex-row gap-10 pb-5">
+              <div className="flex flex-col flex-1">
+                <label htmlFor="firstName" className="text-sm">First Name</label>
+                <input
+                  type="text"
+                  name="firstName"
+                  value={formData.firstName}
+                  onChange={handleChange}
+                  className="h-[35px] bg-neutral-300/30 px-2 focus:outline-shade7"
+                />
+              </div>
+              <div className="flex flex-col flex-1">
+                <label htmlFor="lastName" className="text-sm">Last Name</label>
+                <input
+                  type="text"
+                  name="lastName"
+                  value={formData.lastName}
+                  onChange={handleChange}
+                  className="h-[35px] bg-neutral-300/30 px-2 focus:outline-shade7"
+                />
+              </div>
             </div>
-      {/* Form Section */}
-      <div className="flex-1">
-        <h1 className="font-bold text-4xl pb-10">Complete the form below</h1>
-        <form onSubmit={handleSubmit}>
-          <div className="flex flex-col md:flex-row gap-10 pb-5">
-            <div className="flex flex-col flex-1">
-              <label htmlFor="firstName" className="text-sm">First Name</label>
+            <div className="flex flex-col pb-5">
+              <label htmlFor="email" className="text-sm">Email</label>
               <input
-                type="text"
-                name="firstName"
-                value={formData.firstName}
+                type="email"
+                name="email"
+                value={formData.email}
                 onChange={handleChange}
                 className="h-[35px] bg-neutral-300/30 px-2 focus:outline-shade7"
               />
             </div>
-            <div className="flex flex-col flex-1">
-              <label htmlFor="lastName" className="text-sm">Last Name</label>
-              <input
-                type="text"
-                name="lastName"
-                value={formData.lastName}
+            <div className="flex flex-col pb-5">
+              <label htmlFor="message" className="text-sm">Message</label>
+              <textarea
+                name="message"
+                value={formData.message}
                 onChange={handleChange}
-                className="h-[35px] bg-neutral-300/30 px-2 focus:outline-shade7"
+                className="h-[80px] bg-neutral-300/30 px-2 focus:outline-shade7"
               />
-            </div>
-          </div>
-          <div className="flex flex-col pb-5">
-            <label htmlFor="email" className="text-sm">Email</label>
-            <input
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              className="h-[35px] bg-neutral-300/30 px-2 focus:outline-shade7" 
-            />
-          </div>
-          <div className="flex flex-col pb-5">
-            <label htmlFor="message" className="text-sm">Message</label>
-            <textarea
-              name="message"
-              value={formData.message}
-              onChange={handleChange}
-              className="h-[80px] bg-neutral-300/30 px-2 focus:outline-shade7"
-            />
-          </div>
-          
-          <button
-            disabled={isSending}
-            className={`h-[35px] bg-shade7 hover:bg-primary font-bold text-xl text-white w-full ${
-              isSending ? 'opacity-50 cursor-not-allowed' : ''
-            }`}
-          >
-            {isSending ? 'Sending...' : 'Submit'}
-          </button>
-        </form>
-        {statusMessage && <p className="mt-5 text-center">{statusMessage}</p>}
             </div>
 
+            <button
+              disabled={isSending}
+              className={`h-[35px] bg-shade7 hover:bg-primary font-bold text-xl text-white w-full ${isSending ? 'opacity-50 cursor-not-allowed' : ''
+                }`}
+            >
+              {isSending ? 'Sending...' : 'Submit'}
+            </button>
+          </form>
+          {statusMessage && <p className="mt-5 text-center">{statusMessage}</p>}
         </div>
+
+      </div>
     </div>
   )
 }
